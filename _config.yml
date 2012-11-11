@@ -1,3 +1,4 @@
 url: www.bre.tcs
 paginate: 3
 permalink: pretty
+markdown: rdiscount

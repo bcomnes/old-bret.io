@@ -1,0 +1,103 @@
+Bret A. Comnes					            
+Ashland, OR     				
+bcomnes.github.com
+Updated: January 13, 2012
+
+EDUCATION:
+
+ o Bachelor of Science in Physics, 			August 2006 - May 2011
+   Humboldt State University, 				Arcata, CA
+    - Physics Coursework: Thermodynamics, Analytical Mechanics, Electricity & 
+      Magnetism, Quantum Mechanics, Optics, Physics of Stars & Planets, 
+      Galaxies & Cosmology, Electronic Instrumentation, Programming for Science
+    - Mathematics Coursework: Partial Differential Equations, Vector Calculus, 
+      Linear Algebra
+
+RESEARCH EXPERIENCE:
+
+ o Undergraduate Research Assistant			May 2009 - September 2011
+   HSU Gravitational Research Laboratory		Arcata, CA
+    - Assisted with Professor C.D. Hoyle's research to test the Weak Equivalence 
+      Principal and gravitational inverse-square law at sub-millimeter distance 
+      scales.
+    - Responsibilities included research and development of lab instrumentation, 
+      custom data acquisition and automation applications, 
+      electronic circuit design, optical instrumentation and signal processing
+      systems for use inside of the experiment's vacuum chamber.
+    - Managed the scheduling and collaboration tools used to organize the 
+      students participating in the project.
+
+ o Undergraduate Researcher  				November 2009
+   Arecibo Observatory (NAIC) 				Arecibo, Puerto Rico
+    - Participated as an undergraduate researcher in a Cornell University funded
+      trip to the Arecibo Observatory to assist with observations for the
+      ALFALFA survey.
+    - Responsibilities included operating the one of the world's largest radio
+      telescopes, data analysis using IDL and working live on scheduled
+      research equipment.
+
+PUBLICATIONS:
+
+ o "Sub-millimeter Positioning and Sensing for Short-Range Gravity Tests" 2009
+   Proceedings of the 25th National Conference on Undergraduate Research (NCUR)
+    - Peer reviewed paper to accompany a presentation given at the 2011 
+      National Conference of Undergraduate Research in Ithaca, NY.
+
+RECENT WORK EXPERIENCE:
+
+ o Academic Assistant					January 2009 - May 2011
+   Humboldt State University				Arcata, CA
+    - Graded student homework and lab write-ups for an introductory electronics 
+      course for ~60 undergraduate physics and engineering students.
+    - Responsibilities included understanding the range of solutions to a given
+      problem, applying a grading rubric to the work, entering grades into a
+      database, managing a course wiki and following privacy guidelines.
+ 
+ o Premium Food and Retail Service			June 2009 - September 2011
+   Arcata Scoop 					Arecibo, Puerto Rico
+    - Responsibilities included opening and closing of the store, filling 
+      customer orders, maintaining a balanced register, securing cash receipts, 
+      training new employees and providing customer service and information.
+ 
+ o Climbing Wall Attendant				August 2007 - June 2009
+   HSU Student Recreation Center			Arcata, CA
+    - Attended to the operation and safety of the largest indoor climbing wall 
+      in Humboldt County.
+    - Responsibilities included assessing the safety training and skills of
+      the gym's patrons in order to maintain a safe climbing environment,
+      hardware maintenance and rental management and route setting.
+
+ o Park Aide						Summer 2008
+   California State Parks				Lake Tahoe, CA
+    - Issued park day passes and campground permits and provided information and
+      rules to the D.L. Bliss State Park visitors.
+    - Responsibilities included general rule enforcement; campground management;
+      and the designing, organizing and presentation of the park's Junior Ranger
+      program.
+  
+SKILLS:
+
+Operating Systems, Languages, & Applications:
+    - Proficient: Mathematica, LabVIEW, Windows, Mac OS X
+    - Knowledgeable: LaTeX, Git, Microsoft Office, SolidWorks
+    - Familiar: Assembly, C, Arduino, VISA/GPIB, Linux, Python, Ruby, HTML/CSS, Matlab
+
+Lab Skills: Oscilloscopes, function generators, lock-in amplifiers, National 
+    Instruments hardware, optical systems, lasers, motion control,
+    instrumentation & part design, PCB & circuit design, capacitive sensors, 
+    piezo electric actuators, general workshop equipment.
+
+Miscellaneous: Demonstrated proficiency with public communication skills. 
+    Excellent troubleshooting and debugging skills. Adept at learning new 
+    languages and application suites. Local and remote collaborative skills. 
+    Effective at teaching others.
+
+INTERESTS:
+
+Academic: Applied physics, optics, QM, metrology, microscopy, gravity, embedded systems, 
+    computer science.
+
+Personal: Rock climbing, bicycles, photography, electronic music, electric 
+    bass, radio DJing, web development.
+
+*References Available Upon Request*
