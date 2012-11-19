@@ -11,3 +11,4 @@ I graduated in 2011 with a B.S. in [Physics](http://www.humboldt.edu/physics/) f
 
 *   [Resume](/files/Bret-Comnes-Public.pdf) [(.txt)](/files/Bret-Comnes-Public.txt)
 *   <script type="text/javascript" src="/js/email.js"> </script> me
+<h2>{{ page.url }}</h2>
