@@ -9,8 +9,16 @@
       <a class="brand" href="/"> <i class=" icon-eye-open icon-white"></i></a>
       <div class="nav-collapse collapse">
         <ul class="nav">
+          {% if page.url == "/about/" %}
           <li class="active"><a href="/about">About</a></li>
-          <li classs=""><a href="/projects">Projects</a></li>
+          {% else %}
+          <li class=""><a href="/about">About</a></li>
+          {% endif %}
+          {% if page.url == "/projects/" %}
+          <li class="active"><a href="/projects">Projects</a></li>
+          {% else %}
+          <li class=""><a href="/projects">Projects</a></li>
+          {% endif %}
         </ul>
       </div><!--/.nav-collapse -->
     </div>
