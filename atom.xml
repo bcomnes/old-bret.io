@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>bre.tc</title>
+  <link href="http://www.bre.tc/"/>
+  <link type="application/atom+xml" rel="self" href="http://www.bre.tc/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://www.bre.tc/</id>
+  <author>
+    <name>bre.tc</name>
+    <email>bcomnes.github@bcomnes.github.com</email>
+  </author>
+ 
+  {% for post in site.posts %}
+  <entry>
+    <id>http://www.bre.tc{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://www.bre.tc{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Functionn</name>
+      <uri>http://www.bre.tc/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>
