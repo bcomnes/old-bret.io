@@ -5,7 +5,7 @@ date: 2012-07-06 12:50
 comments: false
 sidebar: collapse
 external-url: http://www.youtube.com/watch?v=9ckwvn5fvyQ 
-categories: [Video, Homebrew, Programming]
+tags: [Video, Homebrew, Programming]
 ---
 
 
