@@ -7,4 +7,4 @@ sidebar: collapse
 external-url: http://vimeo.com/10118219
 categories: [Video]
 ---
-<iframe src="http://player.vimeo.com/video/10118219" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="flex-video"><iframe src="http://player.vimeo.com/video/10118219" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
