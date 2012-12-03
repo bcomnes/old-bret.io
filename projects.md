@@ -6,4 +6,4 @@ title: Projects
 Projects
 ===========
 
-These are a list of pages that link to projects I have worked on.
+I have not had a chance to get these up yet.  
