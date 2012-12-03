@@ -9,5 +9,5 @@ tags: [Video, Homebrew, Programming]
 ---
 
 
-<div class="flash-video"><iframe src="http://www.youtube.com/embed/9ckwvn5fvyQ" frameborder="0" allowfullscreen></iframe></div>
+<div class="flex-video"><iframe src="http://www.youtube.com/embed/9ckwvn5fvyQ" frameborder="0" allowfullscreen></iframe></div>
 
