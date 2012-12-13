@@ -6,5 +6,6 @@ comments: false
 sidebar: collapse
 external-url: https://www.youtube.com/watch?v=VxSs1kGZQqc
 categories: [Video, Robotics]
+published: false
 ---
 <div class="flex-video"><iframe width="560" height="315" src="http://www.youtube.com/embed/VxSs1kGZQqc" frameborder="0" allowfullscreen></iframe></div>
