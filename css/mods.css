@@ -135,7 +135,13 @@ body > .navbar .brand:hover {
   }
 }
 
-
+/* I added this for the linklog marker from octopress */
+ .linklog-marker {
+   color: #777;
+   font-size: .8em;
+   line-height: 1em;
+   position: relative; top: -.15em;
+ }	
 
 /*!
  * Responsive video
