@@ -7,7 +7,7 @@ This is my webpage.  It's being worked on.  I don't know HTML or CSS, so hopeful
 
 The goal here is to create a static website using tools that would make it easy to update.  I have decided on using Jekyll, for the site generation, and Twitter bootstrap for the HTML/CSS/Framework features.  
 
-I chose Jekyll because of the free web-hosting offered by Github, and because it seemed to be well supported by a large community.  Twitter bootstrap also has a large community, and offers more than I would ever need in a website.  The large community is important because it typically there is a lot of discussion about how to use the tools.  As someone not knowing much of anything about making a website, this is important.
+I chose Jekyll because of the free web-hosting offered by Github, and because it seemed to be well supported by a large community.  Twitter bootstrap also has a large community, and offers more than I would ever need in a website.  The large community is important because it typically means there is a lot of discussion about how to use the tools.  As someone not knowing much of anything about making a website, this is important.
 
 ### Technology goals ###
 
