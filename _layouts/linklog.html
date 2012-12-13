@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
-<p><small>{{page.date | date_to_string}}</small></p>
-<h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-{{ content }}
+
+<div class="linklog">
+ <h3><a href="{{ page.external-url }}">{{ page.title }}</a>
+  <span class='linklog-marker'>&rarr;</span></h3>
+  <p class="lead"><small>
+	<a href="{{ page.url }}">&#916</a>
+	{{page.date | date_to_string}}
+	</small></p>
+  {{ content }}
+	<hr>
+</div>

@@ -11,7 +11,7 @@ title: Blog
 
 {% when 'post' %}
 
-<div class="content">
+<div class="post">
  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
  <p class="lead"><small>{{post.date | date_to_string}}</small></p>
   {{ post.content }}
@@ -20,9 +20,13 @@ title: Blog
 
 {% when 'linklog' %}
 
-<div class="content">
- <small><a href="{{ post.url }}">{{ post.title }}</a></small>
- <p class="lead"><small>{{post.date | date_to_string}}</small></p>
+<div class="linklog">
+ <h3><a href="{{ post.external-url }}">{{ post.title }}</a>
+  <span class='linklog-marker'>&rarr;</span></h3>
+  <p class="lead"><small>
+	<a href="{{ post.url }}">&#916</a>
+	{{post.date | date_to_string}}
+	</small></p>
   {{ post.content }}
 	<hr>
 </div>

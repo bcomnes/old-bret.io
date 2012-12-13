@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
-<p class="lead"><small>{{page.date | date_to_string}}</small></p>
-<h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-{{ content }}
+
+<div class="post">
+ <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+ <p class="lead"><small>{{page.date | date_to_string}}</small></p>
+  {{ content }}
+</div>
