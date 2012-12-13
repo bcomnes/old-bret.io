@@ -1,9 +1,10 @@
 <div class="pagination">
 <ul>
 {% if paginator.total_pages >= 4 %}
-{% if paginator.page > 2 %}
+{% if paginator.page > 1 %}
 <li><a href="/">&laquo;</a></li>
 {% else %}
+<li class="disabled"><a href="/">&laquo;</a></li>
 {% endif %}
 {% endif %}
 
@@ -13,16 +14,17 @@
 {% else %}
 <li><a href="/page{{paginator.previous_page}}">&lsaquo;</a></li>
 {% endif %}
+{% else %}
+<li class="disabled"><a href="#">&lsaquo;</a></li>
 {% endif %}
 
 {% if paginator.page == 1 %}
-<li class="disabled"><a href="#">1</a></li>
+<li class="active"><a href="#">1</a></li>
 {% else %}
 <li><a href="/">1</a></li>
 {% endif %}
 
 {% for count in (2..paginator.total_pages) %}
-<li class="page">
 {% if count == paginator.page %}
 <li class="active"><a href="#">{{count}}</a></li>
 {% else %}
@@ -33,12 +35,16 @@
 {% if paginator.next_page %}
 <li><a href="/page{{paginator.next_page}}">&rsaquo;</a></li>
 {% else %}
+<li class="disabled"><a href="#">&rsaquo;</a></li>
 {% endif %}
 
 {% if paginator.total_pages >= 4 %}
-{% if paginator.page <  {{ {{paginator.total_pages}} | minus:1 }}  %}
+{% if paginator.page < paginator.total_pages %}
 <li><a href="/page{{paginator.total_pages}}">&raquo;</a></li>
+{% else %}
+<li class="disabled"><a href="#}}">&raquo;</a></li>
 {% endif %}
 {% endif %}
+
 </ul>
 </div>
