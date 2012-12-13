@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Mathematica, Meet Waldo"
 date: 2012-05-20 23:58
 comments: false

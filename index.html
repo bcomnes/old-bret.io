@@ -6,12 +6,24 @@ title: Blog
 {% for post in paginator.posts %}
 
    <!-- here add you post markup -->
+
+{% if post.layout == {{post}} %}
   <div class="content">
    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
    <p class="lead"><small>{{post.date | date_to_string}}</small></p>
     {{ post.content }}
 	<hr>
   </div>
+{% else %}
+
+<div class="content">
+ <small><a href="{{ post.url }}">{{ post.title }}</a></small>
+ <p class="lead"><small>{{post.date | date_to_string}}</small></p>
+  {{ post.content }}
+{{post.layout}}
+	<hr>
+</div>
+{% endif %}
 {% endfor %}
 
 {% include paginator.html %}
