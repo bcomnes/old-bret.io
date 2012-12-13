@@ -25,7 +25,6 @@
 {% endif %}
 
 {% for count in (2..paginator.total_pages) %}
-<li class="page">
 {% if count == paginator.page %}
 <li class="active"><a href="#">{{count}}</a></li>
 {% else %}
@@ -46,7 +45,6 @@
 <li class="disabled"><a href="#}}">&raquo;</a></li>
 {% endif %}
 {% endif %}
-
 
 </ul>
 </div>
