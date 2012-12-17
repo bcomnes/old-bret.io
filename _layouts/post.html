@@ -1,9 +1,6 @@
 ---
 layout: default
+descriptor: post
 ---
 
-<div class="post">
- <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
- <p class="lead"><small>{{page.date | date_to_string}}</small></p>
-  {{ content }}
-</div>
+{% include post-content.html %}
