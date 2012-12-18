@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 <a class="pull-right" href="http://www.flickr.com/photos/bretc/">
-<img src="http://farm6.staticflickr.com/5111/5914206691_f014912197_m.jpg" class="img-polaroid">
+<img src="http://farm6.staticflickr.com/5111/5914206691_f014912197_m.jpg" class="img-polaroid" alt="Hi!">
 </a>
 Bret Comnes
 ===========
