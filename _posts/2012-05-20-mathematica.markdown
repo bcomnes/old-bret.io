@@ -8,7 +8,7 @@ external-url:
 categories: [Math, Programming] 
 ---
 <a class="pull-right" href="http://www.flickr.com/photos/bretc/7239888974/lightbox/">
-<img src="http://farm8.staticflickr.com/7241/7239888974_8ca99fbce1_m.jpg" class="img-polaroid">
+<img src="http://farm8.staticflickr.com/7241/7239888974_8ca99fbce1_m.jpg" class="img-polaroid" alt="Picture of the CDF File">
 </a>
 A neat stack overflow question about finding Waldo programmatically came up recently, and a user named Heike came up with a [pretty interesting solution using Mathematica.](http://stackoverflow.com/questions/8479058/how-do-i-find-waldo-with-mathematica/8479757#8479757)
 
