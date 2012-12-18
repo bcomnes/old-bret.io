@@ -2,4 +2,11 @@
 layout: default
 ---
 
-{% include post-content.html %}
+<article class="{{page.layout}}">
+    <span>
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <p class="lead">{{page.date | date_to_string}}</p>
+    </span>
+    {{ content }}
+    <hr>
+</article>
