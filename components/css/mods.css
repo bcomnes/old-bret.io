@@ -1,18 +1,16 @@
-/* This was stripped out of the twiiter boostrap docs CSS. 
-/* It would be nice to maybe clean this up sometime.
-
-/* Tweak navbar brand link to be super sleek
+/* Floating Navbar  Place before Respinsive bootstrap CSS
 -------------------------------------------------- */
+body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
 
+
+/* Navbar Like Twitter Bootrap Doc
+-------------------------------------------------- */
 body > .navbar {
   font-size: 13px;
 }
-/* Change the docs' brand */
 body > .navbar .brand {
-  padding-right: 0;
-  padding-left: 0;
-  margin-left: 20px;
-  float: right;
   font-weight: bold;
   color: #000;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
@@ -22,7 +20,7 @@ body > .navbar .brand {
 }
 body > .navbar .brand:hover {
   text-decoration: none;
-  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.9);
 }
 
 /* Footer
@@ -31,7 +29,7 @@ body > .navbar .brand:hover {
 .footer {
   text-align: center;
   padding: 30px 0;
-  margin-top: 70px;
+  margin-top: 10px;
   border-top: 1px solid #e5e5e5;
   background-color: #f5f5f5;
 }
@@ -48,130 +46,4 @@ body > .navbar .brand:hover {
 }
 .footer-links li:first-child {
   padding-left: 0;
-}
-
-/* Responsive
--------------------------------------------------- */
-
-/* Desktop large
-------------------------- */
-@media (min-width: 1200px) {
-  .bs-docs-container {
-    max-width: 970px;
-  }
-}
-
-/* Desktop
-------------------------- */
-@media (max-width: 980px) {
-  /* Unfloat brand */
-  body > .navbar-fixed-top .brand {
-    float: left;
-    margin-left: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-/* Tablet to desktop
-------------------------- */
-@media (min-width: 768px) and (max-width: 979px) {
-  /* Remove any padding from the body */
-  body {
-    padding-top: 0;
-  }
-}
-
-/* Tablet
-------------------------- */
-@media (max-width: 767px) {
-  /* Remove any padding from the body */
-  body {
-    padding-top: 0;
-  }
-
-  /* Unfloat the back to top link in footer */
-  .footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .footer p {
-    margin-bottom: 9px;
-  }
-}
-
-/* Landscape phones
-------------------------- */
-@media (max-width: 480px) {
-  /* Remove padding above jumbotron */
-  body {
-    padding-top: 0;
-  }
-
-  /* Change up some type stuff */
-  h2 small {
-    display: block;
-  }
-
-  /* center align subhead text like the masthead */
-  .subhead h1,
-  .subhead p {
-    text-align: center;
-  }
-
-  /* Do our best to make tables work in narrow viewports */
-  table code {
-    white-space: normal;
-    word-wrap: break-word;
-    word-break: break-all;
-  }
-
-  /* Tighten up footer */
-  .footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
-/* I added this for the linklog marker from octopress */
-.linklog-marker {
-  color: #777;
-  font-size: .8em;
-  line-height: 1em;
-  position: relative; top: -.15em;
-}	
-
-/*!
- * Responsive video
- *
- * Copyright (c) 2011 ZURB, http://www.zurb.com/
- * MIT-LICENSE.txt
- *
- * https://gist.github.com/2302238
- */
-.flex-video {
-  position: relative;
-  padding-top: 25px;
-  padding-bottom: 67.5%;
-  height: 0;
-  margin-bottom: 16px;
-  overflow: hidden;
-}
-
-.flex-video.widescreen { padding-bottom: 57.25%; }
-.flex-video.vimeo { padding-top: 0; }
-
-.flex-video iframe,
-.flex-video object,
-.flex-video embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
-  .flex-video { padding-top: 0; }
 }
