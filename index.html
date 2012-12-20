@@ -10,9 +10,9 @@ title: Blog
 {% include paginator.html %}
 </section>
 
-<asside class="sidebar-thirds">
+<div class="sidebar-thirds">
 <!-- This is temporary, but puts a small list of pinboard links on page 1 -->
 {% if paginator.page == 1 %}
 {% include pinboard.html %}
 {% endif %}
-</asside>
+</div>
