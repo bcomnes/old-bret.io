@@ -8,7 +8,7 @@
 <a href="{{ post.url }}">{{ post.title }}</a>
 </h1>
 <p class="meta">
-<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{post.date | date_to_string}}</time>
+<time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date_to_string}}</time>
 </p>
 </header>
 <div class="entry-content">
@@ -25,7 +25,7 @@
 <span class='linklog-marker'>&rarr;</span>
 </h1>
 <p class="meta">
-<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{post.date | date_to_string}}</time>
+<time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date_to_string}}</time>
 &bull; <a rel="bookmark" href="{{ post.url }}">{% if site.brand %}{{ site.brand }}{% else %}&#8734;{% endif %}</a>
 </p>
 <div class="entry-content">
@@ -41,7 +41,7 @@
 <a href="{{ post.url }}">{{ post.title }}</a>
 </h1>
 <p class="meta">
-<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{post.date | date_to_string}}</time>
+<time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date_to_string}}</time>
 </p>
 </header>
 <div class="entry-content">
