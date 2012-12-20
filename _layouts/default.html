@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{% include header.html %}
+{% include meta.html %}
+
+{% include css.html %}
+
+{% include ico.html %}
 </head>
 
 <body>
 {% include navbar.html %}
 
-<section class="container" id="main">
+<!-- Main
+================================================== -->
+<div class="container" id="main">
+<section id="content">
 {{ content }}
-</section> <!-- /container -->
+</section>
+</div>
 
 {% include footer.html %}
 {% include js.html %}
