@@ -23,6 +23,20 @@ body > .navbar .brand:hover {
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.9);
 }
 
+/* Article Formating
+-------------------------------------------------- */
+article.linklog h1.entry-title {
+font-size: 1.9em;
+}
+/* Linklog marker */
+article .linklog-marker {
+    color: #AAA;
+    font-size: .8em;
+    line-height: 1em;
+    position: relative;
+    top: -0.15em;
+}
+
 /* Footer
 -------------------------------------------------- */
 

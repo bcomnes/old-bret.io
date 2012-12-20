@@ -2,13 +2,17 @@
 layout: index
 title: Blog
 ---
+<section class="blog-index">
 <!-- posterator generates our list of blog posts -->
 {% include posterator.html %} 
 
+<!-- This is the paginator box-->
+{% include paginator.html %}
+</section>
+
+<asside class="sidebar-thirds">
 <!-- This is temporary, but puts a small list of pinboard links on page 1 -->
 {% if paginator.page == 1 %}
 {% include pinboard.html %}
 {% endif %}
-
-<!-- This is the paginator box-->
-{% include paginator.html %}
+</asside>
