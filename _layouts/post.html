@@ -1,18 +1,4 @@
 ---
 layout: default
 ---
-<article class="post"> <!--Begin Post "{{ page.title }}"-->
-<header>
-<h1 class="entry-title">
-<a href="{{ page.url }}">{{ page.title }}</a>
-</h1>
-<p class="meta">
-<time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date_to_string}}</time>
-</p>
-</header>
-<div class="entry-content">
-{{ content }}
-</div><!--End Post <div class="entry-content">-->
-</article>
-<!--End Post "{{ page.title }}"-->
-<hr>
+{% include content-post.html %}

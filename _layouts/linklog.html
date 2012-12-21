@@ -1,19 +1,4 @@
 ---
 layout: default
 ---
-<article class="linklog"> <!--Begin Linklog "{{ page.title }}"-->
-<header>
-<h1 class="entry-title">
-<a href="{{ page.external-url }}">{{ page.title }}</a>
-<span class='linklog-marker'>&rarr;</span>
-</h1>
-<p class="meta">
-<time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date_to_string}}</time>
-&bull; <a rel="bookmark" href="{{ page.url }}">{% if site.brand %}{{ site.brand }}{% else %}&#8734;{% endif %}</a>
-</p>
-<div class="entry-content">
-{{ content }}
-</div><!--End page <div class="entry-content">-->
-</article>
-<!--End Linklog "{{ page.title }}"-->
-<hr>
+{% include content-linklog.html %}
