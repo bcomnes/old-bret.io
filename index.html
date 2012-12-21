@@ -9,10 +9,3 @@ title: Blog
 <!-- This is the paginator box-->
 {% include paginator.html %}
 </section>
-
-<div class="row">
-<!-- This is temporary, but puts a small list of pinboard links on page 1 -->
-{% if paginator.page == 1 %}
-{% include pinboard.html %}
-{% endif %}
-</div>
