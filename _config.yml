@@ -2,6 +2,9 @@ url: www.bre.tc
 paginate: 3 
 permalink: pretty
 markdown: rdiscount
+safe: true
+lsi: false
+pygments: true
 
 author: "Bret Comnes"
 description: "A Personal Website and Blog"
