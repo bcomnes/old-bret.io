@@ -69,18 +69,27 @@ article .linklog-marker {
 }
 
 
-.sidebar h1 {
-    margin: .6em 0 0;
-    padding-bottom: .2em;
-    border-bottom: 1px solid #DADDE3;
-    font-size: 1.5em;
-    -webkit-box-shadow: #FDFDFE 0 1px;
-    -moz-box-shadow: #FDFDFE 0 1px;
-    box-shadow: #FDFDFE 0 1px;
+#pinboard_linkroll {
+    margin: 0 0 10px 0px;
 }
 
 
+.sidebar h1 {
+    font-size: 1.5em;
+}
 
+.pin-title {
+    display: block;   
+}
+
+.pin-item {
+    list-style: none;
+}
+
+.pin-tag {
+    font-size: .8em;
+    color: #777;
+}
 /* Video Formatting
 -------------------------------------------------- */
 /*!
