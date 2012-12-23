@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Rear Window"
 date: 2012-05-21 00:48
 comments: false

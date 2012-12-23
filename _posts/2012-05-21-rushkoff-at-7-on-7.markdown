@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Rushkoff at 7 on 7"
 date: 2012-05-21 01:26
 comments: false

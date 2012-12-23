@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Water in Space"
 date: 2012-05-21 01:04
 comments: false

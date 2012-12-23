@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homebrew's doctor fun"
+title: "Homebrews doctor fun"
 date: 2012-06-22 13:49
 comments: false
 sidebar: collapse
@@ -13,7 +13,7 @@ I like it because it respects to the [OS X Human Interface Guidelines](http://de
 
 A really common problem that pops up with with initial Homebrew installs is that the users PATH environment variable is not set up to use Homebrew's programs before the default versions that ship with OS X.  Running `brew doctor` will result in the following error if this is the case:
 
-{% codeblock %}
+`code`
 Error: /usr/bin occurs before /usr/local/bin
 This means that system-provided programs will be used instead of those
 provided by Homebrew. The following tools exist at both paths:
@@ -30,7 +30,7 @@ provided by Homebrew. The following tools exist at both paths:
 
 Consider amending your PATH so that /usr/local/bin
 is ahead of /usr/bin in your PATH.
-{% endcodeblock %}
+`code`
 
 Unfortunately, it assumes you know how to fix this situation and offers no solution other than the high level instruction of chaining your PATH.  If you don't know what environment variables are, how to change them, or even how terminal sessions work, this isn't a trivial fix.  
 
@@ -43,9 +43,9 @@ A quick fix to the above `brew` is to add a few lines to a small file called `.b
 2.	Make sure you are in your home directory by entering the command `cd ~` or `pwd` to confirm that you are.
 3.	Create or edit a file called `.bash_profile`.  If it already exists, you may have made some terminal tweaks already, in which case, you should look to see of something similar has already been done.  To do this enter the command `nano .bash_profile`.  As you probably know, files that start with `.` are hidden.
 4.	Paste the following lines into the editor.
-{% codeblock 	.bash_profile lang:sh %}
+codeblock 	.bash_profile lang:sh
 echo $TERM
-{% endcodeblock %}
+endcodeblock
 
 
 ### A longer description ###

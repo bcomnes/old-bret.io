@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Getting Started with Homebrew"
 date: 2012-07-06 12:50
 comments: false

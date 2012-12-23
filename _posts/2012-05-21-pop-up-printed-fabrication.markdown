@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Pop-Up Printed Fabrication"
 date: 2012-05-21 00:56
 comments: false

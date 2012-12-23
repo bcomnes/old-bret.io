@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Man and Tortoise"
 date: 2012-05-21 01:11
 comments: false

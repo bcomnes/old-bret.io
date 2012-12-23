@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Pre-9/11 NYC Bike Messengers"
 date: 2012-01-14 00:16
 comments: false

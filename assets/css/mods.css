@@ -50,12 +50,23 @@ body > .navbar .brand:hover {
 /* Article Formating
 -------------------------------------------------- */
 /* Formatting of article header time */
-article.post {
-    border-bottom-style: dotted;
+article {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #CCC;
+}
+
+article header {
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 10px;
 }
 
 article header h1.entry-title {
     margin-bottom: 0.2em;
+}
+
+article p.meta {
+    margin-bottom: 0px;
 }
 
 article header time {
@@ -93,18 +104,30 @@ article .linklog-marker {
 
 /* Pinboard Asside Specifics
 -------------------------------------------------- */
+
+#pinboard h1 {
+    height: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
 #pinboard_linkroll {
     margin: 0 0 10px 0px;
 }
 
+.pin-item {
+    list-style: none;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
 
+.pin-item p {
+    margin-bottom: 0px;
+}
 
 .pin-title {
     display: block;   
-}
-
-.pin-item {
-    list-style: none;
 }
 
 .pin-tag {

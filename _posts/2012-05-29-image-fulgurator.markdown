@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linklog
 title: "Image Fulgurator"
 date: 2012-05-29 20:09
 comments: false
