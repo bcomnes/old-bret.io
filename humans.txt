@@ -1,0 +1,17 @@
+---
+layout: nil
+---
+/* TEAM */
+    {% if site.author %}Me: {{ site.author }}{% endif %}
+    {% if site.url %}Site: {{ site.url }}/about{% endif %}
+    {% if site.location %}Location: {{ site.location }}{% endif %}
+
+/* THANKS */
+    There are definitely some people I need to thank, but not right now.
+                            
+/* SITE */
+
+    Last update: {{ site.time | date_to_xmlschema }} 
+    Standards: HTML5, CSS3, JS, ATOM, Markdown, LaTeX
+    Components: Twitter Bootstrap, jQuery
+    Software: jekyll, TextMate, Bower, npm, homebrew, ubuntu, rbenv
