@@ -49,16 +49,28 @@ body > .navbar .brand:hover {
 
 /* Article Formating
 -------------------------------------------------- */
-/* Resize of the linklog Title */
-article.linklog h1.entry-title {
-font-size: 1.9em;
+/* Formatting of article header time */
+article.post {
+    border-bottom-style: dotted;
 }
-/* Formatting of time */
+
+article header h1.entry-title {
+    margin-bottom: 0.2em;
+}
+
 article header time {
     text-transform: uppercase;
     color: #AAA;
     font: inherit;
 }
+
+/* Linklog Specifics 
+-------------------------------------------------- */
+/* Resize of the linklog Title */
+article.linklog h1.entry-title {
+    font-size: 1.9em;
+}
+
 /* Linklog marker */
 article .linklog-marker {
     color: #AAA;
@@ -68,15 +80,24 @@ article .linklog-marker {
     top: -0.15em;
 }
 
+/* Assides
+-------------------------------------------------- */
+/* Resize of the linklog Title */
 
+#assides h1 {
+    font-size: 1.5em;
+    margin: 5px 0;
+    boarder-bottom: ;
+}
+
+
+/* Pinboard Asside Specifics
+-------------------------------------------------- */
 #pinboard_linkroll {
     margin: 0 0 10px 0px;
 }
 
 
-.sidebar h1 {
-    font-size: 1.5em;
-}
 
 .pin-title {
     display: block;   
