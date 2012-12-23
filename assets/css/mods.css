@@ -109,6 +109,7 @@ article .linklog-marker {
     height: 30px;
     padding-bottom: 5px;
     border-bottom: 1px dotted #CCC;
+    color: #666;
 }
 
 #pinboard_linkroll {
