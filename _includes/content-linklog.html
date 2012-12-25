@@ -1,15 +1,19 @@
-<article class="linklog"> <!--Begin Linklog "{% include logic/pp-title.html %}"-->
+<!--Begin Linklog "{% include logic/pp-title.html %}"-->
+<article class="linklog">
 <header>
-<h1 class="entry-title">
+<hgroup>
+<h1>
 <a href="{% include logic/pp-external-url.html %}">{% include logic/pp-title.html %}</a>
-<span class='linklog-marker'>{{ site.marker }}</span>
+<small class='linklog-marker'>{{ site.marker }}</small>
 </h1>
-<p class="meta">
+<h2><small>
 <time datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
 &bull; <a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.brand %}{{ site.brand }}{% else %}&#8734;{% endif %}</a>
-</p>
-<div class="entry-content">
+</small></h2>
+</hgroup>
+</header>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 {% include logic/pp-content.html %}
-</div><!--End Post <div class="entry-content">-->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 </article>
 <!--End Linklog "{% include logic/pp-title.html %}"-->

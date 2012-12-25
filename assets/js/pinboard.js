@@ -42,10 +42,12 @@ function Pinboard_Linkroll() {
       str += "<span class=\"pin-description\">" + this.cook(it.n) + "</span>\n";
     }
     if (it.t.length > 0) {
+      str += "<span class=\"pin-tags\">";
       for (var i = 0; i < it.t.length; i++) {
         var tag = it.t[i];
         str += " <a class=\"pin-tag\" href=\"http://pinboard.in/u:"+ this.cook(it.a) + "/t:" + this.cook(tag) + "\">" + this.cook(tag).replace(/^\s+|\s+$/g, '') + "</a> ";
       }
+      str += "</span>\n";;
     }
     str += "</p></li>\n";
     return str;

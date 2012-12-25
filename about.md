@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About
 ---
 <a class="pull-right" href="http://www.flickr.com/photos/bretc/">
