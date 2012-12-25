@@ -1,14 +1,17 @@
-<article class="post"> <!--Begin Post "{% include logic/pp-title.html %}"-->
+<!--Begin Post "{% include logic/pp-title.html %}"-->
+<article class="post">
 <header>
-<h1 class="entry-title">
+<hgroup>
+<h1>
 <a href="{% include logic/pp-url.html %}">{% include logic/pp-title.html %}</a>
 </h1>
-<p class="meta">
+<h2><small>
 <time datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
-</p>
+</small></h2>
+<hgroup>
 </header>
-<div class="entry-content">
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 {% include logic/pp-content.html %}
-</div><!--End Post <div class="entry-content">-->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 </article>
 <!--End Post "{% include logic/pp-title.html %}"-->
