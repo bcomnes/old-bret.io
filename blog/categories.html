@@ -7,13 +7,13 @@ title: Categories
   {% assign categories_list = site.categories %}
   {% if categories_list.first[0] == null %}
       {% for category in categories_list %} 
-      	<li><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">
+      	<li class="btn btn-mini"><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">
       		{{ category | join: "/" }} <span>{{ site.categories[category].size }}</span>
       	</a></li>
       {% endfor %}
     {% else %}
       {% for category in categories_list %} 
-      	<li><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
+      	<li class="btn btn-mini"><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
       		{{ category[0] | join: "/" }} <span>{{ category[1].size }}</span>
       	</a></li>
       {% endfor %}
@@ -23,7 +23,7 @@ title: Categories
 
 
 {% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+  <h1 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h1>
   <ul>
     {% assign pages_list = category[1] %}  
     {% for node in pages_list %}

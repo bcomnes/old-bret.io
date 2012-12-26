@@ -90,6 +90,10 @@ article.linklog header h2 small {
 -------------------------------------------------- */
 /* Resize of the linklog Title */
 
+#assides {
+    margin-top: 20px;
+}
+
 #assides section.span4{
     padding-right: 20px;
 }
@@ -179,26 +183,12 @@ article.linklog header h2 small {
 	padding:5px 0 ;
 	overflow:hidden;
 }
+
 .tag_box li {
-	line-height:28px;
+    margin-bottom: 5px;
 }
-.tag_box.inline li {
-	float:left;
-}
-.tag_box a {
-	padding: 3px 6px;
-	margin: 2px;
-	background: #eee;
-	color:#005F6B;
-	border-radius: 3px;
-	text-decoration:none;
-}
+
 .tag_box a span{
 	vertical-align:super;
 	font-size:0.8em;
-}
-.tag_box a.active {
-	background:#57A957;
-	border:1px solid #4C964D;
-	color:#FFF;
 }
