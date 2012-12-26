@@ -14,6 +14,7 @@ The website is basically wired up.  Jekyll and bootstrap are talking, and I have
 
 When I decided to make a website, after deleting my facebook and twitter accounts in the end of 2011, I hadn't a clue where to start.  Due to some nasty experiences with some Apache server and MySQL Database dependent web-apps I royally screwed up on accident, and because I originally though I would be hosting the site off of an Arduino (silly, I see this now), and after seeing all those [schmancy ruby gem websites](https://pinboard.in/u:bcomnes/t:ruby/), I decided a <abbr title="static site generator">SSG</abbr> was what I needed.  
 
+
 ## An SSG you say? 
 
 Yes, an SSG.  But SSGs are complex and scary and require the <abbr title="Command Line Interface">CLI</abbr> and things like dependancies.  At first, I was really confused.  [Here are some notes](https://gist.github.com/4378960) I found (thanks to [Simplenote](https://simple-note.appspot.com/) and [Notational Velocity](http://notational.net/)) from almost a year ago when I started all of this!  What was I thinking!?
