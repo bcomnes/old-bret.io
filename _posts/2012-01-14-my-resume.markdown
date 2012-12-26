@@ -4,7 +4,8 @@ title: "My Resume"
 date: 2012-01-14 00:56
 comments: true
 sidebar: collapse
-categories: [LaTeX, About]
+categories: [About]
+tags: [LaTeX, markup]
 ---
 
 [My resume](/assets/resume/Bret-Comnes-Public.pdf) is directly based off of [Todd. C. Miller's template](http://www.gratisoft.us/todd/resume.html), which was based off of [David J. Grant's work](http://www.davidgrant.ca/latex_resume_template), which is supposedly based off of Matthew Boedicker's work, which I never located.  David's work eventually stemmed off into its own [CTAN package](http://tug.ctan.org/pkg/tucv), by [George Louthan](http://www.georgelouthan.com/), which looked nice, but turned out to be not as flexible as I hoped, so I have yet to make use of it. I might revisit it in the future when I have time, but I am happy with what I have now.

@@ -11,3 +11,5 @@ description: "A Personal Website and Blog"
 location: "Portland, OR"
 brand: "&#916;"
 marker: "&rarr;"
+
+recent_posts: 10

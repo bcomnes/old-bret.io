@@ -6,7 +6,7 @@ comments: false
 sidebar: collapse
 external-url: http://www.youtube.com/watch?v=9ckwvn5fvyQ 
 tags: [Video, Homebrew, Programming]
-published: false
+published: true
 ---
 
 
