@@ -1,24 +1,37 @@
 ---
-layout: default
+layout: page
 title: Pages 
-header: Pages
-group: navigation
 ---
-
-<h2>All Pages</h2>
+{% capture blog_pages %}
 <ul>
-{% assign pages_list = site.pages %}
-{% for node in pages_list %}
- {% if node.title != null %}
- {% if group == null or group == node.group %}
- {% if page.url == node.url %}
- <li class="active"><a href="/{{node.url}}" class="active">{{node.title}}</a></li>
- {% else %}
- <li><a href="/{{node.url}}">{{node.title}}</a></li>
- {% endif %}
-     {% endif %}
-   {% endif %}
- {% endfor %}
- {% assign pages_list = nil %}
- {% assign group = nil %}
+{% for node in site.pages %}
+{% if node.title == 'Blog' and node.url contains 'page' %}
+<li><a href="{{node.url}}">{{node.url}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+{% endcapture %}
+
+
+<h1>All Pages</h1>
+<ul>
+
+{% for node in site.pages %}
+    {% if node.title != null and node.title != 'Blog' %}
+        {% if page.url == node.url %}
+            <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+        {% else %}
+            <li><a href="{{node.url}}">{{node.title}}</a></li>
+        {% endif %}
+        {% else %}
+        {% if node.title != null and node.title == 'Blog' %}
+        {% if node.url contains 'page' %}
+        {% else %}
+            <li><a href="{{node.url}}">{{node.title}}</a></li>
+                {{ blog_pages }}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
 </ul>
