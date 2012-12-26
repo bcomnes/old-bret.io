@@ -5,6 +5,7 @@ date: 2012-01-14 00:16
 comments: false
 sidebar: collapse
 categories: Video
+tags: Video
 external-url: http://www.youtube.com/watch?v=sj1-218EnvY
 published: true
 ---

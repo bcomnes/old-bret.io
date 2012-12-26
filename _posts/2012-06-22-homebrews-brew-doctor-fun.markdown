@@ -4,7 +4,7 @@ title: "Homebrews doctor fun"
 date: 2012-06-22 13:49
 comments: false
 sidebar: collapse
-categories: [Website, Programming, Linux, OS X, Homebrew]
+tags: [Website, Programming, Linux, OS X, Homebrew]
 published: false
 ---
 [Homebrew](http://mxcl.github.com/homebrew/) (or `brew`) is an awesome and lightweight tool for installing *nix and CLI tools on OS X, and is simple enough for people who are unfamiliar with the inner working of their mac.  
