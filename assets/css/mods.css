@@ -6,10 +6,11 @@ body {
 
 /* Navbar Like Twitter Bootrap Doc
 -------------------------------------------------- */
-body > .navbar {
+.navbar {
   font-size: 13px;
 }
-body > .navbar .brand {
+
+.navbar .brand {
   font-weight: bold;
   color: #000;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
@@ -17,7 +18,7 @@ body > .navbar .brand {
      -moz-transition: all .2s linear;
           transition: all .2s linear;
 }
-body > .navbar .brand:hover {
+.navbar .brand:hover {
   text-decoration: none;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.9);
 }
@@ -49,38 +50,95 @@ body > .navbar .brand:hover {
 
 /* Article Formating
 -------------------------------------------------- */
-/* Resize of the linklog Title */
-article.linklog h1.entry-title {
-font-size: 1.9em;
+/* Formatting of article header time */
+
+article {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #CCC;
 }
-/* Formatting of time */
+
+article header {
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 10px;
+}
+article header h1 {
+    margin-bottom: 5px;
+}
+article header h2 {
+    line-height: 0px;
+    margin-top: 0px;
+}
+
 article header time {
     text-transform: uppercase;
-    color: #AAA;
-    font: inherit;
-}
-/* Linklog marker */
-article .linklog-marker {
-    color: #AAA;
-    font-size: .8em;
-    line-height: 1em;
-    position: relative;
-    top: -0.15em;
 }
 
+/* Linklog Specifics 
+-------------------------------------------------- */
+/* Resize of the linklog Title */
+article.linklog header h1 {
+    font-size: 1.9em;
+    height: 35px;
+}
 
-.sidebar h1 {
-    margin: .6em 0 0;
-    padding-bottom: .2em;
-    border-bottom: 1px solid #DADDE3;
+article.linklog header h2 small {
+    font-size: 0.5em;
+}
+
+/* Assides
+-------------------------------------------------- */
+/* Resize of the linklog Title */
+
+#assides {
+    margin-top: 20px;
+}
+
+#assides section.span4{
+    padding-right: 20px;
+}
+
+#assides h1 {
     font-size: 1.5em;
-    -webkit-box-shadow: #FDFDFE 0 1px;
-    -moz-box-shadow: #FDFDFE 0 1px;
-    box-shadow: #FDFDFE 0 1px;
+    border-bottom: 1px dotted #CCC;
+    color: #666;
+    margin-bottom: 0px;
 }
 
+#assides ul {
+    margin: 0 0 10px 0px;
+    list-style: none;
+}
 
+#assides li {
+    border-bottom: 1px dotted #CCC;
+}
 
+#assides li p {
+    margin-bottom: 0px;
+}
+
+/* Pinboard Asside Specifics
+-------------------------------------------------- */
+/*
+    TODO Figure out a better way to do this
+*/
+.pin-title {
+    display: block;   
+}
+
+.pin-description{
+    font-size: .8em;
+}
+
+.pin-tags{
+        display: block;
+}
+
+.pin-tag {
+    font-size: .8em;
+    color: #777;
+}
 /* Video Formatting
 -------------------------------------------------- */
 /*!
@@ -114,4 +172,23 @@ article .linklog-marker {
 }
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
   .flex-video { padding-top: 0; }
+}
+
+
+/* tag_box ======================================================== */
+
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+
+.tag_box li {
+    margin-bottom: 5px;
+}
+
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
 }

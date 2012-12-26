@@ -1,0 +1,37 @@
+---
+layout: page
+title: Pages 
+---
+{% capture blog_pages %}
+<ul>
+{% for node in site.pages %}
+{% if node.title == 'Blog' and node.url contains 'page' %}
+<li><a href="{{node.url}}">{{node.url}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+{% endcapture %}
+
+
+<h1>All Pages</h1>
+<ul>
+
+{% for node in site.pages %}
+    {% if node.title != null and node.title != 'Blog' %}
+        {% if page.url == node.url %}
+            <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+        {% else %}
+            <li><a href="{{node.url}}">{{node.title}}</a></li>
+        {% endif %}
+        {% else %}
+        {% if node.title != null and node.title == 'Blog' %}
+        {% if node.url contains 'page' %}
+        {% else %}
+            <li><a href="{{node.url}}">{{node.title}}</a></li>
+                {{ blog_pages }}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+</ul>

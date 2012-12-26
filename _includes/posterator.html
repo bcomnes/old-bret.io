@@ -1,4 +1,3 @@
-<section id="posts"> <!-- Begin posts Section -->
 {% for post in paginator.posts %}
 {% case post.layout %}
 {% when 'post' %}
@@ -8,6 +7,4 @@
 {% else %}
 {% include content-post.html %}
 {% endcase %}
-<hr>
 {% endfor %}
-</section> <!-- End posts Section -->
