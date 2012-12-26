@@ -16,7 +16,7 @@ When I decided to make a website, after deleting my facebook and twitter account
 
 ## An SSG you say? 
 
-Yes, an SSG.  But SSGs are complex and scary and require the <abbr title=Command Line Interface>CLI</abbr> and things like dependancies.  At first, I was really confused.  [Here are some notes](https://gist.github.com/4378960) I found (thanks to [Simplenote](https://simple-note.appspot.com/) and [Notational Velocity](http://notational.net/)) from almost a year ago when I started all of this!  What was I thinking!?
+Yes, an SSG.  But SSGs are complex and scary and require the <abbr title="Command Line Interface">CLI</abbr> and things like dependancies.  At first, I was really confused.  [Here are some notes](https://gist.github.com/4378960) I found (thanks to [Simplenote](https://simple-note.appspot.com/) and [Notational Velocity](http://notational.net/)) from almost a year ago when I started all of this!  What was I thinking!?
 
 
 ### First comes the CLI
