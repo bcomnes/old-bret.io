@@ -79,7 +79,7 @@ article header time {
 /* Resize of the linklog Title */
 article.linklog header h1 {
     font-size: 1.9em;
-    height: 35px;
+    
 }
 
 article.linklog header h2 small {
