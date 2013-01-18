@@ -4,11 +4,11 @@
 <hgroup>
 <h1>
 <a href="{% include logic/pp-external-url.html %}">{% include logic/pp-title.html %}</a>
-<small class='linklog-marker'>{{ site.marker }}</small>
+<small class='linklog-marker'>{{ site.linklog }}</small>
 </h1>
 <h2><small>
 <time datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
-&bull; <a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.brand %}{{ site.brand }}{% else %}&#8734;{% endif %}</a>
+&bull; <a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>
 </small></h2>
 </hgroup>
 </header>
