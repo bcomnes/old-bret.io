@@ -22,7 +22,7 @@ layout: nil
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
-      <name>Functionn</name>
+      <name>bre.tc</name>
       <uri>http://www.bre.tc/</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
