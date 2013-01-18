@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+CACHE MANIFEST
+# published {{ site.time | date_to_xmlschema }}
+FALLBACK:
+/ /offline.html
+NETWORK:
+/assets/js/pinboard.js
+*
+CACHE:
+/components/bootstrap/css/bootstrap.min.css
+/assets/css/mods.css
+/assets/css/syntax.css
+/components/bootstrap/css/bootstrap-responsive.min.css
+/assets/ico/favicon.ico
+/assets/ico/apple-touch-icon-144-precomposed.png
+/assets/ico/apple-touch-icon-114-precomposed.png
+/assets/ico/apple-touch-icon-72-precomposed.png
+/assets/ico/apple-touch-icon-57-precomposed.png
+/components/jquery/jquery.min.js
+/components/bootstrap/js/bootstrap.min.js
+/assets/js/email.js
+/assets/resume/Bret-Comnes-Public.pdf
+/assets/resume/Bret-Comnes-Public.txt
