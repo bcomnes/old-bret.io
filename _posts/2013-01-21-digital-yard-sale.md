@@ -13,7 +13,7 @@ I finally got around to posting some old phones to ebay.  Go check them out if y
 
 <a href="http://www.flickr.com/photos/bretc/8400521241/" title="IMG_1088 by bretolious, on Flickr"><img src="http://farm9.staticflickr.com/8499/8400521241_d8f8a50a84_m.jpg" width="179" height="240" alt="IMG_1088"></a>
 
-This is my well used iPhone 3G given to me by my sister.  It was my first smartphone, and pretty much drove me crazy because it was so slow.  It would be a good gift to a kid who wanted an iPhone to play with:
+This is my well used iPhone 3G given to me by my sister.  It was my first smartphone and pretty much drove me crazy because it was so slow.  It would be a good gift to a kid who wanted an iPhone to play with.
 
 -	[Ebay: iPhone 3G - 8GB - Black](http://www.ebay.com/itm/290848640585?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1555.l2649)
 
