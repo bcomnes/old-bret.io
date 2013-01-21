@@ -15,7 +15,7 @@ I finally got around to posting some old phones to ebay.  Go check them out if y
 
 This is my well used iPhone 3G given to me by my sister.  It was my first smartphone and pretty much drove me crazy because it was so slow.  It would be a good gift to a kid who wanted an iPhone to play with.
 
--	[Ebay: iPhone 3G - 8GB - Black](http://www.ebay.com/itm/290848640585?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1555.l2649)
+-	~~[Ebay: iPhone 3G - 8GB - Black](http://www.ebay.com/itm/290848640585?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1555.l2649)~~ Sold
 
 # iPhone 3GS
 
