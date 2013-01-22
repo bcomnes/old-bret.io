@@ -7,7 +7,7 @@ categories:
 tags: [Tutorial, Keepass, pageant, SSH]
 published: true
 ---
-To start using Keepass as a replacement for pageant you must do the following.
+To start using Keepass as a replacement for `pageant` you must do the following.
 
 1.	Download [KeePass](http://keepass.info/download.html)
 2.	Download [KeeAgent](http://keepass.info/plugins.html#keeagent)
