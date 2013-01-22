@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Keepass as pageant"
+title: "Using KeePass as pageant"
 date: 2013-01-22 00:44
 external-url: 
 categories: 
