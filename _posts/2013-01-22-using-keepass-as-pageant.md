@@ -4,7 +4,7 @@ title: "Using Keepass as pageant"
 date: 2013-01-22 00:44
 external-url: 
 categories: 
-tags: [Tutorial, Keepass, pageant, SSH, *nix]
+tags: [Tutorial, Keepass, pageant, SSH]
 published: true
 ---
 To start using Keepass as a replacement for pageant you must do the following.
