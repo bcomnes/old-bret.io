@@ -4,7 +4,7 @@ title: "Using Keepass as pageant"
 date: 2013-01-22 00:44
 external-url: 
 categories: 
-tags: [Tutorial, Keepass, pageant, SSH]
+tags: [Tutorial, Keepass, pageant, SSH, Windows, Git, CLI]
 published: true
 ---
 To start using Keepass as a replacement for `pageant` you must do the following.
