@@ -23,6 +23,6 @@ Thats it!  Now Keepass is ready to act as `pageant`!  Now comes the real work.  
 	-	This also requires adding `plink` to your windows `$PATH`
 	-	You must also add `$GIT_SSH` and set it to 'pink'
 -	Install `charade` as a bridge from Cygwin to `pageant`.
--	Tweak Sparkleshare to use the system's $GIT_SSH variable instead of its built in version of `ssh`.
+-	Tweak Sparkleshare to use the system's `$GIT_SSH` variable instead of its built in version of `ssh`.
 
 I'll be going over these different steps, as well as why you might want to take the time to do this kind of thing in subsequent posts.  And always, if you know a better way of doing things, or I am making silly or dangerous mistakes, please [email me](/about).
