@@ -1,17 +1,20 @@
 <!--Begin Post "{% include logic/pp-title.html %}"-->
-<article class="post">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <header>
 <hgroup>
-<h1>
-<a href="{% include logic/pp-url.html %}">{% include logic/pp-title.html %}</a>
+<h1 itemprop="name">
+<a href="{% include logic/pp-url.html %}" itemprop="url">{% include logic/pp-title.html %}</a>
 </h1>
 <h2><small>
-<time datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
+<time datetime="{% include logic/pp-date-xml.html %}" itemprop="datePublished">{% include logic/pp-date-str.html %}</time>
 </small></h2>
+<meta itemprop="author">{{ site.author }}</meta>
 </hgroup>
 </header>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<section itemprop="articleBody">
 {% include logic/pp-content.html %}
+</section>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 </article>
 <!--End Post "{% include logic/pp-title.html %}"-->
