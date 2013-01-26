@@ -31,4 +31,4 @@ I bought this from a friend, then shortly later was gifted a used iPhone 4.  I n
 
 This was Elena's old Android.  It was slow and far to tiney to type on well.  Plus, well, Android sucked at this point still.  It's rooted and is running Cyanogen mod.
 
--	[Rooted HTC Aria - Black](http://www.ebay.com/itm/290848648534?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1555.l2649)
+-	~~[Rooted HTC Aria - Black](http://www.ebay.com/itm/290848648534?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1555.l2649)~~ Sold $40
