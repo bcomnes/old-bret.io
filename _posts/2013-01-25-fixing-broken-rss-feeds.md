@@ -14,7 +14,7 @@ The only problem is that if this service moves or gets shut down you will have t
 
 Personally, I wish that RSS readers would have the ability to sort this out locally, but all solutions I have seen rely on something like [Readability](http://readability.com/developers/api) or act like a proxy such as this solution.
 
-*Update*
+**Update**
 
 So FullTextRSS has mostly been working, but has been spotty at times.  Here are a few other services that work similarly, but not quite as well at cleaning up the feeds as far as I can tell.
 
