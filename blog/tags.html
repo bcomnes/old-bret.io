@@ -21,7 +21,7 @@ title: Tags
             {% if page.url == tag_post.url %}
             <li class="active"><a href="#" class="active">{{tag_post.title}}</a></li>
             {% else %}
-            <li><a href="{{tag_post.url}}">{{tag_post.title}}</a></li>
+            <li>{{ tag_post.date | date: "%B %e, %Y" }} &raquo; <a href="{{tag_post.url}}">{{tag_post.title}}</a></li>
             {% endif %}
         {% endif %}
     {% endfor %}
