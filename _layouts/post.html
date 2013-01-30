@@ -8,5 +8,15 @@ layout: default
 -->
 <section class="container">
 {% include content-post.html %}
+
+<ul class="tag_box inline">
+    {% if page.tags.first != null %}{% comment %} If tags exist {% endcomment %}
+        {% for tag in page.tags %}{% comment %} add an element like the following for each tag item {% endcomment %}
+            <li class="btn btn-mini"><a href="/blog/tags/#{{ tag }}">{{ tag }}{% comment %} This is just the tag name {% endcomment %}
+            <span>{{ tag.size }}</span>{% comment %} This counts the number of posts in a given tag {% endcomment %}
+            </a></li>
+        {% endfor %}
+    {% endif %}
+</ul>
 {% include asides.html %}
 </section>
