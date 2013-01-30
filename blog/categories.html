@@ -2,43 +2,27 @@
 layout: page
 title: Categories
 ---
-
 <ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% if categories_list.first[0] == null %}
-      {% for category in categories_list %} 
-      	<li class="btn btn-mini"><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">
-      		{{ category | join: "/" }} <span>{{ site.categories[category].size }}</span>
-      	</a></li>
-      {% endfor %}
-    {% else %}
-      {% for category in categories_list %} 
-      	<li class="btn btn-mini"><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
-      		{{ category[0] | join: "/" }} <span>{{ category[1].size }}</span>
-      	</a></li>
-      {% endfor %}
+    {% if site.categories.first[0] != null %}{% comment %} If categories exist {% endcomment %}
+        {% for category in site.categories %}{% comment %} add an element like the following for each category item {% endcomment %}
+            <li class="btn btn-mini"><a href="#{{ category[0] }}">{{ category[0] }}{% comment %} This is just the category name {% endcomment %}
+            <span>{{ category[1].size }}</span>{% comment %} This counts the number of posts in a given category {% endcomment %}
+            </a></li>
+        {% endfor %}
     {% endif %}
-  {% assign categories_list = nil %}
 </ul>
 
-
 {% for category in site.categories %} 
-  <h1 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h1>
-  <ul>
-    {% assign pages_list = category[1] %}  
-    {% for node in pages_list %}
-     {% if node.title != null %}
-     {% if group == null or group == node.group %}
-     {% if page.url == node.url %}
-     <li class="active"><a href="/{{node.url}}" class="active">{{node.title}}</a></li>
-     {% else %}
-     <li><a href="/{{node.url}}">{{node.title}}</a></li>
-     {% endif %}
-         {% endif %}
-       {% endif %}
-     {% endfor %}
-     {% assign pages_list = nil %}
-     {% assign group = nil %}
-  </ul>
+<h1 id="{{ category[0] }}">{{ category[0] }}</h1>
+<ul>  
+    {% for category_post in category[1] %}
+        {% if category_post.title != null %}
+            {% if page.url == category_post.url %}
+            <li class="active"><a href="#" class="active">{{category_post.title}}</a></li>
+            {% else %}
+            <li>{{ category_post.date | date: "%B %e, %Y" }} &raquo; <a href="{{category_post.url}}">{{category_post.title}}</a></li>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</ul>
 {% endfor %}
-

@@ -4,36 +4,26 @@ title: Tags
 ---
 
 <ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-  {% if tags_list.first[0] == null %}
-  {% for tag in tags_list %} 
-  <li class="btn btn-mini"><a href="/blog/tags/#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
-  {% endfor %}
-  {% else %}
-  {% for tag in tags_list %} 
-  <li class="btn btn-mini"><a href="/blog/tags/#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
-  {% endfor %}
-  {% endif %}
-  {% assign tags_list = nil %}
+    {% if site.tags.first[0] != null %}{% comment %} If tags exist {% endcomment %}
+        {% for tag in site.tags %}{% comment %} add an element like the following for each tag item {% endcomment %}
+            <li class="btn btn-mini"><a href="#{{ tag[0] }}">{{ tag[0] }}{% comment %} This is just the tag name {% endcomment %}
+            <span>{{ tag[1].size }}</span>{% comment %} This counts the number of posts in a given tag {% endcomment %}
+            </a></li>
+        {% endfor %}
+    {% endif %}
 </ul>
 
 {% for tag in site.tags %} 
-    <h1 id="{{ tag[0] }}-ref">{{ tag[0] }}</h1>
-    <ul>
-        {% assign pages_list = tag[1] %}  
-        {% for node in pages_list %}
-         {% if node.title != null %}
-         {% if group == null or group == node.group %}
-         {% if page.url == node.url %}
-         <li class="active"><a href="/{{node.url}}" class="active">{{node.title}}</a></li>
-         {% else %}
-         <li><a href="/{{node.url}}">{{node.title}}</a></li>
-         {% endif %}
-             {% endif %}
-           {% endif %}
-         {% endfor %}
-         {% assign pages_list = nil %}
-         {% assign group = nil %}
-      </ul>
+<h1 id="{{ tag[0] }}">{{ tag[0] }}</h1>
+<ul>  
+    {% for tag_post in tag[1] %}
+        {% if tag_post.title != null %}
+            {% if page.url == tag_post.url %}
+            <li class="active"><a href="#" class="active">{{tag_post.title}}</a></li>
+            {% else %}
+            <li>{{ tag_post.date | date: "%B %e, %Y" }} &raquo; <a href="{{tag_post.url}}">{{tag_post.title}}</a></li>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</ul>
 {% endfor %}
-    
