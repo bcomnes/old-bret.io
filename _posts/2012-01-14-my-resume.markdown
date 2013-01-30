@@ -3,8 +3,6 @@ layout: post
 title: "My Resume"
 date: 2012-01-14 00:56
 comments: true
-sidebar: collapse
-categories: [About]
 tags: [LaTeX, markup]
 ---
 
