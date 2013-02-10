@@ -15,7 +15,7 @@
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     {% if page.url == "/index.html" %}<li class="active"><a href="/">Blog</a></li>{% else %}<li class=""><a href="/">Blog</a></li>{% endif %}
-                    <li class={% if page.url == "/about/" %}"active"{% else %}""{% endif %} itemscope itemtype="http://schema.org/AboutPage"><a href="/about" itemprop="url name">About</a></li>
+                    <li class={% if page.url == "/about/" %}"active"{% else %}""{% endif %} itemscope itemtype="http://schema.org/AboutPage"><a href="/about" itemprop="url">About</a></li>
                     {% if page.url == "/pages/projects/" %}<li class="active"><a href="/pages/projects">Projects</a></li>{% else %}<li class=""><a href="/pages/projects">Projects</a></li>{% endif %}
                     {% if page.url == "/blog/tags/" %}<li class="active"><a href="/blog/tags">Tags</a></li>{% else %}<li class=""><a href="/blog/tags">Tags</a></li>{% endif %}
                     {% if page.url == "/blog/archive/" %}<li class="active"><a href="/blog/archive">Archive</a></li>{% else %}<li class=""><a href="/blog/archive">Archive</a></li>{% endif %}
