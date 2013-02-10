@@ -8,7 +8,7 @@ asides: true
     TODO Get rid of linklog div
 -->
 {% include content-linklog.html %}
-<ul class="tag_box inline">
+<ul class="tag_box inline" itemprop="keywords">
     {% if page.tags.first != null %}{% comment %} If tags exist {% endcomment %}
         {% for tag in page.tags %}{% comment %} add an element like the following for each tag item {% endcomment %}
             <li class="btn btn-mini"><a href="/blog/tags/#{{ tag }}">{{ tag }}{% comment %} This is just the tag name {% endcomment %}
