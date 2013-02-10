@@ -1,6 +1,7 @@
 ---
-layout: blog
+layout: default
 title: About
+asides: true
 ---
 
 Bret Comnes

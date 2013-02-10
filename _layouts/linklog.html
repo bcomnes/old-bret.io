@@ -1,12 +1,12 @@
 ---
 layout: default
+asides: true
 ---
 <!-- ================================================================ -->
 <!-- Linklog -->
 <!--
     TODO Get rid of linklog div
 -->
-<section class="container">
 {% include content-linklog.html %}
 <ul class="tag_box inline">
     {% if page.tags.first != null %}{% comment %} If tags exist {% endcomment %}
@@ -17,5 +17,3 @@ layout: default
         {% endfor %}
     {% endif %}
 </ul>
-{% include asides.html %}
-</section>
