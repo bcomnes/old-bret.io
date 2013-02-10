@@ -2,7 +2,7 @@
     <title>{% if paginator.page %}{% if paginator.page != 1 %} {{ site.brand }} ~ {{ paginator.page }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ site.brand }} ~ {{ page.title }}{% endif %}</title>
     <meta content='bre.tc' itemprop='name'/>
     {% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}
-    {% if site.author %}<meta itemprop="author" content="{{ site.author }}" />{% endif %}
+    {% if site.author %}<meta itemprop="author" content="{{ site.author }}" name="author" />{% endif %}
     <!--{% if site.author %}<link rel="author" href="humans.txt" />{% endif %}-->
     <!--Twitter bootstrap For responsive stuff, I think-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
