@@ -17,7 +17,7 @@ I graduated in 2011 with a B.S. in [Physics](http://www.humboldt.edu/physics/) f
 
 </section>
 
-<div itemscope itemtype="http://schema.org/Person">
+<section itemscope itemtype="http://schema.org/Person">
   <span itemprop="name">Jane Doe</span>
   <img src="janedoe.jpg" itemprop="image" />
 
@@ -43,4 +43,4 @@ I graduated in 2011 with a B.S. in [Physics](http://www.humboldt.edu/physics/) f
     Alice Jones</a>
   <a href="http://www.xyz.edu/students/bobsmith.html" itemprop="colleague">
     Bob Smith</a>
-</div>
+</section>
