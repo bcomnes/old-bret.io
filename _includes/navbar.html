@@ -14,15 +14,14 @@
             <a class="brand" href="/">{{ site.brand }}</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    {% if page.url == "/index.html" %}<li class="active"><a href="/">Blog</a></li>{% else %}<li class=""><a href="/">Blog</a></li>{% endif %}
-                    <li class={% if page.url == "/about/" %}"active"{% else %}""{% endif %} itemscope itemtype="http://schema.org/AboutPage"><a href="/about" itemprop="url">About</a></li>
-                    {% if page.url == "/pages/projects/" %}<li class="active"><a href="/pages/projects">Projects</a></li>{% else %}<li class=""><a href="/pages/projects">Projects</a></li>{% endif %}
-                    {% if page.url == "/blog/tags/" %}<li class="active"><a href="/blog/tags">Tags</a></li>{% else %}<li class=""><a href="/blog/tags">Tags</a></li>{% endif %}
-                    {% if page.url == "/blog/archive/" %}<li class="active"><a href="/blog/archive">Archive</a></li>{% else %}<li class=""><a href="/blog/archive">Archive</a></li>{% endif %}
-                    {% if page.url == "/blog/pages/" %}<li class="active"><a href="/blog/pages">Pages</a></li>{% else %}<li class=""><a href="/blog/pages">Pages</a></li>{% endif %}
+                    {% if page.url == "/index.html" %}<li class="active"><a href="#">Blog</a></li>{% else %}<li class=""><a href="/">Blog</a></li>{% endif %}
+                    <li class={% if page.url == "/about/" %}"active"{% else %}""{% endif %} itemscope itemtype="http://schema.org/AboutPage"><a href="/about/" itemprop="url">About</a></li>
+                    {% if page.url == "/pages/projects/" %}<li class="active"><a href="#">Projects</a></li>{% else %}<li class=""><a href="/pages/projects/">Projects</a></li>{% endif %}
+                    {% if page.url == "/tags/" %}<li class="active"><a href="#">Tags</a></li>{% else %}<li class=""><a href="/tags/">Tags</a></li>{% endif %}
+                    {% if page.url == "/archive/" %}<li class="active"><a href="#">Archive</a></li>{% else %}<li class=""><a href="/archive/">Archive</a></li>{% endif %}
+                    {% if page.url == "/pages/" %}<li class="active"><a href="#">Pages</a></li>{% else %}<li class=""><a href="/pages/">Pages</a></li>{% endif %}
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
     </div>
 </nav>
-
