@@ -1,1 +1,1 @@
-{% if post.author %}{{ post.author }}{% elsif page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
+{% if post %}{% if post.author %}<meta content="{{ post.author }}" itemprop="author" /><% else %>{% if site.author %}<meta content="{{ site.author }}" itemprop="author" />{% endif %}{% endif %}{% elsif page.author %}<h3 class="author" itemprop="author"><small>{{ page.author }}</small></h3>{% else %}{% if site.author %}<h3 class="author" itemprop="author"><small>{{ site.author }}</small></h3>{% endif %}{% endif %}
