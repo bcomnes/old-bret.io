@@ -2,6 +2,7 @@
 layout: default
 title: About
 asides: true
+date: 2013-02-10
 ---
 <div itemscope itemtype="http://schema.org/Person">
 <h1 itemprop="name">Bret Comnes</h1>
