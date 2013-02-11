@@ -1,2 +1,3 @@
 User-agent: *
+Sitemap:http://www.bre.tc/sitemap.xml
 Disallow:
