@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" manifest="/cache.manifest">
+<html lang="en" manifest="/cache.manifest" itemscope itemtype="http://schema.org/WebPage">
 <head>
 {% include meta.html %}
 
@@ -9,11 +9,14 @@
 </head>
 
 <body>
-<header>
+<header itemprop="WPHeader">
 {% include navbar.html %}
 </header>
 
+<section class="container" itemscope itemtype="http://schema.org/Blog">
 {{ content }}
+{% if page.asides == true %}{% include asides.html %}{% endif %}
+</section>
 
 {% include footer.html %}
 {% include js.html %}

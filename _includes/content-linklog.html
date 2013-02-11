@@ -1,8 +1,8 @@
 <!--Begin Linklog "{% include logic/pp-title.html %}"-->
-<article class="linklog">
+<article class="linklog" itemprop='blogPost' itemscope itemtype="http://schema.org/BlogPosting">
 <header>
 <hgroup>
-<h1 itemprop="name">
+<h1 itemprop="name headline">
 <a href="{% include logic/pp-external-url.html %}" itemprop="url">{% include logic/pp-title.html %}</a>
 <small class='linklog-marker'>{{ site.linklog }}</small>
 </h1>
@@ -10,6 +10,7 @@
 <time datetime="{% include logic/pp-date-xml.html %}" itemprop="datePublished">{% include logic/pp-date-str.html %}</time>
 &bull; <a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>
 </small></h2>
+{% include logic/pp-post-author.html %}
 </hgroup>
 </header>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -17,5 +18,8 @@
 {% include logic/pp-content.html %}
 </section>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<asside>
+    {% include tag_box.html %}
+</asside>
 </article>
 <!--End Linklog "{% include logic/pp-title.html %}"-->
