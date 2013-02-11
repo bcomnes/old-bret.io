@@ -9,7 +9,7 @@ asides: true
 
 <ul>
 <li><a href="/assets/resume/Bret-Comnes-Public.pdf">Resume</a> <a href="/assets/resume/Bret-Comnes-Public.txt">(.txt)</a></li>
-<li><span itemprop="email"><script type="text/javascript" src="/assets/js/email.js"> </script></span> me</li>
+<li><i class="icon-envelope"></i> <script type="text/javascript" src="/assets/js/email.js" itemprop="email" > </script> me</li>
 </ul>
 
 <a href="http://www.flickr.com/photos/bretc/">
