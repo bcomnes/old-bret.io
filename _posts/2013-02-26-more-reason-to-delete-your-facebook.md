@@ -12,9 +12,9 @@ I never got around to writing about the reasons I deleted (not just deactivating
 
 Additionally, here are some pretty fantastic talks given by Eben Moglen only providing more support for the position of dumping the power of the book.
 
-<div class="flex-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/sKOk4Y4inVY?list=FLd8cLeIEVcsbhyX9FDph-Jg" frameborder="0" allowfullscreen></iframe></div>
+<div class="flex-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/sKOk4Y4inVY?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="flex-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/QOEMv0S8AcA?list=FLd8cLeIEVcsbhyX9FDph-Jg" frameborder="0" allowfullscreen></iframe></div>
+<div class="flex-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/QOEMv0S8AcA?rel=0" frameborder="0" allowfullscreen></iframe></iframe></div>
 
 And just for fun:
-<div class="flex-video"><iframe width="560" height="315" src="http://www.youtube.com/embed/CK62I-4cuSY?list=FLd8cLeIEVcsbhyX9FDph-Jg" frameborder="0" allowfullscreen></iframe></div>
+<div class="flex-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/CK62I-4cuSY?rel=0" frameborder="0" allowfullscreen></iframe></div>
