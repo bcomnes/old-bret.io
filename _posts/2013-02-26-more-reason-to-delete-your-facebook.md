@@ -8,9 +8,9 @@ tags: [Facebook, Social Networking, Privacy, Video]
 published: true
 ---
 
-I never got around to writing about the reasons I deleted (not just deactivating) my Facebook account more than a year ago.  Sure, it was helpful for keeping in contact with people who can't keep track of a single email address for an extended number of years, but it began to act as the anti-social network for those close and active in my life.  Initiating social engagements increasingly relied on this corporate network, and it provided the illusion of communication, when really it only acted as a black hole for our thoughts and experiences.  I might still get around to writing about why, but for now, this article nails a lot of wonderful, more recent ways Facebook totally sucks and why you should also delete your account.
+I never got around to writing about the reasons I deleted (not just deactivated) my Facebook account more than a year ago.  Sure, it was helpful for keeping in contact with people who have fallen out daily contact with, but it began to act as the anti-social network for those close and active in my life.  Initiating social engagements increasingly relied on this corporate network, and it provided the illusion of communication, when really it only acted as a black hole for our thoughts and experiences.  I might still get around to writing about why, but for now, this article nails a lot of wonderful, more recent ways Facebook totally sucks and why it isn't such a bad way to get off of it if you can afford to.
 
-Needless to say, I have not looked back since.  It was a weight off my shoulders and I recommend you do the same.
+Needless to say, I have not looked back since quitting.  It was a weight off my shoulders and I recommend it to anyone feeling the same way about it.
 
 Additionally, here are some pretty fantastic talks given by Eben Moglen only providing more support for the position of dumping the power of the book.
 
