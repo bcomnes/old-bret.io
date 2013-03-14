@@ -14,4 +14,4 @@ Like how TextMate 2 resizes the font of your header levels while editing your ma
 
 To install, just navigate to ~/Library/Application\ Support/Avian/Bundles/ and perform a `git clone https://github.com/bcomnes/LaTeX-Section-Font-Sizes.tmbundle.git` and you should be good to go.  You can also download a [.zip or tar.gz](https://github.com/bcomnes/LaTeX-Section-Font-Sizes.tmbundle/tags) if you prefer to avoid git.
 
-Right now it changes the font and size of the section, subsection, and subsubsections in the LaTeX bundle.  The bundle will get updates as needed but suggestions are always appreciated.  Have have a look around in the bundle editor to see how this was achieved.  It is really simple and it would be neat to see what other come up with.
+Right now it changes the font and size of the section, subsection, and subsubsections in the LaTeX bundle.  The bundle will get updates as needed but suggestions are always appreciated.  Have have a look around in the bundle editor once it is installed to see how this was achieved.  It is really simple and it would be neat to see how others could expand upon it.
