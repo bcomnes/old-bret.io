@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LaTeX Section Font Sizing in Textmate 2"
+title: "LaTeX Section Font Sizing in TextMate 2"
 date: 2013-03-13 21:12
 comments: false
 external-url: 
