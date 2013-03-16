@@ -22,7 +22,7 @@ layout: nil
       <title>{{ post.title }}</title>
       {% when 'linklog' %}
       <link type="text/html" rel="alternate" href="{{ post.external-url | xml_escape }}"/>
-      <title>{{ post.title }}<span class='linklog-marker'>{{ site.linklog }}</span></title>
+      <title>{{ post.title }} {{ site.linklog }}</title>
       {% else %}
       <link type="text/html" rel="alternate" href="http://www.bre.tc{{ post.url | xml_escape }}"/>
       <title>{{ post.title }}</title>
