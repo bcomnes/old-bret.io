@@ -92,6 +92,13 @@ article.linklog header h2 small {
     font-size: 0.5em;
 }
 
+article.linklog-marker {
+	font-size: 24.5px;
+	font-weight: normal;
+	line-height: 1;
+	color: rgb(153, 153, 153);
+}
+
 /* Assides
 -------------------------------------------------- */
 /* Resize of the linklog Title */
