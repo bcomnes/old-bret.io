@@ -1,7 +1,7 @@
 ---
 layout: nil
 ---
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>bre.tc</title>
@@ -22,7 +22,7 @@ layout: nil
       <title>{{ post.title }}</title>
       {% when 'linklog' %}
       <link type="text/html" rel="alternate" href="{{ post.external-url | xml_escape }}"/>
-      <title>{{ post.title }}<small class='linklog-marker'>{{ site.linklog }}</small></title>
+      <title>{{ post.title }} {{ site.linklog }}</title>
       {% else %}
       <link type="text/html" rel="alternate" href="http://www.bre.tc{{ post.url | xml_escape }}"/>
       <title>{{ post.title }}</title>
