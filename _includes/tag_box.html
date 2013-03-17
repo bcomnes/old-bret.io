@@ -1,7 +1,8 @@
-<ul class="tag_box inline" itemprop="keywords">
+<ul class="tag_box inline">
     {% if page.tags.first != null %}{% comment %} If tags exist {% endcomment %}
+    <li><i class="icon-tags"></i></li>
         {% for tag in page.tags %}{% comment %} add an element like the following for each tag item {% endcomment %}
-            <li class="btn btn-mini"><a href="/blog/tags/#{{ tag }}"><span class="tag-name" itemprop="keywords">{{ tag }}</span>{% comment %} This is just the tag name {% endcomment %}
+            <li class="btn btn-mini"><a href="/pages/tags/#{{ tag }}"><span class="tag-name" itemprop="keywords">{{ tag }}</span>{% comment %} This is just the tag name {% endcomment %}
             <span class="tag-count">{{ tag.size }}</span>{% comment %} This counts the number of posts in a given tag {% endcomment %}
             </a></li>
         {% endfor %}

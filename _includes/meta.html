@@ -1,5 +1,5 @@
     <meta charset="utf-8" />
-    <title>{% if paginator.page %}{% if paginator.page != 1 %} {{ site.brand }} ~ {{ paginator.page }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ site.brand }} ~ {{ page.title }}{% endif %}</title>
+    <title>{% if paginator.page %}{% if paginator.page != 1 %}{{ paginator.page }} ~ {{ site.brand }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ page.title }} ~ {{ site.brand }}{% endif %}</title>
     <meta content="{% if paginator.page %}{% if paginator.page != 1 %} {{ site.brand }} ~ {{ paginator.page }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ site.brand }} ~ {{ page.title }}{% endif %}" itemprop='name'/>
     {% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}
     {% if page.url == "/index.html" %}{% if site.description %}<meta itemprop="description" content="{{ site.description }}" />{% endif %}{% endif %}
@@ -9,3 +9,4 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Google webmaster tools-->
     <meta name="google-site-verification" content="1xXlZT_U_pGHsfrScC5v0cg5uydc53RXNLmX-1gXa44" />
+	<meta name="msvalidate.01" content="8C03EAC159FD742794668D7663E86AED" />

@@ -3,7 +3,7 @@
 <header>
 <hgroup>
 <h1 itemprop="name headline">
-<a href="{% include logic/pp-url.html %}" itemprop="url">{% include logic/pp-title.html %}</a>
+<a href="{% include logic/pp-url.html %}" itemprop="url" rel="bookmark">{% include logic/pp-title.html %}</a>
 </h1>
 <h2><small>
 <time datetime="{% include logic/pp-date-xml.html %}" itemprop="datePublished">{% include logic/pp-date-str.html %}</time>
@@ -16,8 +16,6 @@
 {% include logic/pp-content.html %}
 </section>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<asside>
-    {% include tag_box.html %}
-</asside>
+{% include logic/pp-post-footer.html %}
 </article>
 <!--End Post "{% include logic/pp-title.html %}"-->

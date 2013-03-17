@@ -1,0 +1,7 @@
+<ul class="breadcrumb">
+  <li><a href="/pages/archive/">&sect;</a> <span class="divider">/</span></li>
+  <li><a href="/pages/archive/#{{ page.date | date: "%Y" }}">{{ page.date | date: "%Y" }}</a> <span class="divider">/</span></li>
+  <li><a href="/pages/archive/#{{ page.date | date: "%Y:%m" }}">{{ page.date | date: "%m" }}</a> <span class="divider">/</span></li>
+  <li><a href="/pages/archive/#{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d" }}</a> <span class="divider">/</span></li>
+  <li class="active">{{ page.title }} <span class="divider">/</span></li>
+</ul>
