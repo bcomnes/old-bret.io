@@ -5,9 +5,9 @@ markdown: rdiscount
 safe: true
 lsi: false
 pygments: true
-auto: true
-server: true
-server_port: 4000
+#auto: true
+#server: true
+#server_port: 4000
 future: false
 exclude: [categories.html]
 
