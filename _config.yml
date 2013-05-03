@@ -8,12 +8,12 @@ pygments: true
 #auto: true 
 #server: true
 #server_port: 4000
-future: false
+#future: false
 exclude: [categories.html]
 
-source:      .
-destination: ./_site
-plugins:     ./_plugins
+#source:      .
+#destination: ./_site
+#plugins:     ./_plugins
 
 
 author: "Bret Comnes"
