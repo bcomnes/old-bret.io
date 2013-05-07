@@ -21,3 +21,5 @@ Taking the magic out of Distributed Hash Tables (DHT).
 {{ site.time }}
 
 {{ site.time | date_to_xmlschema }}
+
+{{ "Sun Feb 10 01:51:00 -0800 2013" | date_to_xmlschema }}
