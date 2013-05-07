@@ -2,7 +2,7 @@
 layout: default
 title: About
 asides: true
-date: 2013-02-10 00:51
+date: 2013-02-10 01:51
 ---
 <div itemscope itemtype="http://schema.org/Person">
 <h1 itemprop="name">Bret Comnes</h1>
@@ -19,6 +19,8 @@ date: 2013-02-10 00:51
 </div>
 
 {{ page.date }}
+
+{{ page.date | date_to_xmlschema }}
 
 {{ site.time }}
 
