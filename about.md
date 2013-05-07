@@ -17,13 +17,3 @@ date: 2013-02-10 01:51:00
 <img itemprop="image" src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=200" class="img-polaroid" alt="A picture of me!">
 </a>
 </div>
-
-{{ page.date  }}
-
-{{ page.date | date: "%a %b %d %X %z %Y" }}
-
-{{ page.date | date: "%d %B %Y" }}
-
-{{ site.time }}
-
-{{ site.time | date_to_xmlschema }}

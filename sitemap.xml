@@ -1,0 +1,35 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for node in site.pages %}
+    <url>
+{% if node.url contains 'page' %}
+        <loc>http://{{ site.url | xml_escape }}{{ node.url | remove: "index.html" | xml_escape }}</loc>
+        
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        
+        <priority>0.4</priority>
+{% else %}
+        <loc>http://{{ site.url | xml_escape }}{{node.url | xml_escape }}</loc>
+        
+        {% comment %}TODO <lastmod>{% if node.date %}{{ node.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>{% endcomment %}
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        
+        {% if node.url contains '/about/' %}<priority>0.8</priority>{% endif %}
+        
+{% endif %}
+    </url>
+{% endfor %}
+{% for node in site.posts %}
+    <url>
+        <loc>http://{{ site.url | xml_escape }}{{node.url | xml_escape}}</loc>
+        
+        <lastmod>{% if node.date %}{{ node.date | date_to_xmlschema }}{% elsif node.updated %}{{ node.updated | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+        <priority>0.7</priority>
+    </url>
+{% endfor %}
+
+</urlset>
