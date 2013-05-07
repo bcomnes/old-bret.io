@@ -15,7 +15,7 @@
 {% else %}
         <loc>http://{{ site.url | xml_escape }}{{node.url | xml_escape }}</loc>
         
-        <lastmod>{% if node.date %}{{ node.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+        <lastmod>{% if node.date %}{{ node.date: "%d %B %Y" | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
         
         {% if node.url contains '/about/' %}<priority>0.8</priority>{% endif %}
         
