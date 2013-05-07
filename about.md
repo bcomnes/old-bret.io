@@ -20,6 +20,8 @@ date: 2013-02-10 01:51
 
 {{ page.date | date: "%a %b %d %X %z %Y" }}
 
+{{ page.date | date: "%a %b %d %X %z %Y" | date_to_xmlschema }}
+
 {{ site.time }}
 
 {{ site.time | date_to_xmlschema }}
