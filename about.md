@@ -18,6 +18,4 @@ date: 2013-02-10 00:51
 </a>
 </div>
 
-{{ page.date | date_to_xmlschema }}
-
 {{ site.time | date_to_xmlschema }}
