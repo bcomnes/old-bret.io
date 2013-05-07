@@ -17,3 +17,7 @@ date: 2013-02-10 00:51
 <img itemprop="image" src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=200" class="img-polaroid" alt="A picture of me!">
 </a>
 </div>
+
+{{ page.date | date_to_xmlschema }}
+
+{{ site.time | date_to_xmlschema }}
