@@ -18,11 +18,12 @@ date: 2013-02-10 01:51
 </a>
 </div>
 
+{{ page.date  }}
+
 {{ page.date | date: "%a %b %d %X %z %Y" }}
 
 {{ page.date | date: "%d %B %Y" }}
 
-{{ page.date | date: "%d %B %Y" | date_to_xmlschema }}
 
 {{ site.time }}
 
