@@ -24,8 +24,6 @@ date: 2013-02-10 01:51:00
 
 {{ page.date | date: "%d %B %Y" }}
 
-{{ "Sun Feb 10 01:51:00 -0800 2013" | date_to_xmlschema }}
-
 {{ site.time }}
 
 {{ site.time | date_to_xmlschema }}
