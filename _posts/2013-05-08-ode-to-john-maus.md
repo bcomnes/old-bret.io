@@ -19,5 +19,14 @@ published: true
 </div>
 
 <div class="flex-video">
+   <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/UthkwSa4Nb8" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<div class="flex-video">
     <iframe src="http://player.vimeo.com/video/26588609?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<div class="flex-video">
+   <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/A4b0c7bdzfg" frameborder="0" allowfullscreen></iframe>
 </div>
