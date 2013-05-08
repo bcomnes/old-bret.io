@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 title: "Ode to John Maus"
 date: 2013-05-08 00:35
 comments: false
