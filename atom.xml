@@ -5,8 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>bre.tc</title>
-  <link href="http://www.bre.tc/"/>
-  <link type="application/atom+xml" rel="self" href="http://www.bre.tc/atom.xml"/>
+  <link href="/"/>
+  <link type="application/atom+xml" rel="self" href="/atom.xml"/>
   <link href="http://pubsubhubbub.appspot.com/" rel="hub"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://www.bre.tc/</id>
