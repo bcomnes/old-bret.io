@@ -36,7 +36,7 @@ layout: nil
       </author>
       <content type="html">
       {{ post.content | xml_escape }}
-      {% if post.layout == 'linklog' %}<a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>{% endif %}
+      {% if post.layout == 'linklog' %}{% capture bookmark %}<a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>{% endcapture %}{{ bookmark | xml_escape }}{% endif %}
       </content>
     </entry>
     {% endfor %}
