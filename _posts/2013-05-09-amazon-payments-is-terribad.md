@@ -9,9 +9,9 @@ tags: [Amazon]
 published: true
 ---
 
-A month or so ago, I deiced to pay for a [Wolfram Alpha]() account to play around with some of the pro features longer than the trial allowed.  I decided to use [Amazon Payments](), thinking that it would be linked to my amazon account and ready to rock, and to see what some of the Paypal alternatives were like.  
+A month or so ago, I deiced to pay for a [Wolfram Alpha](http://www.wolframalpha.com) account to play around with some of the pro features longer than the trial allowed.  I decided to use [Amazon Payments](https://payments.amazon.com/sdui/sdui/index.htm), thinking that it would be linked to my Amazon account and ready to rock, and to see what some of the Paypal alternatives were like.  
 
-This was a total mistake. 
+This was a total mistake, and apparently its totally a separate thing from you Amazon account!  Way to take advantage of perceived connivence.
 
 A month later my Alpha subscription renewed after forgetting about it, and I decided it was time to end the subscription.  With the assumption Amazon simply wouldn't allow for merchants to charge my account whenever they wanted, I went over to Amazon payments to cancel the subscription, assuming it worked similar to PayPal since it's basically a clone of that service. 
 
