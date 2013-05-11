@@ -13,7 +13,7 @@ published: true
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/e2lyYEUPat8?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Word from [BOC](www.boardsofcanada.com/‎), at last.
+Word from [BOC](http://www.boardsofcanada.com/‎), at last.
 
 *	[Track list](http://bocpages.org/wiki/Tomorrow%27s_Harvest)
 *	[Record Store Day Incident](http://bocpages.org/wiki/Record_Store_Day_incident)
