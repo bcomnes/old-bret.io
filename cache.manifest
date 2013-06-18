@@ -4,7 +4,7 @@ layout: nil
 CACHE MANIFEST
 # published {{ site.time | date_to_xmlschema }}
 FALLBACK:
-/ /offline/
+/ /offline.html
 NETWORK:
 /assets/js/pinboard.js
 *
