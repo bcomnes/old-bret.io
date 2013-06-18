@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Test
-asides: true
+asides: false
 date: 2013-05-28 01:51:00
 ---
 
