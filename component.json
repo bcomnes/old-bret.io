@@ -1,7 +1,0 @@
-{
-  "name": "bre.tc",
-  "version": "0.0.0",
-  "dependencies": {
-    "jquery": "~1.8.3"
-  }
-}
