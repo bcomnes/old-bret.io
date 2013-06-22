@@ -8,7 +8,7 @@
 </h1>
 <h2><small>
 <time datetime="{% include logic/pp-date-xml.html %}" itemprop="datePublished">{% include logic/pp-date-str.html %}</time>
-&bull; <a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>
+&bull; {% if post.title %}<a rel="bookmark" href="{% include logic/pp-url.html %}">{% endif %}{{ site.permalink_marker }}{% if post.title %}</a>{% endif %}
 </small></h2>
 {% include logic/pp-post-author.html %}
 </hgroup>

@@ -3,7 +3,7 @@
 <header>
 <hgroup>
 <h1 itemprop="name headline">
-<a href="{% include logic/pp-url.html %}" itemprop="url" rel="bookmark">{% include logic/pp-title.html %}</a>
+{% if post.title %}<a href="{% include logic/pp-url.html %}" itemprop="url" rel="bookmark">{% endif %}{% include logic/pp-title.html %}{% if post.title %}</a>{% endif %}
 </h1>
 <h2><small>
 <time datetime="{% include logic/pp-date-xml.html %}" itemprop="datePublished">{% include logic/pp-date-str.html %}</time>

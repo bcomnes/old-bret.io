@@ -1,3 +1,7 @@
+---
+layout: nil
+permalink: /robots.txt
+---
 User-agent: *
-Sitemap:http://www.bre.tc/sitemap.xml
+Sitemap:http://{{ site.url }}/sitemap.xml
 Disallow:

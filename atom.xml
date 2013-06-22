@@ -4,38 +4,39 @@ layout: nil
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>bre.tc</title>
-  <link href="http://www.bre.tc/"/>
-  <link type="application/atom+xml" rel="self" href="http://www.bre.tc/atom.xml"/>
+  <title>{{ site.brand }}</title>
+  <link href="http://{{ site.url }}/"/>
+  <link type="application/atom+xml" rel="self" href="http://{{ site.url }}/atom.xml"/>
+  <link href="http://pubsubhubbub.appspot.com/" rel="hub"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://www.bre.tc/</id>
+  <id>http://{{ site.url }}/</id>
   <author>
-    <name>bre.tc</name>
+    <name>{{ site.author }}</name>
     <email>bcomnes.github@bcomnes.github.com</email>
   </author>
   {% for post in site.posts limit:5 %}
     <entry>
-      <id>http://www.bre.tc{{ post.id }}</id>
+      <id>http://{{ site.url }}{{ post.id }}</id>
       {% case post.layout %}
       {% when 'post' %}
-      <link type="text/html" rel="alternate" href="http://www.bre.tc{{ post.url | xml_escape }}"/>
+      <link type="text/html" rel="alternate" href="http://{{ site.url }}{{ post.url | xml_escape }}"/>
       <title>{{ post.title }}</title>
       {% when 'linklog' %}
       <link type="text/html" rel="alternate" href="{{ post.external-url | xml_escape }}"/>
       <title>{{ post.title }} {{ site.linklog }}</title>
       {% else %}
-      <link type="text/html" rel="alternate" href="http://www.bre.tc{{ post.url | xml_escape }}"/>
+      <link type="text/html" rel="alternate" href="http://{{ site.url }}{{ post.url | xml_escape }}"/>
       <title>{{ post.title }}</title>
       {% endcase %}
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       <author>
-        <name>bre.tc</name>
-        <uri>http://www.bre.tc/</uri>
+        <name>{{ site.url }}</name>
+        <uri>http://{{ site.url }}/</uri>
       </author>
       <content type="html">
       {{ post.content | xml_escape }}
-      {% if post.layout == 'linklog' %}<a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>{% endif %}
+      {% if post.layout == 'linklog' %}{% capture bookmark %}<a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>{% endcapture %}{{ bookmark | xml_escape }}{% endif %}
       </content>
     </entry>
     {% endfor %}
