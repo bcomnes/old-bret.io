@@ -1,6 +1,6 @@
 ---
 layout: linklog
-title: "Indiweb Comment"
+title: "Indieweb Comment"
 date: 2013-06-22 09:59
 comments: false
 sidebar: collapse
