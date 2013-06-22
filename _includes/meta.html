@@ -1,8 +1,8 @@
     <meta charset="utf-8" />
     <title>{% if paginator.page %}{% if paginator.page != 1 %}{{ paginator.page }} ~ {{ site.brand }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ page.title }} ~ {{ site.brand }}{% endif %}</title>
-    <meta content="{% if paginator.page %}{% if paginator.page != 1 %} {{ site.brand }} ~ {{ paginator.page }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ site.brand }} ~ {{ page.title }}{% endif %}" itemprop='name'/>
+    <meta content="{% if paginator.page %}{% if paginator.page != 1 %} {{ site.brand }} ~ {{ paginator.page }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ site.brand }} ~ {{ page.title }}{% endif %}"/>
     {% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}
-    {% if page.url == "/index.html" %}{% if site.description %}<meta itemprop="description" content="{{ site.description }}" />{% endif %}{% endif %}
+    {% if page.url == "/index.html" %}{% if site.description %}<meta content="{{ site.description }}" />{% endif %}{% endif %}
     {% if site.author %}<meta name="author" content="{{ site.author }}" />{% endif %}
     <!--{% if site.author %}<link rel="author" href="humans.txt" />{% endif %}-->
     <!--Twitter bootstrap For responsive stuff, I think-->
