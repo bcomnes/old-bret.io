@@ -1,20 +1,20 @@
 <!--Begin Linklog "{% include logic/pp-title.html %}"-->
-<article class="linklog">
+<article class="linklog h-entry">
 <header>
 <hgroup>
-<h1>
-<a href="{% include logic/pp-external-url.html %}">{% include logic/pp-title.html %}</a>
+<h1 class="p-name">
+<a class="u-in-reply-to" href="{% include logic/pp-external-url.html %}">{% include logic/pp-title.html %}</a>
 <span class='linklog-marker'>{{ site.linklog }}</span>
 </h1>
 <h2><small>
-<time datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
-&bull; {% if post.title %}<a rel="bookmark" href="{% include logic/pp-url.html %}">{% endif %}{{ site.permalink_marker }}{% if post.title %}</a>{% endif %}
+<time class="dt-published" datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
+&bull; {% if post.title %}<a rel="bookmark" class="u-url" href="{% include logic/pp-url.html %}">{% endif %}{{ site.permalink_marker }}{% if post.title %}</a>{% endif %}
 </small></h2>
 {% include logic/pp-post-author.html %}
 </hgroup>
 </header>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<section>
+<section class="e-content">
 {% include logic/pp-content.html %}
 </section>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->

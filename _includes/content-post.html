@@ -1,18 +1,18 @@
 <!--Begin Post "{% include logic/pp-title.html %}"-->
-<article class="post">
+<article class="post h-entry">
 <header>
 <hgroup>
-<h1>
+<h1 class="p-name">
 {% if post.title %}<a href="{% include logic/pp-url.html %}" rel="bookmark">{% endif %}{% include logic/pp-title.html %}{% if post.title %}</a>{% endif %}
 </h1>
 <h2><small>
-<time datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
+<time class="dt-published" datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
 </small></h2>
 {% include logic/pp-post-author.html %}
 </hgroup>
 </header>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<section>
+<section class="e-content">
 {% include logic/pp-content.html %}
 </section>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
