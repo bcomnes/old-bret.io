@@ -1,8 +1,3 @@
----
-layout: default
-asides: false
-tagbox: false
----
 <!--Begin note "{% include logic/pp-title.html %}"-->
 <article class="note h-entry">
 <section class="e-content p-summary p-name">
@@ -10,6 +5,6 @@ tagbox: false
 </section>
 <footer>
 <time class="dt-published" datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
-<a class="u-in-reply-to" href="{{ post.in-reply-to-url }}">{{ page.in-reply-to-url }}</a>
+<a class="u-in-reply-to" href="{{ post.in-reply-to-url }}">{{ post.in-reply-to-url }}</a>
 </footer>
 <!--End Post "{% include logic/pp-title.html %}"-->
