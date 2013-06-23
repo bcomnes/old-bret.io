@@ -2,6 +2,7 @@
 layout: default
 asides: false
 tagbox: false
+footer: false
 ---
 <!--Begin note "{% include logic/pp-title.html %}"-->
 <article class="note h-entry">
@@ -9,9 +10,18 @@ tagbox: false
 {% include logic/pp-content.html %}
 </section>
 <footer>
+<img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=96" class="img-polaroid u-photo" alt="A picture of me!">
 <ul>
-<li><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> &bull; {% if post.title %}<a rel="bookmark" class="u-url" href="{% include logic/pp-url.html %}">{% endif %}{{ site.permalink_marker }}{% if post.title %}</li>
-<li><a class="u-in-reply-to" href="{{ post.in-reply-to-url }}">{{ page.in-reply-to-url }}</a></li>
+	<li><a class="fn url" href="/about">{{ site.author }}</a></li>
+<li>
+	<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
+		{{ page.date | date_to_string }}
+	</time> &bull; {{ site.permalink_marker }}	
+</li>
+<li>
+	RE: <a class="u-in-reply-to" href="{{ page.in-reply-to-url }}">{{ page.in-reply-to-title }}</a>
+</li>
+
 <ul>
 </footer>
 </article>
