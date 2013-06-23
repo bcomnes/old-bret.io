@@ -10,9 +10,11 @@ footer: false
 {% include logic/pp-content.html %}
 </section>
 <footer>
-<img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=96" class="img-polaroid u-photo" alt="A picture of me!">
+<ul class="vcard">
+<li><img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=96" class="img-polaroid photo" alt="A picture of me!"></li>
+<li><a class="fn url" href="/about">{{ site.author }}</a></li>
+</ul>
 <ul>
-	<li><a class="fn url" href="/about">{{ site.author }}</a></li>
 <li>
 	<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
 		{{ page.date | date_to_string }}
@@ -21,8 +23,7 @@ footer: false
 <li>
 	RE: <a class="u-in-reply-to" href="{{ page.in-reply-to-url }}">{{ page.in-reply-to-title }}</a>
 </li>
-
-<ul>
+</ul>
 </footer>
 </article>
 <!--End Post "{% include logic/pp-title.html %}"-->
