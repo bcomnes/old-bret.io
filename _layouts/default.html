@@ -17,10 +17,12 @@
 {{ content }}
 </section>
 
+{% if page.asides == true or page.footer == true %}
 <div class="vcard">
 {% if page.asides == true %}{% include asides.html %}{% endif %}
-{% include footer.html %}
+{% if page.footer == true %}{% include footer.html %}{% endif %}
 </div>
+{% endif %}
 {% include js.html %}
 </body>
 </html>

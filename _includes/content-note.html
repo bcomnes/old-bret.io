@@ -1,0 +1,15 @@
+<!--Begin note "{% include logic/pp-title.html %}"-->
+<article class="note h-entry">
+<section class="e-content p-summary p-name">
+{% include logic/pp-content.html %}
+</section>
+<footer>
+<ul>
+<li>
+	<time class="dt-published" datetime="{{ post.date | date_to_xml }}">{{ post.date | date_to_string }}</time> &bull; <a rel="bookmark" class="u-url" href="{% include logic/pp-url.html %}">{{ site.permalink_marker }}</a>
+</li>
+<li>RE: <a class="u-in-reply-to" href="{{ post.in-reply-to-url }}">{{ post.in-reply-to-title }}</a></li>
+</ul>
+</footer>
+</article>
+<!--End Post "{% include logic/pp-title.html %}"-->
