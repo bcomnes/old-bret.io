@@ -4,7 +4,10 @@
 {% include logic/pp-content.html %}
 </section>
 <footer>
-<time class="dt-published" datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
-<a class="u-in-reply-to" href="{{ post.in-reply-to-url }}">{{ post.in-reply-to-url }}</a>
+<ul>
+<li><time class="dt-published" datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time> &bull; {% if post.date %}<a rel="bookmark" class="u-url" href="{% include logic/pp-url.html %}">{% endif %}{{ site.permalink_marker }}{% if post.date %}</a>{% endif %}</li>
+<li><a class="u-in-reply-to" href="{{ post.in-reply-to-url }}">{{ post.in-reply-to-url }}</a></li>
+</ul>
 </footer>
+</article>
 <!--End Post "{% include logic/pp-title.html %}"-->
