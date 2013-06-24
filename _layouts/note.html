@@ -6,10 +6,7 @@ footer: false
 ---
 <!--Begin note "{% include logic/pp-title.html %}"-->
 <article class="note h-entry">
-<div class="e-content p-summary p-name">
-{% include logic/pp-content.html %}
-</div>
-<footer>
+<header>
 <div class="h-card">
 <img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=96" class="img-polaro/id u-photo" alt="A picture of me!">
 <a class="fn u-url p-name p-author" href="/about">{{ site.author }}</a>
@@ -24,6 +21,9 @@ footer: false
 	RE: <a class="u-in-reply-to" href="{{ page.in-reply-to-url }}">{{ page.in-reply-to-title }}</a>
 </li>
 </ul>
-</footer>
+</header>
+<div class="e-content p-summary p-name">
+{% include logic/pp-content.html %}
+</div>
 </article>
 <!--End Post "{% include logic/pp-title.html %}"-->
