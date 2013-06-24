@@ -6,21 +6,19 @@ footer: false
 ---
 <!--Begin note "{% include logic/pp-title.html %}"-->
 <article class="note h-entry">
-    <header>
-    <ul class="h-card">
-    <li><img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=96" class="img-polaroid u-photo" alt="A picture of me!"></li>
-    <li><a class="fn u-url p-name p-author" href="/about">{{ site.author }}</a></li>
-    <li>
-    	<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
-    		{{ page.date | date_to_string }}
-    	</time> &bull; {{ site.permalink_marker }}	
-    </li>
-    <li>
-    	RE: <a class="u-in-reply-to" href="{{ page.in-reply-to-url }}">{{ page.in-reply-to-title }}</a>
-    </li>
-    </ul>
-    </header>
-<section class="e-content p-summary p-name">
+<ul class="h-card">
+<li><img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=96" class="img-polaroid u-photo" alt="A picture of me!"></li>
+<li><a class="fn u-url p-name p-author" href="/about">{{ site.author }}</a></li>
+<li>
+<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
+{{ page.date | date_to_string }}
+</time> &bull; {{ site.permalink_marker }}	
+</li>
+<li>
+RE: <a class="u-in-reply-to" href="{{ page.in-reply-to-url }}">{{ page.in-reply-to-title }}</a>
+</li>
+</ul>
+<section class="e-content p-name">
 {% include logic/pp-content.html %}
 </section>
 </article>
