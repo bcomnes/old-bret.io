@@ -14,29 +14,29 @@ layout: nil
     <name>{{ site.author }}</name>
     <email>bcomnes.github@bcomnes.github.com</email>
   </author>
-  {% for post in site.posts limit:5 %}
+  {% for page in site.posts limit:5 %}
     <entry>
-      <id>http://{{ site.url }}{{ post.id }}</id>
-      {% case post.layout %}
+      <id>http://{{ site.url }}{{ page.id }}</id>
+      {% case page.layout %}
       {% when 'post' %}
-      <link type="text/html" rel="alternate" href="http://{{ site.url }}{{ post.url | xml_escape }}"/>
-      <title>{{ post.title }}</title>
+      <link type="text/html" rel="alternate" href="http://{{ site.url }}{{ page.url | xml_escape }}"/>
+      <title>{{ page.title }}</title>
       {% when 'linklog' %}
-      <link type="text/html" rel="alternate" href="{{ post.external-url | xml_escape }}"/>
-      <title>{{ post.title }} {{ site.linklog }}</title>
+      <link type="text/html" rel="alternate" href="{{ page.external-url | xml_escape }}"/>
+      <title>{{ page.title }} {{ site.linklog }}</title>
       {% else %}
-      <link type="text/html" rel="alternate" href="http://{{ site.url }}{{ post.url | xml_escape }}"/>
-      <title>{{ post.title }}</title>
+      <link type="text/html" rel="alternate" href="http://{{ site.url }}{{ page.url | xml_escape }}"/>
+      <title>{{ page.title }}</title>
       {% endcase %}
-      <published>{{ post.date | date_to_xmlschema }}</published>
-      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <published>{{ page.date | date_to_xmlschema }}</published>
+      <updated>{{ page.date | date_to_xmlschema }}</updated>
       <author>
         <name>{{ site.url }}</name>
         <uri>http://{{ site.url }}/</uri>
       </author>
       <content type="html">
-      {{ post.content | xml_escape }}
-      {% if post.layout == 'linklog' %}{% capture bookmark %}<a rel="bookmark" href="{% include logic/pp-url.html %}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>{% endcapture %}{{ bookmark | xml_escape }}{% endif %}
+      {{ page.content | xml_escape }}
+      {% if page.layout == 'linklog' %}{% capture bookmark %}<a rel="bookmark" href="{{ page.url }}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>{% endcapture %}{{ bookmark | xml_escape }}{% endif %}
       </content>
     </entry>
     {% endfor %}

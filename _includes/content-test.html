@@ -1,14 +1,13 @@
-<!--Begin Post "{{ page.title }}"-->
 <article class="post h-entry">
 <header>
 <hgroup>
 <h1 class="p-name">
-<a href="{{ page.url }}" rel="bookmark">{{ page.title }}</a>
+{% if page.title %}<a href="{{ page.url }}" rel="bookmark">{% endif %}{{ page.title }}{% if page.title %}</a>{% endif %}
 </h1>
 <h2><small>
 <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
 </small></h2>
-{% include post_author.html %}
+<h3 class="author p-author h-card"><small>{{ site.author }}</small></h3>
 </hgroup>
 </header>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -18,4 +17,3 @@
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 {% include post_footer.html %}
 </article>
-<!--End Post "{{ page.title }}" -->
