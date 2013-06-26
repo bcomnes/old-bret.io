@@ -2,6 +2,7 @@
 <article class="note h-entry">
 <section class="e-content p-summary p-name">
 {% include logic/pp-content.html %}
+{% if post.rsvp %}<data class="p-rsvp" value="{{ post.rsvp }}">I'm RSVPing "{{ post.rsvp }}"</data>{% endif %}
 </section>
 <footer>
 <ul>

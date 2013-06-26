@@ -8,6 +8,7 @@ footer: false
 <article class="note h-entry">
 <section class="e-content p-summary p-name">
 {% include logic/pp-content.html %}
+{% if page.rsvp %}<data class="p-rsvp" value="{{ page.rsvp }}">I'm RSVPing "{{ page.rsvp }}"</data>{% endif %}
 </section>
 <footer>
 <ul class="h-card p-author">
