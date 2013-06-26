@@ -1,14 +1,14 @@
 <!--Begin Post "{{ page.title }}"-->
 <article class="post h-entry">
-<header>
-<hgroup>
+<header class="row">
+<hgroup class="span10">
 <h1 class="p-name">
-<a href="{{ page.url }}" rel="bookmark">{{ page.title }}</a>
+{% if content %}{% else %}<a href="{{ page.url }}" rel="bookmark">{% endif %}{{ page.title }}{% if content %}{% else %}</a>{% endif %}
 </h1>
 <h2><small>
 <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
 </small></h2>
-{% include post_author.html %}
+{% if content %}{% include post_author.html %}{% endif %}
 </hgroup>
 </header>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
