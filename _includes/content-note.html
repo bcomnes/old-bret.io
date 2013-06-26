@@ -1,16 +1,14 @@
 <!--Begin note "{% include logic/pp-title.html %}"-->
-<article class="note h-entry">
-<section class="e-content p-summary p-name">
+<article class="note h-entry row">
+	<header class="span2">
+		<time class="dt-published" datetime="{{ post.date | date_to_xml }}">{{ post.date | date_to_string }}</time> &bull; <a rel="bookmark" class="u-url" href="{% include logic/pp-url.html %}">{{ site.permalink_marker }}</a>
+	</li>
+	</ul>
+	</header>
+<section class="e-content p-summary p-name span10">
+<a class="u-in-reply-to" href="{{ post.in-reply-to-url }}">@{{ post.in-reply-to-title }}</a>
 {% include logic/pp-content.html %}
 {% if post.rsvp %}<data class="p-rsvp" value="{{ post.rsvp }}">I'm RSVPing "{{ post.rsvp }}"</data>{% endif %}
 </section>
-<footer>
-<ul>
-<li>
-	<time class="dt-published" datetime="{{ post.date | date_to_xml }}">{{ post.date | date_to_string }}</time> &bull; <a rel="bookmark" class="u-url" href="{% include logic/pp-url.html %}">{{ site.permalink_marker }}</a>
-</li>
-<li>RE: <a class="u-in-reply-to" href="{{ post.in-reply-to-url }}">{{ post.in-reply-to-title }}</a></li>
-</ul>
-</footer>
 </article>
 <!--End Post "{% include logic/pp-title.html %}"-->
