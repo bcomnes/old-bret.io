@@ -23,7 +23,7 @@ footer: false
 	</header>
 <section class="e-content p-summary p-name span10">
 <a class="u-in-reply-to" href="{{ page.in-reply-to-url }}">@{{ page.in-reply-to-title }}</a>{% include logic/pp-content.html %}
-{% if post.rsvp %}<data class="p-rsvp" value="{{ post.rsvp }}">I'm RSVPing "{{ post.rsvp }}"</data>{% endif %}
+{% if page.rsvp %}<data class="p-rsvp" value="{{ page.rsvp }}">I'm RSVPing "{{ page.rsvp }}"</data>{% endif %}
 </section>
 </article>
 <!--End Post "{% include logic/pp-title.html %}"-->
