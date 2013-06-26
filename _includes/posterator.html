@@ -1,5 +1,5 @@
-{% for post in paginator.posts %}
-{% case post.layout %}
+{% for page in paginator.posts %}
+{% case page.layout %}
 {% when 'post' %}
 {% include content-post.html %}
 {% when 'linklog' %}

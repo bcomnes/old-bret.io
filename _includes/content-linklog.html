@@ -1,23 +1,23 @@
-<!--Begin Linklog "{% include logic/pp-title.html %}"-->
+<!--Begin Linklog "{{ page.title }}"-->
 <article class="linklog h-entry">
 <header>
 <hgroup>
 <h1 class="p-name">
-<a class="u-in-reply-to" href="{% include logic/pp-external-url.html %}">{% include logic/pp-title.html %}</a>
+<a class="u-in-reply-to" href="{{ page.external-url }}">{{ page.title }}</a>
 <span class='linklog-marker'>{{ site.linklog }}</span>
 </h1>
 <h2><small>
-<time class="dt-published" datetime="{% include logic/pp-date-xml.html %}">{% include logic/pp-date-str.html %}</time>
-&bull; {% if post.title %}<a rel="bookmark" class="u-url" href="{% include logic/pp-url.html %}">{% endif %}{{ site.permalink_marker }}{% if post.title %}</a>{% endif %}
+<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+&bull; {% if content %}{% else %}<a rel="bookmark" class="u-url" href="{{ page.url }}">{% endif %}{{ site.permalink_marker }}{% if content %}{% else %}</a>{% endif %}
 </small></h2>
-{% include logic/pp-post-author.html %}
+<h3 class="author p-author h-card"><small>{{ page.author }}</small></h3>
 </hgroup>
 </header>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <section class="e-content p-summary">
-{% include logic/pp-content.html %}
+{% include content-switch.html %}
 </section>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-{% include logic/pp-post-footer.html %}
+{% include post_footer.html %}
 </article>
-<!--End Linklog "{% include logic/pp-title.html %}"-->
+<!--End Linklog "{{ page.title }}"-->
