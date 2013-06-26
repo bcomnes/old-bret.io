@@ -8,7 +8,7 @@
 </h1>
 <h2><small>
 <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-&bull; <a rel="bookmark" class="u-url" href="{{ page.url }}">{{ site.permalink_marker }}</a>
+&bull; {% if content %}{% else %}<a rel="bookmark" class="u-url" href="{{ page.url }}">{% endif %}{{ site.permalink_marker }}{% if content %}{% else %}</a>{% endif %}
 </small></h2>
 <h3 class="author p-author h-card"><small>{{ page.author }}</small></h3>
 </hgroup>
