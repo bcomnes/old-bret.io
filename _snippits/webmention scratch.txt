@@ -1,0 +1,17 @@
+curl -i -s $target | grep 'rel="http://webmention.org/"'
+
+curl -i -d "source=$your_url&target=$target_url" $targets_webmention_endpoint
+
+http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup
+
+curl -i -s http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup | grep 'rel="http://webmention.org/"'
+
+http://werd.io/webmention/
+
+http://bret.io/2013/06/25/t1/
+
+curl -i -d "source=http://bret.io/2013/06/25/t1/&target=http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup" http://werd.io/webmention/
+
+
+
+curl -i -d "source=http://bret.io/2013/06/25/t1/&target=http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup" http://werd.io/webmention/

@@ -1,0 +1,4 @@
+<link rel="pingback" href="http://eschnou.com/pingback">
+
+POST http://eschnou.com/pingback
+Content-Type: application/xml
