@@ -1,0 +1,32 @@
+http://werd.io/view/51c8fc19bed7de5e23600fb1
+curl -i -s http://werd.io/view/51c8fc19bed7de5e23600fb1 | grep 'rel="http://webmention.org/"'
+
+http://werd.io/webmention/
+
+curl -i -d "source=http://bret.io/2013/06/24/t4/&target=http://werd.io/view/51c8fc19bed7de5e23600fb1" http://werd.io/webmention/
+
+https://willnorris.com/2013/06/testing-indieweb-comments
+
+curl -i -s https://willnorris.com/2013/06/testing-indieweb-comments | grep 'rel="http://webmention.org/"'
+
+
+https://willnorris.com/wordpress/?webmention=endpoint
+
+curl -i -d "source=http://bret.io/2013/06/24/t5/&target=https://willnorris.com/2013/06/testing-indieweb-comments" https://willnorris.com/wordpress/?webmention=endpoint
+
+curl -i -s http://indiewebcamp.com/2013 | grep 'rel="http://webmention.org/"'
+
+http://pingback.me/indiewebcamp/webmention
+
+http://bret.io/2013/06/24/t4/
+
+curl -i -d "source=http://bret.io/2013/06/24/t5/&target=https://willnorris.com/2013/06/testing-indieweb-comments" http://pingback.me/indiewebcamp/webmention
+
+
+http://bret.io/2013/06/24/t6/
+
+curl -i -d "source=http://bret.io/2013/06/24/t6/&target=http://werd.io/view/51c921fcbed7de745b274ae6" http://werd.io/webmention/
+
+http://werd.io/view/51c8fc19bed7de5e23600fb1
+
+curl -i -d "source=http://bret.io/2013/06/24/t6/&target=http://werd.io/view/51c8fc19bed7de5e23600fb1" http://werd.io/webmention/
