@@ -4,7 +4,7 @@ title: "Ruby on Windows"
 date: 2013-06-26 22:59
 in-reply-to-url: 
 in-reply-to-title: 
-tags: [Ruby, Website]
+tags: [Ruby, Website, Documentation]
 published: true
 ---
 Here are my notes to get ruby up and running on windows in no time.  
