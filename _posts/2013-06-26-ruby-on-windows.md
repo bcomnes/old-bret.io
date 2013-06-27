@@ -20,6 +20,25 @@ Here are my notes to get ruby up and running on windows in no time.
 5. Using git bash, navigate to the `devkit` directory and run `ruby dk.rb init` then run `ruby dk.rb install`.  This might modify your path more.  This also could mean the uninstaller may not be able to remove the modifications made during the install of just ruby.  This is unclear and needs more testing.
 6. Now you can run `gem install bundle` and you are off to the races.
 
+### installing pygments for code highlighting
+
+1. Install python 2.x
+	- Python 3 does not work with pygments and jekyll for some reason.
+2. Add Python2x to your path
+3. Run these commands.  More info can be found at [jfisher-usgs's blog](http://jfisher-usgs.github.io/lessons/2012/05/30/jekyll-build-on-windows/) describing what this does.
+
+{% highlight sh %}
+$ curl -O http://python-distribute.org/distribute_setup.py
+$ python distribute_setup.py
+{% endhighlight %}
+
+4. Add `Python2x/Scripts\` to your path
+5. Install pygments
+
+{% highlight sh %}
+$ easy_install Pygments
+{% endhighlight %}
+
 ####I only use it for jekyll development.
 
 This should result in a fully working ruby install in a few minutes time.	
