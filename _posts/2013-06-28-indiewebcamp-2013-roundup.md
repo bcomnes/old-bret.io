@@ -14,7 +14,7 @@ This past weekend I attended [IndieWebCamp 2013](http://indiewebcamp.com/Main_Pa
 Every project at IWC2013 was interesting and important in its own way. They are the product of everyone scratching their own itch, [doing things their own way](https://www.youtube.com/watch?v=1OFyh8ihzEs), finding [common](http://microformats.org/) [ground](http://www.whatwg.org/specs/web-apps/current-work/multipage/) with others and ultimately avoiding [monoculture](http://indiewebcamp.com/monoculture).  That being said, the following projects really blew my mind.
 
 ## IndieAuth: Passwordless Authentication and Persona
-[<img class="pull-right" width="261" height="498" src="http://farm4.staticflickr.com/3717/9157793342_8c0b1c266e_o.png"></img>](http://farm4.staticflickr.com/3717/9157793342_8c0b1c266e_o.png)
+[<img class="pull-right" width="345" height="" src="http://farm4.staticflickr.com/3717/9157793342_8c0b1c266e_o.png"></img>](http://farm4.staticflickr.com/3717/9157793342_8c0b1c266e_o.png)
 
 [IndiAuth](https://indieauth.com/) added two additional authentication methods over the weekend, SMS and Persona.  [Austin King](http://ozten.com/psto/) and [Francois Marier](http://fmarier.org/), both Mozilla Developers, as well as as [Aaron Parecki](http://aaronparecki.com/) worked their magic and made this happen.
 
@@ -37,7 +37,7 @@ to your identifying website, IndieAuth allows you to authenticate with your doma
 [Lots](http://gizmodo.com/5977040/googles-making-moves-to-kill-the-password) [of](http://www.fool.com/investing/general/2013/05/14/paypal-and-apple-want-to-kill-your-password.aspx) influential tech companies talk about killing passwords.  IndieWebCamp has a working model for this today.  If only we could associate phone numbers with email addresses, maybe we could speed up adoption...
 
 ## Webfist
-<img class="pull-right" width="261" height="498" src="http://upload.wikimedia.org/wikipedia/commons/1/17/Fist.png"></img>
+<img class="pull-right" width="281" height="399" src="http://upload.wikimedia.org/wikipedia/commons/1/17/Fist.png"></img>
 
 What happens when two incredibly skilled Google engineers sit down for a day and hack on the solution to corporations who are too stubborn and/or slow to adopt open web technologies?  
 
@@ -73,7 +73,7 @@ There was [some controversy surrounding Webfinger](http://indiewebcamp.com/WebFi
 Oh, and I can't confirm or deny if **webfist.me** was purchased over the weekend.
 
 ## IndieWeb Implementations
-[<img class="pull-right" width="261" height="498" src="http://farm3.staticflickr.com/2807/9157907602_c9d5926a8a_o.png"></img>](http://farm3.staticflickr.com/2807/9157907602_c9d5926a8a_o.png)
+[<img class="pull-right" width="255" height="181" src="http://farm3.staticflickr.com/2807/9157907602_c9d5926a8a_o.png"></img>](http://farm3.staticflickr.com/2807/9157907602_c9d5926a8a_o.png)
 
 Shortly before IWC2013, an interesting thing happened at [eschnou.com](http://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html).  Using standard HTML, [Microformats](http://microformats.org/wiki/h-entry), and [Pingbacks](http://indiewebcamp.com/pingback)/[Webmentions](http://indiewebcamp.com/webmentions), a distributed commenting system emerged.  
 
@@ -93,7 +93,8 @@ Anyone with some common HTML classes and dom structures with the ability to send
 Some implementations display like a traditional comment system, others follow the twitter UX for handling replies.  Some people are even experimenting with threads.  The key to success here is that everyone is [selfdogfooding](http://indiewebcamp.com/selfdogfood).
 
 - #### Idno posting [Chickens](http://werd.io/view/51cba40ebed7de0162d02f9e), [Events](http://indiewebcamp.com/event), [RSVPs](http://indiewebcamp.com/rsvp) and [CRUD](http://indiewebcamp.com/reply#Update_a_comment)
-<img src="http://farm8.staticflickr.com/7385/9155902415_53114141a4_o.png"></img>
+
+<img width="935" height="892" src="http://farm8.staticflickr.com/7385/9155902415_53114141a4_o.png"></img>
 
 After Sunday, it became apparent that everyone still had momentum from the weekend.  [Ben Werdmuller](http://werd.io/) and I decided that [rounding up anyone still in Portland was a good idea](http://bret.io/2013/06/24/t6/).
 
@@ -109,7 +110,7 @@ This stuff is developing fast!  Just the other evening [Aaron *also* implemented
 The following projects look super interesting but I am still confused about exactly what they are or how they work.
 
 ## [Camlistore](https://camlistore.org/)
-<img class="pull-right img-polaroid" width="261" height="498" src="http://farm4.staticflickr.com/3674/9158159070_bb685d1fa3_o.png"></img>
+<img class="pull-right img-polaroid" width="258" height="104" src="http://farm4.staticflickr.com/3674/9158159070_bb685d1fa3_o.png"></img>
 
 [Brad](http://bradfitz.com/) gave a talk on [Camlistore](https://camlistore.org/).  It appears to be way to store data in some kind of blob tree which offers a lot of flexibility on how it can be accessed and stored.  It also sounds like it could enable distributed file sharing in really interesting ways.  It also has versioning built in by design.  *Apparently you will eventually be able to rent out space to others for Bitcoins*.
 
@@ -118,7 +119,8 @@ with how its stored and accessed. This sounds like it has a huge potential for p
 
 
 ## [Smallest-Federated-Wiki](http://fed.wiki.org/welcome-visitors.html)
-[<img class="pull-right" width="400" height="898" src="http://farm4.staticflickr.com/3716/9155969247_91e0319a12_o.png"></img>](http://farm4.staticflickr.com/3716/9155969247_91e0319a12_o.png)
+
+[<img class="pull-right" width="440" height="417" src="http://farm4.staticflickr.com/3716/9155969247_91e0319a12_o.png"></img>](http://farm4.staticflickr.com/3716/9155969247_91e0319a12_o.png)
 
 I missed the discussion on this project, and I wish I hadn't.   The [Smallest-Federated-Wiki](http://fed.wiki.org/welcome-visitors.html) is a wiki that allows anyone to fork pages from someone else's wiki to their own instance the wiki, and allows others to pull those changes in...  Or display content from another wiki?  I think.  The implementation looks really slick and has a lot of interesting client side stuff going on.  Check out some of the [demo videos](http://wardcunningham.github.io/).  I might jump on this and set up my own instance eventually.
 
