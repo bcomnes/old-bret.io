@@ -54,3 +54,13 @@ curl -i -d "source=http://bret.io/2013/06/28/indiewebcamp-2013-roundup/&target=h
 
 
 curl -i -d "source=http://bret.io/2013/06/29/t1/&target=http://werd.io/event/51ccc9ecbed7deaf58e8ff5e/indieweb-burritos" http://werd.io/webmention/
+
+
+http://bret.io/2013/06/29/t2/
+http://aaronparecki.com/replies/2013/06/28/1/indieweb
+
+curl -i -s http://aaronparecki.com/replies/2013/06/28/1/indieweb | grep 'rel="http://webmention.org/"'
+
+http://aaronparecki.com/webmention.php
+
+curl -i -d "source=http://bret.io/2013/06/29/t2/&target=http://aaronparecki.com/replies/2013/06/28/1/indieweb" http://aaronparecki.com/webmention.php
