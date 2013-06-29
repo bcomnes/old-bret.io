@@ -47,7 +47,7 @@ Developed by [Brett Slatkin](http://www.onebigfluke.com/) and [Brad Fitzpatrick]
 
 - #### Here are the details I remember from the weekend.
 
-Webfinger lets you associate arbitrary information to an email address, so that it can be discovered by services by that email address alone.  This is done by relying on the email host to implement Webfinger.  Examples of information you might want associated with your email address.
+Webfinger lets you associate arbitrary pieces of information to an email address so that services can discover that information simply by knowing your email address.  This is done by relying on the email host to implement Webfinger.  Examples of information you might want associated with your email address.
 
 - A (link to a) profile photo
 - Public encryption key
