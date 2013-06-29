@@ -9,7 +9,7 @@ published: true
 ---
 Here are my notes to get ruby up and running on windows in no time.  
 
-###Steps to install ruby on windows.
+### Steps to install ruby on windows.
 
 1. Download the latest and greatest version of the [ruby installer](http://rubyinstaller.org/downloads/).
 2. Install ruby somewhere, preferably out of the `Program Files` folder to avoid any UAC bullshit.
@@ -39,6 +39,6 @@ $ python distribute_setup.py
 $ easy_install Pygments
 {% endhighlight %}
 
-####I only use it for jekyll development.
+#### I only use it for jekyll development.
 
 This should result in a fully working ruby install in a few minutes time.	
