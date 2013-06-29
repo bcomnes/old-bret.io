@@ -12,7 +12,7 @@ Here are my notes to get ruby up and running on windows in no time.
 ###Steps to install ruby on windows.
 
 1. Download the latest and greatest version of the [ruby installer](http://rubyinstaller.org/downloads/).
-2. Install that somewhere, preferable out of `Program Files` to avoid any UAC bullshit.
+2. Install ruby somewhere, preferably out of the `Program Files` folder to avoid any UAC bullshit.
 	- Make sure to install to your path.  These modifications appear to be removed properly on uninstall, at least before the devkit is installed.
 	- Ruby should now work from anything with a path, but I find git bash to be the most reliable environment for working with ruby.
 3. Download the [Devkit](http://rubyinstaller.org/downloads/) and check out this [page](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit) for more details.
