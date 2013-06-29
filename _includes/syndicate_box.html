@@ -1,0 +1,8 @@
+{% if page.syndicate %}
+<p>Syndicated to:</p>
+<ul class="syndicate_box">    
+{% for item in page.syndicate %}
+<li><a rel="syndication" href="{{ item.url }}">{{ item.name }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
