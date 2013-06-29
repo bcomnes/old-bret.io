@@ -14,8 +14,6 @@ components/bootstrap/Makefile
 components/bootstrap/README.md
 components/bootstrap/component.json
 components/bootstrap/composer.json
-components/bootstrap/docs/assets/css/bootstrap-responsive.css
-components/bootstrap/docs/assets/css/bootstrap.css
 components/bootstrap/docs/assets/css/docs.css
 components/bootstrap/docs/assets/ico/apple-touch-icon-114-precomposed.png
 components/bootstrap/docs/assets/ico/apple-touch-icon-144-precomposed.png
@@ -74,7 +72,6 @@ components/bootstrap/docs/assets/js/bootstrap-tooltip.js
 components/bootstrap/docs/assets/js/bootstrap-transition.js
 components/bootstrap/docs/assets/js/bootstrap-typeahead.js
 components/bootstrap/docs/assets/js/bootstrap.js
-components/bootstrap/docs/assets/js/bootstrap.min.js
 components/bootstrap/docs/assets/js/google-code-prettify/prettify.css
 components/bootstrap/docs/assets/js/google-code-prettify/prettify.js
 components/bootstrap/docs/assets/js/holder/holder.js
