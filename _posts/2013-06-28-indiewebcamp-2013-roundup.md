@@ -4,7 +4,7 @@ title: "IndieWebCamp 2013 Roundup"
 date: 2013-06-28 21:44
 in-reply-to-url: 
 in-reply-to-title: 
-tags: [Indieweb, IndieWebCamp, Portland]
+tags: [Indieweb, IndieWebCamp, Portland, IWC2013, Webfist, Webfinger, Camlistore, Smallest-Federated-Wiki, IndieAuth, Persona]
 published: true
 ---
 <img class="pull-right img-polaroid" src="http://indiewebcamp.com/wiki/skins/indieweb/styles/gumax_cyborg/indiewebcamp_logo_color_155.png"></img>
