@@ -137,7 +137,7 @@ Having little experience or skills relevant to this topic, I found myself kind o
 
 - ### IRC Brainstorm
 
-    [IRC](http://indiewebcamp.com/IRC) plays an integral role in developing these projects, as it serves as the primary channel of real-time communication for those involved.  It is my wager the recent IndieWeb commenting system would not have arisen without this channel.  It can be tough for new users of IRC to participate this way because the software is hard to use, or complicated to set up in many cases.  I would like to see discussions about how people use IRC in relation to the IndieWeb, as well as look for new uses for this communication tool.
+    [IRC](http://indiewebcamp.com/IRC) plays an integral role in developing these projects, as it serves as the primary channel of real-time communication for those involved.  It is my wager that the recent IndieWeb commenting system would not have arisen without this channel.  It can be tough for new users of IRC to participate this way because the software is hard to use, or complicated to set up in many cases.  I would like to see discussions about how people use IRC in relation to the IndieWeb, as well as look for new uses for this communication tool.
 
     We could also just demo everyones exotic IRC setups, and help newcomers get started.
 
