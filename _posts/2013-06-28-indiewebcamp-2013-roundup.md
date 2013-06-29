@@ -6,11 +6,8 @@ in-reply-to-url:
 in-reply-to-title: 
 tags: [Indieweb, IndieWebCamp, Portland, IWC2013, Webfist, Webfinger, Camlistore, Smallest-Federated-Wiki, IndieAuth, Persona]
 published: true
-syndicate: [{url: 'http://news.indiewebcamp.com/', name: IndieNews}]
+syndicate: [{url: 'http://news.indiewebcamp.com/post', name: IndieNews}]
 ---
-<img class="pull-right img-polaroid" src="http://indiewebcamp.com/wiki/skins/indieweb/styles/gumax_cyborg/indiewebcamp_logo_color_155.png"></img>
-
-
 This past weekend I attended [IndieWebCamp 2013](http://indiewebcamp.com/Main_Page), a small, two day [barcamp](http://barcampportland.org/about/) style conference in [Portland, OR](http://goo.gl/maps/okB7X).  I have never been to anything like this before, but needless to say, given all of the [amazing ideas and fantastic projects people](http://tantek.com/2013/175/t2/indiewebcamp-hacks-sms-login-webfist-favoriting) came and left with, I had a fantastic time and left inspired.
 
 # Projects that blew my mind

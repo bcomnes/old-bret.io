@@ -2,7 +2,7 @@
 <p>Syndicated to:</p>
 <ul class="syndicate_box">    
 {% for item in page.syndicate %}
-<li><a rel="syndication" href="{{ item.url }}">{{ item.name }}</a></li>
+<li><a rel="syndication" href="{{ item.url }}/{{ site.url }}{{ page.url }}">{{ item.name }}</a></li>
 {% endfor %}
 </ul>
 {% endif %}
