@@ -1,12 +1,12 @@
 {% for page in paginator.posts %}
 {% case page.layout %}
 {% when 'article' %}
-{% include body-content-article.html %}
+{% include post-type-article.html %}
 {% when 'linklog' %}
-{% include body-content-linklog.html %}
+{% include post-type-linklog.html %}
 {% when 'note' %}
-{% include body-content-note.html %}
+{% include post-type-note.html %}
 {% else %}
-{% include body-content-note.html %}
+{% include post-type-note.html %}
 {% endcase %}
 {% endfor %}

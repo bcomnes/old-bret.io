@@ -8,14 +8,14 @@
 <h2><small>
 <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
 </small></h2>
-{% if content %}{% include post_author.html %}{% endif %}
+{% if content %}{% include post-aside-author.html %}{% endif %}
 </hgroup>
 </header>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <section class="p-summary e-content">
-{% include content_switch.html %}
+{% include post-logic-content.html %}
 </section>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-{% include post_footer.html %}
+{% include post-footer.html %}
 </article>
 <!--End Post "{{ page.title }}" -->

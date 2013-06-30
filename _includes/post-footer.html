@@ -1,0 +1,5 @@
+{% if post.tagbox or page.tagbox == true or page.syndicate == true  %}<footer>
+    {% include post-aside-tags.html %}
+	{% include post-aside-crumb.html %}
+	{% include post-aside-syndicate.html %}
+</footer>{% endif %}

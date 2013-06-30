@@ -103,39 +103,39 @@ article.linklog-marker {
 -------------------------------------------------- */
 
 
-/* Assides
+/* Asides
 -------------------------------------------------- */
 /* Resize of the linklog Title */
 
-#assides {
+#asides {
     margin-top: 20px;
 }
 
-#assides section.span4{
+#asides section.span4{
     padding-right: 20px;
 }
 
-#assides h1 {
+#asides h1 {
     font-size: 1.5em;
     border-bottom: 1px dotted #CCC;
     color: #666;
     margin-bottom: 0px;
 }
 
-#assides ul {
+#asides ul {
     margin: 0 0 10px 0px;
     list-style: none;
 }
 
-#assides li {
+#asides li {
     border-bottom: 1px dotted #CCC;
 }
 
-#assides li p {
+#asides li p {
     margin-bottom: 0px;
 }
 
-/* Pinboard Asside Specifics
+/* Pinboard Aside Specifics
 -------------------------------------------------- */
 /*
     TODO Figure out a better way to do this
