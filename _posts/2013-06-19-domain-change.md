@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Domain Change"
 date: 2013-06-19 13:16
 comments: false

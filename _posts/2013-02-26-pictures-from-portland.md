@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Pictures From Portland"
 date: 2013-02-26 19:51
 comments: false

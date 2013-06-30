@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Ruby on Windows"
 date: 2013-06-26 22:59
 in-reply-to-url: 

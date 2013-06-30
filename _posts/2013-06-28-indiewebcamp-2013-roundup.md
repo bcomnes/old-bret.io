@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "IndieWebCamp 2013 Roundup"
 date: 2013-06-28 21:44
 in-reply-to-url: 
