@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" manifest="/cache.manifest">
 <head>
-{% include meta.html %}
+{% include head-meta.html %}
 
-{% include css.html %}
+{% include head-css.html %}
 
-{% include ico.html %}
+{% include head-ico.html %}
 </head>
 
 <body>
 <header>
-{% include navbar.html %}
+{% include body-header-navbar.html %}
 </header>
 
 <section class="container">
@@ -19,8 +19,8 @@
 
 {% if page.asides == true or page.footer == true %}
 <div class="vcard">
-{% if page.asides == true %}{% include asides.html %}{% endif %}
-{% if page.footer == true %}{% include footer.html %}{% endif %}
+{% if page.asides == true %}{% include body-asides.html %}{% endif %}
+{% if page.footer == true %}{% include body-footer.html %}{% endif %}
 </div>
 {% endif %}
 {% include js.html %}

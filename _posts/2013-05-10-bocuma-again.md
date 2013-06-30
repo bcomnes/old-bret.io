@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Bocuma Again"
 date: 2013-05-10 23:30
 comments: false

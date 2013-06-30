@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Getting Started with Bower"
 date: 2013-06-29 14:26
 in-reply-to-url: 

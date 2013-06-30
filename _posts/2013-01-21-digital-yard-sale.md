@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Digital Yard Sale"
 date: 2013-01-21 00:34
 external-url: 

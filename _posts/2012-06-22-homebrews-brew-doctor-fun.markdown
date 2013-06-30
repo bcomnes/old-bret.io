@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Homebrews doctor fun"
 date: 2012-06-22 13:49
 comments: false
