@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*begin our styles*/
+
+body {
+	font: 16px/1.4em 'PT Sans', sans-serif;;
+	color: #1c1c1c;
+}
+
+p,
+ul {
+	margin: 0 0 1.5em;
+}
+
+ul {
+	list-style: disc;
+	padding: 0 0 0 20px;
+}
+
+a {
+	color: #1D745A;
+}
+
+h1 {
+
+}
+
+h2 {
+	font-family: 'PT Serif', serif;
+	font-size: 32px;
+	line-height: 1.4em;
+	margin: 0 0 .4em;
+	font-weight: bold;
+}
+
+/*layout*/
+
+.wrapper {
+}
+
+article {
+	border-bottom: 1px solid #d8d8d8;
+	padding: 10px 20px 0 20px;
+	margin: 10px 0;
+}
+
+/*header*/
+
+header {
+	background: #1c1c1c;
+	padding: 15px 20px;
+}
+
+		/*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
+		header:before,
+		header:after {
+		    content:"";
+		    display:table;
+		}
+		
+		header:after {
+		    clear:both;
+		}
+		
+		/* For IE 6/7 (trigger hasLayout) */
+		header {
+		    zoom:1;
+		}
+
+h1.logo a {
+	color: #d8d8d8;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 22px;
+	float: left;
+	letter-spacing: 0.2em;
+}
+
+a.to_nav {
+	float: right;
+	color: #fff;
+	background: #4e4e4e;
+	text-decoration: none;
+	padding: 0 10px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 22px;
+	height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+a.to_nav:hover,
+a.to_nav:focus {
+	color: #1c1c1c;
+	background: #ccc;
+}
+	
+/*navigation*/	
+
+#primary_nav ul {
+	list-style: none;
+	background: #1c1c1c;
+	padding: 5px 0;
+}
+
+#primary_nav li a {
+	display: block;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	height: 2em;
+	border-bottom: 1px solid #383838;
+}
+
+#primary_nav li:last-child a {
+	border-bottom: none;
+}
+
+#primary_nav li a:hover,
+#primary_nav li a:focus {
+	color: #1c1c1c;
+	background: #ccc;
+}
+
+/*footer*/
+
+footer {
+	font-family: 'PT Serif', serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 14px;
+}
+
+/*media queries*/
+
+		@media only screen and (min-width: 768px) {
+		
+			a.to_nav {
+				display: none;
+			}
+			
+			.wrapper {
+				position: relative;
+				width: 768px;
+				margin: auto;
+			}
+			
+			#primary_nav {
+				position: absolute;
+				top: 5px;
+				right: 10px;
+				background: none;
+			}
+			
+			#primary_nav li {
+				display: inline;
+			}
+			
+			#primary_nav li a {
+				float: left;
+				border: none;
+				padding: 0 10px;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				border-radius: 2px;
+			}
+			
+			#primary_nav li.top {
+				display: none;
+			}
+	
+		}
