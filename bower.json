@@ -1,0 +1,13 @@
+{
+  "name": "bret.io",
+  "version": "1.0.0",
+  "main": "assets/css/main.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "bootstrap": "~2.3.2"
+  }
+}

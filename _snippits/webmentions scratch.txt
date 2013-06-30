@@ -39,3 +39,28 @@ http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebc
 
 
 curl -i -d "source=http://bret.io/2013/06/25/t2/&target=http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup" http://werd.io/webmention/
+
+
+
+http://bret.io/2013/06/28/indiewebcamp-2013-roundup/
+
+http://news.indiewebcamp.com/post/bret.io/2013/06/28/indiewebcamp-2013-roundup/
+
+curl -i -s http://news.indiewebcamp.com/post/bret.io/2013/06/28/indiewebcamp-2013-roundup/ | grep 'rel="http://webmention.org/"'
+
+http://news.indiewebcamp.com/webmention
+
+curl -i -d "source=http://bret.io/2013/06/28/indiewebcamp-2013-roundup/&target=http://news.indiewebcamp.com/post/bret.io/2013/06/28/indiewebcamp-2013-roundup/" http://news.indiewebcamp.com/webmention
+
+
+curl -i -d "source=http://bret.io/2013/06/29/t1/&target=http://werd.io/event/51ccc9ecbed7deaf58e8ff5e/indieweb-burritos" http://werd.io/webmention/
+
+
+http://bret.io/2013/06/29/t2/
+http://aaronparecki.com/replies/2013/06/28/1/indieweb
+
+curl -i -s http://aaronparecki.com/replies/2013/06/28/1/indieweb | grep 'rel="http://webmention.org/"'
+
+http://aaronparecki.com/webmention.php
+
+curl -i -d "source=http://bret.io/2013/06/29/t2/&target=http://aaronparecki.com/replies/2013/06/28/1/indieweb" http://aaronparecki.com/webmention.php
