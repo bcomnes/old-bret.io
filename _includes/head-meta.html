@@ -1,6 +1,5 @@
     <meta charset="utf-8" />
     <title>{% if paginator.page %}{% if paginator.page != 1 %}{{ paginator.page }} ~ {{ site.brand }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ page.title }} ~ {{ site.brand }}{% endif %}</title>
-    <meta content="{% if paginator.page %}{% if paginator.page != 1 %} {{ site.brand }} ~ {{ paginator.page }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ site.brand }} ~ {{ page.title }}{% endif %}"/>
     {% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}
     {% if page.url == "/index.html" %}{% if site.description %}<meta content="{{ site.description }}" />{% endif %}{% endif %}
     {% if site.author %}<meta name="author" content="{{ site.author }}" />{% endif %}
@@ -21,3 +20,5 @@
     <link rel="openid2.local_id" href="http://bcomnes.myopenid.com" />
     <link rel="openid2.provider" href="http://www.myopenid.com/server" />
     <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=bcomnes.myopenid.com" />
+    <!--Atom Feed-->
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
