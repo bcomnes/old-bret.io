@@ -16,6 +16,8 @@
 {% include post-logic-content.html %}
 
 {% if page.rsvp %}<data class="p-rsvp" value="{{ page.rsvp }}">I'm RSVPing "{{ page.rsvp }}"</data>{% endif %}
+
+{% if content %}{% include post-aside-webmention.html %}{% endif %}
 </section>
     {% if content %}
 <footer class="span2">

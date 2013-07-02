@@ -1,0 +1,3 @@
+var pingback = function(mode) {
+	
+}

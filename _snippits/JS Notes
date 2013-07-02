@@ -1,0 +1,62 @@
+JS Notes
+
+[01:53] <tandoori> its just that resolution standards have changed since ive lased designed a website
+[01:54] <tandoori> I remember it used to be 800x600
+[01:54] <pingu2> yeh, that's long gone
+[01:55] <pingu2> 1920x1080 is normal for the desktop now, but i guess most people wouldnt want a full-screen site on a 22"+ monitor or whatever
+[01:55] <tandoori> lol neither would I
+[01:56] <bret> anyone who knows js, mind visiting http://bret.io/2013/06/29/getting-started-with-bower/ then running `document.getElementsByClassName('breadcrumb')[0].childNodes` ?  What are all of those #text Items?
+[01:58] <pingu2> text nodes
+[01:59] * Joins: gry (gry@freenode/staff/gry)
+[01:59] <bret> im really new to this.  They dont seem to show up in the dom structure viewer though
+[02:00] <elysium> hmm
+[02:00] <bret> is there a way to ignore them?  or do I have to explicitely filter then
+[02:00] <bret> them*
+[02:00] <bret> or is there a way to get my html to not have extra text?
+[02:01] * Quits: JBlitzen (JBlitzen@cpe-72-230-241-202.rochester.res.rr.com) (Quit: <Owenn> I remember once trying to vacuum dirt out and a key went into the vacuum so that was the last time I tried htat)
+[02:01] <bret> ohh i see the error
+[02:01] <bret> actually never mind
+[02:02] <pingu2> .ciu queryselector
+[02:02] <Natasha> http://caniuse.com/#feat=queryselector
+[02:05] <pingu2> try document.querySelectorAll('.breadcrumb li');
+[02:06] <bret> that would work
+[02:06] <bret> are those text nodes normal?
+[02:06] <bret> they look like carrage returns
+[02:07] <pingu2> ive only dabbled with getbyclass - it's new stuff, but that is normal, yep
+[02:08] <pingu2> when you contruct stuff in js, say youre appending elements, you need to create text nodes
+[02:08] * Joins: Anomie_work (~mark@host217-36-209-41.in-addr.btopenworld.com)
+[02:09] <pingu2> i'd probably still use getbyid and by tag in plain js.  dont entirely trust that new stuff yet.  lots of people still on old IE
+[02:10] <bret> i was thinking of having a function grab 5 or 6 elements by class name then  query some information using the nodes id as a data source
+[02:10] <pingu2> are you familiar with things like jquery?
+[02:10] * Joins: jonkri (~jonkri@pontarius/jon)
+[02:11] <bret> the goal was to learn how to do it in pure JS, this is mostly educational
+[02:11] <pingu2> ah
+[02:11] <bret> i have though
+[02:11] * Joins: pjjj (~Thunderbi@93-32-166-114.ip34.fastwebnet.it)
+[02:11] * Quits: xinming (~xinming@125.87.87.190) (Ping timeout: 256 seconds)
+[02:12] * Joins: xinming (~xinming@125.87.87.190)
+[02:14] * Joins: squeakytoy (~christoff@h87-96-232-107.dynamic.se.alltele.net)
+[02:15] <pingu2> you have learned or you have familiarity with jquery? : )
+[02:16] * Quits: christoffer__ (~christoff@h87-96-232-107.dynamic.se.alltele.net) (Ping timeout: 248 seconds)
+[02:17] * Quits: Prophet5 (~prophet5@cpe-172-250-228-12.socal.res.rr.com) (Remote host closed the connection)
+[02:18] * Quits: Layke (~layke@unaffiliated/layke) (Ping timeout: 256 seconds)
+[02:18] <bret> im not that familiar with jquery
+[02:18] <bret> but it sounds like most people use that for dom manipulation
+[02:21] <pingu2> for dom selection more than dom manipulation id have thought.  takes all sorts.  personally id prob find plain less cumbersome when it comes to actually moving things around or appending stuff etc
+[02:22] * Quits: xinming (~xinming@125.87.87.190) (Ping timeout: 256 seconds)
+[02:22] <pingu2> you can always use a combination
+[02:23] * Joins: sebrock (~sebrock@128.127.105.74)
+[02:23] * Joins: xinming (~xinming@125.87.87.190)
+[02:24] * Quits: jonkri (~jonkri@pontarius/jon) (Ping timeout: 240 seconds)
+[02:25] * Quits: Wheelman (~Wheelman@197.2.52.179) (Quit: Leaving)
+[02:26] <bret> thanks pingu2.  its silly they completely overlook this stuff http://dom-tutorials.appspot.com/static/2.html
+[02:26] * Joins: jonkri (~jonkri@pontarius/jon)
+[02:26] <bret> i guess all the examples are spans
+[02:27] <pingu2> darn you with your procrastination fuel
+[02:28] <bret> XD
+[02:29] * Quits: xinming (~xinming@125.87.87.190) (Ping timeout: 246 seconds)
+[02:29] * Quits: gry (gry@freenode/staff/gry) (Quit: leaving)
+
+
+
+02:38] <bret> pingu2 booyah  .firstElementChild
