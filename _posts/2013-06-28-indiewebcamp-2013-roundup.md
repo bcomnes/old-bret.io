@@ -20,7 +20,7 @@ Every project at IWC2013 was interesting and important in its own way. They are 
 
 - #### IndiAuth now supports Persona when provided an email address.
 
-[Mozilla Persona](https://www.mozilla.org/en-US/persona/) [has many benefits](http://identity.mozilla.com/post/46374271364/persona-is-distributed-today) over the siloed implementations of openID.  You can now add a `rel="me"` to an email address on your web page and authenticate using Persona in IndieAuth.  Apparently this could also work the other way, where IndieAuth serves as an authentication provider for Persona.  There was also discussion about ways to use Persona with IndieAuth without having to have an email address posted publicly.  [These last two items have not been implemented yet](http://indiewebcamp.com/2013/demos#Aaron_Parecki_and_Francois_Marier).
+[Mozilla Persona](https://www.mozilla.org/en-US/persona/) [has many benefits](http://identity.mozilla.com/post/46374271364/persona-is-distributed-today) over the siloed implementations of openID.  You can now add a `rel="me"` to an email address on your web page and authenticate using Persona in IndieAuth.  Apparently this could also work the other way, where IndieAuth serves as an authentication provider for Persona.  There was also discussion about ways to use Persona with IndieAuth without having to have an email address posted publicly.  [These last two items have not been implemented yet](http://indiewebcamp.com/2013/demos#Aaron_Parecki_and_Francois_Marier).  More can be read on [Francois's blog](http://feeding.cloud.geek.nz/posts/indieauth-as-a-persona-identity-provider/)
 
 - #### SMS Authentication killed the password
 
