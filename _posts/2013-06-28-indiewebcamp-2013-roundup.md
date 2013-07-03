@@ -117,6 +117,7 @@ The following projects look super interesting but I am still confused about exac
 I myself, am sitting on a pile of data at home, unsatisfied 
 with how its stored and accessed. This sounds like it has a huge potential for providing some satisfaction to my data problem.
 
+*Update: A video has surfaced of basically what we saw during the conference!  [Check it out](2013/07/02/camlistore-intro-status-update/).
 
 ## [Smallest-Federated-Wiki](http://fed.wiki.org/welcome-visitors.html)
 
