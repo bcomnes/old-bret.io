@@ -12,6 +12,6 @@ published: true
     <iframe width="640" height="360" src="//www.youtube.com/embed/yxSzQIwXM1k" frameborder="0" allowfullscreen></iframe>
 </div>
 
-re[@Ozten](http://innercircle.aok.io/hello_indieweb)
+rp:[@Ozten](http://innercircle.aok.io/hello_indieweb)
 
 Note: this post format isnt microformatted yet :/
