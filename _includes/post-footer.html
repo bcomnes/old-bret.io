@@ -1,6 +1,10 @@
-{% if post.tagbox or page.tagbox == true or page.syndicate == true or page.wemention == true  %}<footer>
-    {% include post-aside-tags.html %}
-	{% include post-aside-crumb.html %}
-	{% include post-aside-syndicate.html %}
-	{% include post-aside-webmention.html %}
-</footer>{% endif %}
+{% case content %}
+{% when nil %}
+{% else %}
+{% if page.tagbox == true or page.breadcrumb == true or page.syndicate or page.webmention == true  %}
+    {% if page.tagbox == true%}{% include post-aside-tags.html %}{% endif %}
+	{% if page.breadcrumb == true%}{% include post-aside-crumb.html %}{% endif %}
+	{% if page.syndicate %}{% include post-aside-syndicate.html %}{% endif %}
+	{% if page.webmention == true%}{% include post-aside-webmention.html %}{% endif %}
+{% endif %}
+{% endcase %}
