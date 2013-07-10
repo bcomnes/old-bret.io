@@ -5,7 +5,7 @@ var webmentionGet = function(type) {
 		var mentionTarget = mentionElements[i].id;
 	    var mentionData = document.createElement('SCRIPT');
 	    var jasonpName = "webmentionProcess";
-	    var token = 'NTAxNTJmM2RmNzA4YTQ4ODllMWQ2NWJm';
+	    var token = '';
 	    var mentionDataUrl = "http://pingback.me/api/links?target="+mentionTarget+"&jsonp=webmentionProcess&access_token="+token;
 	    mentionData.src = mentionDataUrl;
 	    document.head.appendChild(mentionData)
