@@ -1,3 +1,4 @@
-<ul class="webmentions" id="http://{{ site.url}}{{ page.url }}">
-	<li>Hello world</li>
+<p> Mentions:</p>
+<ul class="webmentions {% if content %}links{% else %}count{% endif %}" id="http://{{ site.url }}{{ page.url }}">
+	<li>Mentions Loading...</li>
 </ul>
