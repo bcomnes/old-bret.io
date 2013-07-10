@@ -9,4 +9,5 @@ var pingback = function(mode, className) {
 	    mentionElements[i].appendChild(linkNode);
 	}
 }
-window.onload = pingback('mode', 'webmentions');
+// window.onload = pingback('mode', 'webmentions');
+pingback('mode', 'webmentions');
