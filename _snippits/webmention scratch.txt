@@ -15,3 +15,9 @@ curl -i -d "source=http://bret.io/2013/06/25/t1/&target=http://werd.io/event/51c
 
 
 curl -i -d "source=http://bret.io/2013/06/25/t1/&target=http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup" http://werd.io/webmention/
+
+curl -i -s http://innercircle.aok.io/open_garden_any_good | grep 'rel="http://webmention.org/"'
+
+http://innercircle.aok.io/webmention
+
+curl -i -d "source=http://bret.io/2013/07/02/t1/&target=http://innercircle.aok.io/open_garden_any_good" http://innercircle.aok.io/webmention
