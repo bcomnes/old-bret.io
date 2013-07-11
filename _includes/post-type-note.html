@@ -10,13 +10,14 @@
 	</p>
 	</div>
 	</header>
-<section class="e-content p-summary p-name span8">
+<section class="span8">
+<div class="e-content p-summary p-name">
 <a class="u-in-reply-to" href="{{ page.in-reply-to-url }}">@{{ page.in-reply-to-title }}</a>
 
 {% include post-logic-content.html %}
 
 {% if page.rsvp %}<data class="p-rsvp" value="{{ page.rsvp }}">I'm RSVPing "{{ page.rsvp }}"</data>{% endif %}
-
+</div>
 {% if content %}{% include post-aside-webmention.html %}{% endif %}
 </section>
     {% if content %}
