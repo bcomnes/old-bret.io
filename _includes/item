@@ -1,0 +1,19 @@
+{% case page.items[i].type %}
+{% when 'rsvp' %}
+{% include item-rsvp.html %}
+{% when 'flickr' %}
+{% include item-flickr.html %}
+{% when 'reply' %}
+{% include item-reply.html %}
+{% when 'like' %}
+{% include item-like.html %}
+{% when 'youtube' %}
+{% include item-youtube.html %}
+{% when 'vimeo' %}
+{% include item-vimeo.html %}
+{% when 'event' %}
+{% include item-event.html %}
+{% when 'comic' %}
+{% include item-comic.html %}
+{% endcase %}
+{% assign i = i | plus:1 %}
