@@ -52,10 +52,9 @@ kramdown:
     coderay_css: style
 
 # Prose stuff
-siteurl: "http://bret.io"
-media: "/media"
-
 prose:
+  siteurl: "http://bret.io"
+  media: "/media"
   metadata:
     _posts:
       - name: "layout"
