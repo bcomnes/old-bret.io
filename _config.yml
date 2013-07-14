@@ -58,29 +58,20 @@ media: "/media"
 prose:
   metadata:
     _posts:
-      - name: "categories"
-        field:
-          element: "hidden"
-          value:
-            - "post"
       - name: "layout"
         field:
-          element: "text"
-          label: "Layout"
-          value: "default"
-      - name: "order"
-        field:
-          element: "number"
-          label: "Order"
-          value: 0
-      - name: "item"
-        field:
           element: "select"
-          label: "Item"
-          placeholder: "Select an Item"
+          label: "Layout"
+          placeholder: "Select a Layout"
           options:
-            - name: "Item 1"
-              value: "item1"
-            - name: "Item 2"
-              value: "item2"
-          selected: "item2"
+            - name: "Article"
+              value: "article"
+            - name: "Linklog"
+              value: "linklog"
+            - name: "Note"
+              value: "note"
+          selected: "note"
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tag"
