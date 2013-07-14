@@ -66,6 +66,10 @@ prose:
           options:
             - name: "Article"
               value: "article"
+              - name: "title"
+                field:
+                  element: "text"
+                  label: "Title"
             - name: "Linklog"
               value: "linklog"
             - name: "Note"
