@@ -53,8 +53,8 @@ kramdown:
 
 # Prose stuff
 prose:
-  siteurl: "http://bret.io"
-  media: "/media"
+  siteurl: 'http://bret.io'
+  media: 'media'
   metadata:
     _posts:
       - name: "layout"
