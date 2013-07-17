@@ -16,7 +16,6 @@ var webmentionGet = function(type) {
 
 var mentions;
 var webmentionProcess = function ( data ) {
-	mentions = JSON.parse( data );
 	console.log(mentions);
 }
 
