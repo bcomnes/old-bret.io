@@ -58,7 +58,7 @@ Webfinger lets you associate arbitrary pieces of information to an email address
 
 The only problem is that the major email providers have not yet implemented Webfinger, even though the engineers behind the scene are clamoring for it, and may or may not have already even dark launched it.
 
-Webfist is the software used to run a distributed fallback network that allows webfinger attributes to be associated with *any* email address, even if the email provider has not yet implemented Webfinger support.  [The way it actually works is kind of complicated](http://www.onebigfluke.com/2013/06/bootstrapping-webfinger-with-webfist.html), but it uses [some kind of fancy cryptographic header information](http://www.dkim.org/) that the major players *have* implemented to help fight spam.  This cryptographic header information also happens to be convenient way to allow an email address to associate Webfinger data with itself securely.
+Webfist is the software used to run a distributed fallback network that allows webfinger attributes to be associated with *any* email address, even if the email provider has not yet implemented Webfinger support.  [The way it actually works is kind of complicated](http://www.onebigfluke.com/2013/06/bootstrapping-webfinger-with-webfist.html), but it uses [some kind of fancy cryptographic header information](http://www.dkim.org/) that the major players *have* implemented to help fight spam.  This cryptographic header information also happens to be a convenient way to allow an email address to associate Webfinger data with itself securely.
 
 - #### How can I start using it today?
 
