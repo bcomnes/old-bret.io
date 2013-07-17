@@ -8,7 +8,7 @@ var webmentionGet = function(type) {
 	    var token = '';
 	    //var mentionDataUrl = "http://pingback.me/api/links?target="+mentionTarget+"&jsonp=webmentionProcess&access_token="+token;
 	    var mentionDataUrl = "http://pingback.me/api/links?target="+mentionTarget+"&jsonp=webmentionProcess"
-	    mentionData.src = mentionDataUrl;
+	    mentionData.src = encodeURIComponent(mentionDataUrl);
 	    document.body.appendChild(mentionData)
 	}
 }
