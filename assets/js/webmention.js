@@ -2,14 +2,14 @@ var mentionElements
 var webmentionGet = function(type) {
 	mentionElements = document.getElementsByClassName('webmentions ' + type);
 	for (var i=0; i < mentionElements.length; i++) {
-		var mentionTarget = mentionElements[i].id;
+		var mentionTarget = encodeURIComponent(mentionElements[i].id);
 	    var mentionData = document.createElement('SCRIPT');
 	    var jasonpName = "webmentionProcess";
 	    var token = '';
 	    //var mentionDataUrl = "http://pingback.me/api/links?target="+mentionTarget+"&jsonp=webmentionProcess&access_token="+token;
 	    var mentionDataUrl = "http://pingback.me/api/links?target="+mentionTarget+"&jsonp=webmentionProcess"
-	    mentionData.src = encodeURIComponent(mentionDataUrl);
-	    document.body.appendChild(mentionData)
+	    mentionData.src = mentionDataUrl;
+	    document.head.appendChild(mentionData)
 	}
 }
 // window.onload = pingback('mode', 'webmentions');
