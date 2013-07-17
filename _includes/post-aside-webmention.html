@@ -1,5 +1,5 @@
 <p> Mentions:</p>
 <ul class="webmentions {% if content %}links{% else %}count{% endif %}" id="http://{{ site.url }}{{ page.url }}">
 	<li>Mentions Loading...</li>
-	<script src="http://pingback.me/api/links?target={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&jsonp=console.log"></script>
+	<script src="http://pingback.me/api/links?target=http://{{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&jsonp=console.log"></script>
 </ul>
