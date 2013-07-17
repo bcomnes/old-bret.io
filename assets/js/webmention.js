@@ -9,7 +9,7 @@ var webmentionGet = function(type) {
 	    //var mentionDataUrl = "http://pingback.me/api/links?target="+mentionTarget+"&jsonp=webmentionProcess&access_token="+token;
 	    var mentionDataUrl = "http://pingback.me/api/links?target="+mentionTarget+"&jsonp=webmentionProcess"
 	    mentionData.src = mentionDataUrl;
-	    document.head.appendChild(mentionData)
+	    document.body.appendChild(mentionData)
 	}
 }
 // window.onload = pingback('mode', 'webmentions');
