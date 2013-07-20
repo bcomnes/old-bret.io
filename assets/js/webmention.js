@@ -33,11 +33,8 @@ webMention.preProcess = function() {
 			console.log(that.mentions);
 			console.log(that.mentions.links.length);
 			for (var j=0; j < this.mentions.links.length; j++) {
-				console.log(j);
-				console.log(this.parent);
 				var linkNode = document.createElement('LI');
-				//var linkData = this.mentions.links[j].source;\
-				var linkData = "This is a test string";
+				var linkData = document.createTextNode(this.mentions.links[j].source);
 				linkNode.appendChild(linkData);
 				this.parent.appendChild(linkNode);
 			}
@@ -49,18 +46,15 @@ webMention.preProcess = function() {
 
 
 webMention.insertScript = function (i) {
-	console.log('Scripts are about to be inserted');
 	// Create functon attached to element object 
     var jsonpName = "webMention.elements[" + i + "].postProcess"
     // Generate the API request URL 
     var apiUrl = "http://pingback.me/api/links?target="+ webMention.elements[i].slug + "&jsonp=" + jsonpName
     // Generate the script element to be inserted
     var container = document.createElement('SCRIPT');
-    console.log('script creation')
-    console.log(document.head.firstElementChild);
     // Set the source of the script container
     container.src = apiUrl;
-    webMention.realHead.appendChild(container)
+    document.head.appendChild(container)
     console.log('SCripts have been inserted maybe');
 }
 
