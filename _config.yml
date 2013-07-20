@@ -1,5 +1,5 @@
 url: bret.io
-paginate: 3
+paginate: 5
 permalink: pretty
 markdown: rdiscount
 safe: true
