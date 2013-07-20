@@ -21,3 +21,10 @@ curl -i -s http://innercircle.aok.io/open_garden_any_good | grep 'rel="http://we
 http://innercircle.aok.io/webmention
 
 curl -i -d "source=http://bret.io/2013/07/02/t1/&target=http://innercircle.aok.io/open_garden_any_good" http://innercircle.aok.io/webmention
+
+
+http://indiewebcamp.com/User:Bret.io
+
+curl -i -d "source=http://indiewebcamp.com/User:Bret.io&target=http://innercircle.aok.io/open_garden_any_good" http://innercircle.aok.io/webmention
+
+curl -i -s $target | grep 'rel="http://webmention.org/"'

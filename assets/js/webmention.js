@@ -1,5 +1,6 @@
 // Global webmention.js object
 var webMention = {};
+webMention.realHead = document.head;
 console.log('Webmention.js initialized');
 // webMention.get function for finding objects to interact with.
 webMention.get = function(type) {
@@ -23,20 +24,31 @@ webMention.preProcess = function() {
 		// For a given element, create the uniqe 
 		webMention.elements[i].postProcess = function(data) {
 			console.log('We are attempting to create our object functions');
-			webMention.elements[i].parent = document.getElementById(webMention.elements[i].slug);
-			webMention.elements[i].placeHolder = webMention.elements[i].parent.firstElementChild;
-			webMention.elements[i].parent.removeChild(webMention.elements[i].placeHolder);
-			var linkNode = document.createElement('LI');
-			var testData = document.createTextNode('Huston we have liftoff');
-			linkNode.appendChild(testData);
-			webMention.elements[i].parent.appendChild(linkNode);
+			this.parent = document.getElementById(this.slug);
+			this.placeHolder = this.parent.firstElementChild;
+			this.parent.removeChild(this.placeHolder);
+			this.mentions = data;
+			var that = this;
+			console.log(that);
+			console.log(that.mentions);
+			console.log(that.mentions.links.length);
+			for (var j=0; j < this.mentions.links.length; j++) {
+				console.log(j);
+				console.log(this.parent);
+				var linkNode = document.createElement('LI');
+				//var linkData = this.mentions.links[j].source;\
+				var linkData = "This is a test string";
+				linkNode.appendChild(linkData);
+				this.parent.appendChild(linkNode);
+			}
 		}
-		console.log('Scripts are about to be inserted');
-		webMention.script(i);
+		webMention.insertScript(i);
 	}
 }
 
-webMention.script = function (i) {
+
+
+webMention.insertScript = function (i) {
 	console.log('Scripts are about to be inserted');
 	// Create functon attached to element object 
     var jsonpName = "webMention.elements[" + i + "].postProcess"
@@ -44,10 +56,13 @@ webMention.script = function (i) {
     var apiUrl = "http://pingback.me/api/links?target="+ webMention.elements[i].slug + "&jsonp=" + jsonpName
     // Generate the script element to be inserted
     var container = document.createElement('SCRIPT');
+    console.log('script creation')
+    console.log(document.head.firstElementChild);
     // Set the source of the script container
     container.src = apiUrl;
-    document.head.appendChild(container)
+    webMention.realHead.appendChild(container)
     console.log('SCripts have been inserted maybe');
 }
+
 
 webMention.get('links');
