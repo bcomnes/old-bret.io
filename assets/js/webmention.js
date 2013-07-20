@@ -33,10 +33,13 @@ webMention.preProcess = function() {
 			console.log(that.mentions);
 			console.log(that.mentions.links.length);
 			for (var j=0; j < this.mentions.links.length; j++) {
-				var linkNode = document.createElement('LI');
-				var linkData = document.createTextNode(this.mentions.links[j].source);
-				linkNode.appendChild(linkData);
-				this.parent.appendChild(linkNode);
+				var listItem = document.createElement('LI');
+				var linkText = document.createTextNode(this.mentions.links[j].source);
+				var linkAnchor = document.createElement('A');
+				linkAnchor.href = this.mentions.links[j].source;
+				linkAnchor.appendChild(linkText);
+				listItem.appendChild(linkAnchor);
+				this.parent.appendChild(listItem);
 			}
 		}
 		webMention.insertScript(i);
