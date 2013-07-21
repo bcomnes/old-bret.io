@@ -12,7 +12,7 @@
 	</header>
 <section class="span8">
 <div class="e-content p-summary p-name">
-{% if page.in-reply-to-url %}<a class="u-in-reply-to" href="{{ page.in-reply-to-url }}">@{{ page.in-reply-to-title }}</a>{% endif %}
+{% if page.in-reply-to-url %}<p class="muted"><small><i class="icon-share-alt muted"></i> Replied to <a class="u-in-reply-to muted" href="{{ page.in-reply-to-url }}">a post on {{ page.in-reply-to-title }}</a>:</small></p>{% endif %}
 
 {% include post-logic-content.html %}
 

@@ -33,3 +33,5 @@ curl -i -s $target | grep 'rel="http://webmention.org/"'
 
 <script src="http://pingback.me/api/links?target={{ "http://" | cgi_escape }}{{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&jsonp=console.log"></script>
 </ul>
+
+curl -i -d "source=http://tantek.com/2013/185/&target=http://bret.io/2013/06/28/indiewebcamp-2013-roundup/" http://pingback.me/bcomnes/webmention
