@@ -1,37 +1,30 @@
 // Global webmention.js object
 var webMention = {};
-webMention.realHead = document.head;
-console.log('Webmention.js initialized');
 // webMention.get function for finding objects to interact with.
 webMention.get = function(type) {
-	console.log('get function just fired');
 	// Get a list of all elements with the class of webmention and type
 	webMention.elements = document.getElementsByClassName('webmentions ' + type);
-	console.log('Elements were found');
-	console.log(webMention.elements);
-	// Process each element found
+	// preProcess each element found
 	webMention.preProcess();
 }
-// window.onload = pingback('mode', 'webmentions');
 
+// webMention.preProcess sets up each object function for each
+// element found.  It's not done yet, but the identification process
+// uses the ID of the page for the URL of interest, and the class
+// to describe how the element should be processed. 
 webMention.preProcess = function() {
-	console.log('Preprocess was triggered');
+	// For all of the elements found...
 	for (var i=0; i < webMention.elements.length; i++) {
-		// For a given element, retrieve the URL from its ID and store it
+		// retrieve the URL from its ID and store it
 		webMention.elements[i].slug = webMention.elements[i].id;
-		console.log('Slugs were ammended');
-		console.log(webMention.elements[i].slug);
-		// For a given element, create the uniqe 
+		// For a given element, create the unique object function
+		// that can be wrapped around our API data that will target
+		// The element of the loop.  This function is called postProcess
 		webMention.elements[i].postProcess = function(data) {
-			console.log('We are attempting to create our object functions');
 			this.parent = document.getElementById(this.slug);
 			this.placeHolder = this.parent.firstElementChild;
 			this.parent.removeChild(this.placeHolder);
 			this.mentions = data;
-			var that = this;
-			console.log(that);
-			console.log(that.mentions);
-			console.log(that.mentions.links.length);
 			for (var j=0; j < this.mentions.links.length; j++) {
 				var listItem = document.createElement('LI');
 				var linkText = document.createTextNode(this.mentions.links[j].source);
