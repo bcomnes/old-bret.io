@@ -39,8 +39,6 @@ webMention.preProcess = function() {
 	}
 }
 
-
-
 webMention.insertScript = function (i) {
 	// Create functon attached to element object 
     var jsonpName = "webMention.elements[" + i + "].postProcess"
@@ -51,7 +49,6 @@ webMention.insertScript = function (i) {
     // Set the source of the script container
     container.src = apiUrl;
     document.head.appendChild(container)
-    console.log('SCripts have been inserted maybe');
 }
 
 
