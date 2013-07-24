@@ -1,5 +1,6 @@
 {% case content %}
 {% when nil %}
+{% include post-aside-webmention.html %}
 {% else %}
 {% if page.tagbox == true or page.breadcrumb == true or page.syndicate or page.webmention == true  %}
     {% if page.tagbox == true%}{% include post-aside-tags.html %}{% endif %}
