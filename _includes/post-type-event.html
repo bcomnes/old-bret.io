@@ -11,13 +11,7 @@
 	</div>
 	</header>
 <section class="span8">
-<div class="e-content p-summary p-name">
-{% if page.in-reply-to-url %}<p class="muted"><small><i class="icon-share-alt muted"></i> Replied to <a class="u-in-reply-to muted" href="{{ page.in-reply-to-url }}">a post on {{ page.in-reply-to-title }}</a>:</small></p>{% endif %}
-
 {% include post-logic-content.html %}
-
-{% if page.rsvp %}<data class="p-rsvp" value="{{ page.rsvp }}">I'm RSVPing "{{ page.rsvp }}"</data>{% endif %}
-</div>
 {% include post-aside-webmention.html %}
 {% if page.syndicate %}{% include post-aside-syndicate.html %}{% endif %}
 </section>
