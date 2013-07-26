@@ -6,8 +6,8 @@
 	<dt>Location:</dt>
 	<dd class="p-location">{{ page.items[i].location }}</dd>
 	<dt>Time:</dt>
-	<dd class="dt-start">{{ page.items[i].time }}</dd>
+	<dd><time class="dt-start" datetime="{{ page.items[i].time | date_to_xmlschema }}">{{ page.items[i].time | date: "%A %B %d %I:%M%p"  }}</time></dd>
 	<dt>Ends:</dt>
-	<dd class="dt-end">{{ page.items[i].ends }}</dd>
+	<dd><time class="dt-end" datetime="{{ page.items[i].ends | date_to_xmlschema }}">{{ page.items[i].ends | date: "%A %B %d %I:%M%p"  }}</time></dd>
 </dl>
 </div>
