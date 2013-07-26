@@ -1,10 +1,13 @@
+<div class="well well-small">
+<h4 class="p-name"><a class="u-url" href="http://{{ site.url }}{{ page.url }}">{{ page.items[i].title }}</a></h4>
 <dl>
 	<dt>Description:</dt>
-	<dd>{{ page.items[i].description }}</dd>
+	<dd class="p-summary">{{ page.items[i].description }}</dd>
 	<dt>Location:</dt>
-	<dd>{{ page.items[i].location }}</dd>
+	<dd class="p-location">{{ page.items[i].location }}</dd>
 	<dt>Time:</dt>
-	<dd>{{ page.items[i].time }}</dd>
+	<dd class="dt-start">{{ page.items[i].time }}</dd>
 	<dt>Ends:</dt>
-	<dd>{{ page.items[i].ends }}</dd>
+	<dd class="dt-end">{{ page.items[i].ends }}</dd>
 </dl>
+</div>

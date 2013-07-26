@@ -66,7 +66,7 @@ webMention.postProcess = function(data) {
 		}
 
 webMention.hasClass = function( selector ) {
-	console.log(this);
+	console.log 
 var className = " " + selector + " ",
 i = 0,
 l = this.length;

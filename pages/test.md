@@ -25,6 +25,7 @@ items:
 - type: 'vimeo'
   v: '66352973'
 - type: 'event'
+  title: 'test event title'
   description: "We're going to eat burritos, talk about the IndieWeb, and catch up."
   location: 'Papalote Mexican Grill, 3409 24th Street, San Francisco, CA'
   time: '2013-06-28, 6pm'
