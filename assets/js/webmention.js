@@ -56,20 +56,37 @@ webMention.postProcess = function(data) {
 			// Remove that placeholder
 			this.parent.removeChild(this.placeHolder);
 			// For all of the data elements, do something.  WIP
-			for (var j = 0; j < data.links.length; j++) {
-				var listItem = document.createElement('LI');
-				var linkText = document.createTextNode(data.links[j].source);
-				var linkAnchor = document.createElement('A');
-				linkAnchor.href = data.links[j].source;
-				linkAnchor.appendChild(linkText);
-				listItem.appendChild(linkAnchor);
-				this.parent.appendChild(listItem);
+			if ( webMention.hasClass(this.parent, 'count') ) {
+				console.log("yo this got count");
+				webMention.showCount(this.parent, data);
+				console.log
+			}
+			if ( webMention.hasClass(this.parent, 'links') ) {
+				console.log("yo this got links");
+				webMention.listLinks(this.parent, data);
 			}
 		}
 
-webMention.listLinks = function() {};
+webMention.listLinks = function(parentElement, apiData) {
+	for (var j = 0; j < apiData.links.length; j++) {
+				var listItem = document.createElement('LI');
+				var linkText = document.createTextNode(apiData.links[j].source);
+				var linkAnchor = document.createElement('A');
+				linkAnchor.href = apiData.links[j].source;
+				linkAnchor.appendChild(linkText);
+				listItem.appendChild(linkAnchor);
+				parentElement.appendChild(listItem);
+			}
+		}
+webMention.showCount = function(parentElement, apiData) {
+	var listItem = document.createElement('LI');
+	var linkText = document.createTextNode(apiData.links.length);
+	listItem.appendChild(linkText);
+	parentElement.appendChild(listItem);
+}
 
 // Bastardization of http://jsfiddle.net/cR9dB/2/ TODO: Unserstand this code :/
+// I think it came out of or was inspired by jquery
 webMention.hasClass = function (element, selector) {
     var className = ' ' + selector + ' ';
     var rclass = /[\t\r\n\f]/g;
