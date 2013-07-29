@@ -1,11 +1,13 @@
 // Global webmention.js object
 var webMention = {};
 // webMention.get function for finding objects to interact with. WIP
-webMention.get = function(type) {
+webMention.get = function() {
 	// Get a list of all elements with the class of webmention and type
-	webMention.elements = document.getElementsByClassName('webmentions ' + type);
+	webMention.elements = document.getElementsByClassName('webmentions');
 	// preProcess each element found
-	webMention.preProcess();
+	if ( webMention.elements ) {
+		webMention.preProcess();
+	}
 }
 
 // webMention.preProcess sets up each object function for each
@@ -65,18 +67,16 @@ webMention.postProcess = function(data) {
 			}
 		}
 
-webMention.hasClass = function( selector ) {
-	console.log 
-var className = " " + selector + " ",
-i = 0,
-l = this.length;
-for ( ; i < l; i++ ) {
-if ( this[i].nodeType === 1 && (" " + this[i].className + " ").replace(rclass, " ").indexOf( className ) >= 0 ) {
-return true;
-}
-}
+webMention.listLinks = function() {};
 
-return false;
-}
+// Bastardization of http://jsfiddle.net/cR9dB/2/ TODO: Unserstand this code :/
+webMention.hasClass = function (element, selector) {
+    var className = ' ' + selector + ' ';
+    var rclass = /[\t\r\n\f]/g;
 
-webMention.get('count');
+    return element.nodeType === 1 && (' ' + element.className + ' ')
+    .replace(rclass, ' ')
+    .indexOf(className) >= 0;      
+	}
+
+webMention.get();
