@@ -209,3 +209,11 @@ article.linklog-marker {
 	vertical-align:super;
 	font-size:0.8em;
 }
+
+
+.webmentions .count {
+  list-style:none;
+  overflow:hidden;
+  padding:5px 0 ;
+  margin:0;
+}

@@ -1,4 +1,4 @@
-<p> Mentions:</p>
-<ul class="webmentions {% if content %}links{% else %}count{% endif %}" id="http://{{ site.url }}{{ page.url }}">
-	<li>Mentions Loading...</li>
+{% if content %}<p> Mentions:</p>{% endif %}
+<ul class="webmentions {% if content %}links{% else %}count{% endif %}{% if content %}{% else %} inline{% endif %}" id="http://{{ site.url }}{{ page.url }}">
+	<li>{% if content %}<a href="http://indiewebcamp.com/comment">Learn how to send a webmention!</a>  No webmentions were found.{% else %}0{% endif %}</li>
 </ul>

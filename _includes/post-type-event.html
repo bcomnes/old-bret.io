@@ -1,19 +1,17 @@
 <!--Begin note "{{ page.title }}"-->
 <article class="note h-event row">
 	<header class="span2">
-	<div>
 	<p class="muted">
 		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
 			{{ page.date | date_to_string }}
 		</time> &bull; {% if content %}{% else %}<a rel="bookmark" class="u-url" href="{{ page.url }}">{% endif %}{{ site.permalink_marker }}{% if content %}{% else %}</a>{% endif %}
 	</p>
-	</p>
-	</div>
+	{% if content %}{% else %}<p><span><i class="icon-comment"></i>{% if content %}{% else %}{% include post-aside-webmention.html %}{% endif %}</span></p>{% endif %}
 	</header>
 <section class="span8">
 {% include post-logic-content.html %}
-{% include post-aside-webmention.html %}
-{% if page.syndicate %}{% include post-aside-syndicate.html %}{% endif %}
+{% if content %}{% include post-aside-webmention.html %}{% endif %}
+{% if content %}{% if page.syndicate %}{% include post-aside-syndicate.html %}{% endif %}{% endif %}
 </section>
     {% if content %}
 <footer class="span2">
