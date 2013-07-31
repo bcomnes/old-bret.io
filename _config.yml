@@ -53,27 +53,15 @@ kramdown:
 
 # Prose stuff
 prose:
-  siteurl: 'http://bret.io'
+  siteurl: 'http://bret.io/'
+  #relativeLinks: 'http://bret.io/pages.jsonp'
   media: 'media'
   metadata:
-    _posts:
+    _posts/articles:
       - name: "layout"
         field:
-          element: "select"
-          label: "Layout"
-          placeholder: "Select a Layout"
-          options:
-            - name: "Article"
-              value: "article"
-            - name: "Linklog"
-              value: "linklog"
-            - name: "Note"
-              value: "note"
-          selected: "note"
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Tags"
+          element: "hidden"
+          value: "article"
       - name: "title"
         field:
           element: "text"
@@ -82,4 +70,29 @@ prose:
         field:
           element: "text"
           label: "Date: YYYY-MM-DD HH:MM"
-          
+    _posts/notes:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "note"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date: YYYY-MM-DD HH:MM"
+    _posts/linklogs:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "linklog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date: YYYY-MM-DD HH:MM"
