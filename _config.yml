@@ -70,6 +70,11 @@ prose:
         field:
           element: "text"
           label: "Date: YYYY-MM-DD HH:MM"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: true
     _posts/notes:
       - name: "layout"
         field:
