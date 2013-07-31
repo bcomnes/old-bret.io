@@ -74,6 +74,7 @@ prose:
         field:
           element: "multiselect"
           label: "Tags"
+          options: 'http://bret.io/pages/tags.jsonp'
           alterable: true
     _posts/notes:
       - name: "layout"
@@ -92,6 +93,7 @@ prose:
         field:
           element: "multiselect"
           label: "Tags"
+          options: 'http://bret.io/pages/tags.jsonp'
           alterable: true
       - name: "reply_url"
         field:
@@ -118,4 +120,5 @@ prose:
         field:
           element: "multiselect"
           label: "Tags"
+          options: 'http://bret.io/pages/tags.jsonp'
           alterable: true

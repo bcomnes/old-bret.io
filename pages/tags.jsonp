@@ -1,0 +1,10 @@
+---
+---
+callback([
+{% for tag in site.tags %}
+  {
+    "name": "{{tag[0] | replace:'"','\"'}}",
+    "value": "{{tag[0]}}"
+  } {% unless forloop.last %},{% endunless%}
+{% endfor %}
+])
