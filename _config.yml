@@ -88,6 +88,19 @@ prose:
         field:
           element: "text"
           label: "Date: YYYY-MM-DD HH:MM"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: true
+      - name: "reply_url"
+        field:
+          element: "text"
+          label: "Reply to URL"
+      - name: "reply_title"
+        field:
+          element: "text"
+          label: "Name of reply"
     _posts/linklogs:
       - name: "layout"
         field:
@@ -101,3 +114,8 @@ prose:
         field:
           element: "text"
           label: "Date: YYYY-MM-DD HH:MM"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: true
