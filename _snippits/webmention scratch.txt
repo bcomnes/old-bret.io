@@ -35,3 +35,19 @@ curl -i -s $target | grep 'rel="http://webmention.org/"'
 </ul>
 
 curl -i -d "source=http://tantek.com/2013/185/&target=http://bret.io/2013/06/28/indiewebcamp-2013-roundup/" http://pingback.me/bcomnes/webmention
+
+http://bret.io/2013/07/26/t1/
+
+http://aaronparecki.com/events/2013/07/28/1/indieweb-hack-session
+
+
+curl -i -d "source=http://bret.io/2013/07/26/t1/&target=http://aaronparecki.com/events/2013/07/28/1/indieweb-hack-session" http://aaronparecki.com/webmention.php
+
+
+http://aaronparecki.com/replies/2013/06/28/1/indieweb
+
+http://pingback.me/bcomnes/webmention
+curl -i -s http://bret.io | grep 'rel="http://webmention.org/"'
+
+
+curl -i -d "source=http://aaronparecki.com/replies/2013/06/28/1/indieweb&target=http://bret.io" http://pingback.me/bcomnes/webmention
