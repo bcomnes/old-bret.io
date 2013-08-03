@@ -25,13 +25,14 @@ webMention.insertScript = function(i) {
 
 webMention.postProcess = function(data) {
             this.parent = document.getElementById(this.slug);
-            this.placeHolder = this.parent.firstElementChild;
-            this.parent.removeChild(this.placeHolder);
             if ( webMention.hasClass(this.parent, 'count') ) {
+                this.placeHolder = this.parent.firstElementChild.nextElementSibling;
+                this.parent.removeChild(this.placeHolder);
                 webMention.showCount(this.parent, data);
-                console.log
             }
             if ( webMention.hasClass(this.parent, 'links') ) {
+                this.placeHolder = this.parent.firstElementChild;
+                this.parent.removeChild(this.placeHolder);
                 webMention.listLinks(this.parent, data);
             }
         }
@@ -39,7 +40,7 @@ webMention.postProcess = function(data) {
 webMention.listLinks = function(parentElement, apiData) {
     for (var j = 0; j < apiData.links.length; j++) {
                 var listItem = document.createElement('LI');
-                var linkText = document.createTextNode(apiData.links[j].source);
+                var linkText = document.createTextNode(apiData.links[j].source + " on " + apiData.links[j].verified_date );
                 var linkAnchor = document.createElement('A');
                 linkAnchor.href = apiData.links[j].source;
                 linkAnchor.appendChild(linkText);
@@ -52,6 +53,13 @@ webMention.showCount = function(parentElement, apiData) {
     var linkText = document.createTextNode(apiData.links.length);
     listItem.appendChild(linkText);
     parentElement.appendChild(listItem);
+}
+
+webMention.listAll = function() {
+    for (var j = 0; j < apiData.links.length; j++) {
+        
+    }
+    
 }
 
 // Bastardization of http://jsfiddle.net/cR9dB/2/ TODO: Unserstand this code :/

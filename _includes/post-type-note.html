@@ -6,7 +6,7 @@
 			{{ page.date | date_to_string }}
 		</time> &bull; {% if content %}{% else %}<a rel="bookmark" class="u-url" href="{{ page.url }}">{% endif %}{{ site.permalink_marker }}{% if content %}{% else %}</a>{% endif %}
 	</p>
-	{% if content %}{% else %}<p><span class='inline'><i class="icon-comment"></i>{% if content %}{% else %}{% include post-aside-webmention.html %}{% endif %}</span></p>{% endif %}
+	{% if content %}{% else %}<p>{% include post-aside-webmention.html %}</p>{% endif %}
 	</header>
 <section class="span8">
 <div class="e-content p-summary p-name">
