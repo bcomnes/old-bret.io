@@ -17,3 +17,6 @@ date: 2013-02-10 01:51:00
 <img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=200" class="img-polaroid" alt="A picture of me!">
 </a>
 </div>
+
+### Site Status:
+[![Build Status](https://travis-ci.org/bcomnes/bcomnes.github.io.png?branch=master)](https://travis-ci.org/bcomnes/bcomnes.github.io)
