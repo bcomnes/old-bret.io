@@ -1,4 +1,4 @@
-url: http://localhost:4000
+url: http://bret.io
 paginate: 5
 permalink: pretty
 markdown: rdiscount
@@ -28,7 +28,7 @@ maruku:
   use_divs:   false
   png_engine: blahtex
   png_dir:    images/latex
-  png_url: http://localhost:4000
+  png_url: http://bret.io
 
 rdiscount:
   extensions: []
@@ -53,7 +53,7 @@ kramdown:
 
 # Prose stuff
 prose:
-  siteurl: http://localhost:4000
+  siteurl: http://bret.io
   #relativeLinks: 'http://bret.io/pages.jsonp'
   media: 'media'
   metadata:
