@@ -22,19 +22,19 @@ end
 
 desc 'Preview on local machine (server with --auto)'
 task :preview => :clean do
-  set_url('http://localhost:4000')
+  #set_url('http://localhost:4000')
   jekyll('serve --watch')
 end
 
 desc 'Static build (build using filesystem)'
 task :build_static => :clean do
-  set_url(Dir.getwd + "/_site")
+  #set_url(Dir.getwd + "/_site")
   jekyll('build')
 end
 
 desc 'Build for deployment (but do not deploy)'
 task :build => :clean do
-  set_url($deploy_url)
+  #set_url($deploy_url)
   jekyll('build')
 end
 
