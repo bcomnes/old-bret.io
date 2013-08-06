@@ -2,7 +2,7 @@
 layout: article
 title: "Ruby on Windows"
 date: 2013-06-26 22:59
-in-reply-to-url: 
+reply_url: 
 in-reply-to-title: 
 tags: [Ruby, Website, Documentation]
 published: true
