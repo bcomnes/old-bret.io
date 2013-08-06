@@ -1,6 +1,6 @@
 ---
 layout: note
-published: false
+published: true
 title: t2
 date: "2013-08-06 16:43"
 "": Indi
