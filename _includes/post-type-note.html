@@ -10,7 +10,7 @@
 	</header>
 <section class="span8">
 <div class="e-content p-summary p-name">
-{% if page.reply_url %}<p class="muted"><small><i class="icon-share-alt muted"></i> Replied to <a class="u-in-reply-to muted" href="{{ page.reply_url }}">a post on {{ page.in-reply-to-title }}</a>:</small></p>{% endif %}
+{% if page.reply_url %}<p class="muted"><small><i class="icon-share-alt muted"></i> Replied to <a class="u-in-reply-to muted" href="{{ page.reply_url }}">a post on {{ page.reply_title }}</a>:</small></p>{% endif %}
 
 {% include post-logic-content.html %}
 

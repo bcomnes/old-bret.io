@@ -3,7 +3,7 @@ layout: article
 title: "Getting Started with Bower"
 date: 2013-06-29 14:26
 reply_url: 
-in-reply-to-title: 
+reply_title: 
 tags: [Ruby, Website, Documentation]
 published: true
 ---
