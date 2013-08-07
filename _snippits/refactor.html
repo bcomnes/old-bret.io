@@ -1,0 +1,58 @@
+# Index
+<article>
+	<header>
+		<h1><a href="permalink">{{ Title }}</a></h1>
+		<h2><a href="permalink"><time>{{ time }}</time></a> &bull; {{ counts }}</h2>
+	</header>
+	<section>
+		{{ content }}
+	</section>
+</article>
+
+#Permalink
+<article>
+	<header>
+		<h1>{{ title }}</h1>
+		<h2><time>{{ time }}</time></h2>
+		<h2>{{ author }}</h2>
+	</header>
+	<section>
+		{{ content }}
+	</section>
+	<footer>
+		<section>Permalink</section>
+		<section>Citation</section>
+		<section>Webmentions</section>
+		<section>Syndication</section>
+	</footer>
+</article>
+
+# Index
+<article>
+	<header>
+		<h1><a href="external-link">Title -></a></h1>
+		<h2><p>
+			<a href="permalink"><time>{{ time }}</time></a> 
+			&bull; {{ counts }}
+		</p></h2>
+	</header>
+	<section>
+		{{ content }}
+	</section>
+</article>
+
+# Permalink
+<article>
+	<header>
+		<h1>{{ Title }} -></h1>
+		<h2><time>{{ time }} &bull; {{ counts }}</time></h2>
+	</header>
+	<section>
+		{{ content }}
+	</section>
+	<footer>
+		<section>Permalink</section>
+		<section>Webmentions</section>
+		<section>Syndication</section>
+	</footer>
+</article>
