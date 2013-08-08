@@ -63,4 +63,4 @@ curl -i -s http://aaronparecki.com/replies/2013/06/28/1/indieweb | grep 'rel="ht
 
 http://aaronparecki.com/webmention.php
 
-curl -i -d "source=http://bret.io/2013/06/29/t2/&target=http://aaronparecki.com/replies/2013/06/28/1/indieweb" http://aaronparecki.com/webmention.php
+curl -i -d "source=http://bret.io/2013/08/06/t1/&target=http://aaronparecki.com/notes/2013/08/02/1/google-voice" http://aaronparecki.com/webmention.php
