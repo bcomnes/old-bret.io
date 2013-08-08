@@ -9,4 +9,4 @@ tags:
   - Web
 ---
 
-I keep thinking I am approching a wall on this static site project, but as I get closer, the furthur away it actually is.  Development Seed is creating many fantastic tools to enable this.  Thanks guys!
+I keep thinking I am approching a wall on this static site project, but as I get closer the furthur away it actually is.  Development Seed is creating many fantastic tools to enable this.  Thanks guys!
