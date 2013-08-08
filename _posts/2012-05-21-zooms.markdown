@@ -4,7 +4,7 @@ title: "Zooms"
 date: 2012-05-21 00:52
 comments: false
 sidebar: collapse
-external-url: https://vimeo.com/38828455
+external_url: https://vimeo.com/38828455
 tags: [Video, Film]
 published: true
 ---

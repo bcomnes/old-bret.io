@@ -2,7 +2,7 @@
 layout: article
 title: "Using KeePass as pageant"
 date: 2013-01-22 00:44
-external-url: 
+external_url: 
 categories: 
 tags: [Tutorial, Keepass, pageant, SSH, Windows, Git, CLI, Documentation]
 published: true

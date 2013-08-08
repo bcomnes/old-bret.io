@@ -4,7 +4,7 @@ title: "Domain Change"
 date: 2013-06-19 13:16
 comments: false
 sidebar: collapse
-external-url:
+external_url:
 tags: [Website, Web]
 published: true
 ---

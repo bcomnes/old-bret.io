@@ -3,7 +3,7 @@ layout: article
 title: "LaTeX Section Font Sizing in TextMate 2"
 date: 2013-03-13 21:12
 comments: false
-external-url: 
+external_url: 
 tags: [LaTeX, TextMate, Programming, Markup]
 published: true
 ---

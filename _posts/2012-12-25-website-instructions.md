@@ -2,7 +2,7 @@
 layout: article
 title: "Website Instruction Manual Pt. 1"
 date: 2012-12-25 23:14
-external-url: 
+external_url: 
 categories: 
 tags: [Website, Education, Tutorial, Story, Jekyll, Homebrew, CLI, NV]
 ---

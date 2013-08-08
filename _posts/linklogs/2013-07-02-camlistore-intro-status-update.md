@@ -3,7 +3,7 @@ layout: linklog
 title: "Camlistore Intro & Status Update"
 date: 2013-07-02 22:46
 comments: false
-external-url: https://www.youtube.com/watch?v=yxSzQIwXM1k
+external_url: https://www.youtube.com/watch?v=yxSzQIwXM1k
 tags: [Camlistore, Google, Data, Web]
 published: true
 ---

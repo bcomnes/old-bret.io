@@ -2,7 +2,7 @@
 layout: article
 title: "Digital Yard Sale"
 date: 2013-01-21 00:34
-external-url: 
+external_url: 
 categories: 
 tags: [Sale]
 published: True

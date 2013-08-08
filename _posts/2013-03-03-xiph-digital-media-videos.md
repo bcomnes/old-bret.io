@@ -3,7 +3,7 @@ layout: linklog
 title: "Xiph Digital Media Videos"
 date: 2013-03-02 22:19
 comments: false
-external-url: http://www.xiph.org/video/
+external_url: http://www.xiph.org/video/
 tags: [Video, Audio, Engineering]
 published: true
 ---

@@ -4,7 +4,7 @@ title: "Pop-Up Printed Fabrication"
 date: 2012-05-21 00:56
 comments: false
 sidebar: collapse
-external-url: https://www.youtube.com/watch?v=VxSs1kGZQqc
+external_url: https://www.youtube.com/watch?v=VxSs1kGZQqc
 tags: [Video, Robotics]
 published: true
 ---

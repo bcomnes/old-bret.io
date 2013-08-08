@@ -4,7 +4,7 @@ title: "Rear Window"
 date: 2012-05-21 00:48
 comments: false
 sidebar: collapse
-external-url: https://vimeo.com/37120554
+external_url: https://vimeo.com/37120554
 tags: [Video, Film]
 published: true
 ---

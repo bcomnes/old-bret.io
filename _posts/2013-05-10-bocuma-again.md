@@ -4,7 +4,7 @@ title: "Bocuma Again"
 date: 2013-05-10 23:30
 comments: false
 sidebar: collapse
-external-url:
+external_url:
 tags: [Music, BOC]
 published: true
 ---

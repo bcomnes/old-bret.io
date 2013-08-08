@@ -4,7 +4,7 @@ title: "Pre-9/11 NYC Bike Messengers"
 date: 2012-01-14 00:16
 comments: false
 tags: Video
-external-url: http://www.youtube.com/watch?v=sj1-218EnvY
+external_url: http://www.youtube.com/watch?v=sj1-218EnvY
 published: true
 ---
 
