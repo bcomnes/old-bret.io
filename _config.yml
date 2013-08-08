@@ -105,6 +105,16 @@ prose:
         field:
           element: "text"
           label: "Name of reply"
+      - name: "faketags"
+              field:
+                element: "multiselect"
+                label: "Add Tags"
+                placeholder: "Choose Tags"
+                options:
+                  - name: "Apples"
+                    value: "apples"
+                  - name: "Bananas"
+                    value: "bananas"
     _posts/linklogs:
       - name: "layout"
         field:
