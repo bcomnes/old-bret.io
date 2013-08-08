@@ -125,3 +125,7 @@ prose:
           label: "Tags"
           options: 'http://bret.io/pages/tags.jsonp'
           alterable: true
+      - name: "external_url"
+        field:
+            element: "text"
+            label: "Link"
