@@ -107,9 +107,8 @@ prose:
           label: "Name of reply"
       - name: "faketags"
         field:
-         element: "multiselect"
+         element: "select"
           label: "Add Tags"
-          placeholder: "Choose Tags"
             options:
               - name: "Apples"
                 value: "apples"
