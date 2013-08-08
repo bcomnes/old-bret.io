@@ -105,15 +105,12 @@ prose:
         field:
           element: "text"
           label: "Name of reply"
-      - name: "faketags"
+      - name: "RSVP"
         field:
-         element: "select"
-          label: "Add Tags"
-            options:
-              - name: "Apples"
-                value: "apples"
-              - name: "Bananas"
-                value: "bananas"
+          element: "select"
+          label: "RSVP"
+          options: 'http://bret.io/pages/tags.jsonp'
+          alterable: false
     _posts/linklogs:
       - name: "layout"
         field:
