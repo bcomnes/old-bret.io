@@ -38,7 +38,7 @@ http://werd.io/webmention/
 http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup
 
 
-curl -i -d "source=http://bret.io/2013/06/25/t2/&target=http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup" http://werd.io/webmention/
+curl -i -d "source=http://bret.io/2013/08/07/t1/&target=http://werd.io/" http://werd.io/webmention/
 
 
 
@@ -53,7 +53,7 @@ http://news.indiewebcamp.com/webmention
 curl -i -d "source=http://bret.io/2013/06/28/indiewebcamp-2013-roundup/&target=http://news.indiewebcamp.com/post/bret.io/2013/06/28/indiewebcamp-2013-roundup/" http://news.indiewebcamp.com/webmention
 
 
-curl -i -d "source=http://bret.io/2013/06/29/t1/&target=http://werd.io/event/51ccc9ecbed7deaf58e8ff5e/indieweb-burritos" http://werd.io/webmention/
+curl -i -d "source=http://bret.io/2013/08/08/t2/&target=http://werd.io/view/5203aeafbed7dec3297fe349" http://werd.io/webmention/
 
 
 http://bret.io/2013/06/29/t2/

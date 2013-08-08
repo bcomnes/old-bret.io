@@ -105,12 +105,6 @@ prose:
         field:
           element: "text"
           label: "Name of reply"
-      - name: "RSVP"
-        field:
-          element: "select"
-          label: "RSVP"
-          options: 'http://bret.io/pages/tags.jsonp'
-          alterable: false
     _posts/linklogs:
       - name: "layout"
         field:
