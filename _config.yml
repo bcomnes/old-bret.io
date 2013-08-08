@@ -125,3 +125,28 @@ prose:
           label: "Tags"
           options: 'http://bret.io/pages/tags.jsonp'
           alterable: true
+    _posts/rsvp:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "note"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date: YYYY-MM-DD HH:MM"
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "rsvp"
+      - name: "reply_url"
+        field:
+          element: "text"
+          label: "Reply to URL"
+      - name: "reply_title"
+        field:
+          element: "text"
+          label: "Name of reply"
