@@ -105,7 +105,7 @@ prose:
         field:
           element: "text"
           label: "Name of reply"
-    _posts/linklogs:
+    _posts/linklog:
       - name: "layout"
         field:
           element: "hidden"
@@ -125,7 +125,3 @@ prose:
           label: "Tags"
           options: 'http://bret.io/pages/tags.jsonp'
           alterable: true
-      - name: "external_url"
-        field:
-          element: "text"
-          label: "Link"
