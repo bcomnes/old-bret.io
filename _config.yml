@@ -106,16 +106,16 @@ prose:
           element: "text"
           label: "Name of reply"
       - name: "rsvp"
-        field:
-          element: "select"
-          label: "RSVP"
-		  options:
-		    - name: 'Yes'
-		      value: 'yes'
-		    - name: 'No'
-		      value: 'no'
-		    - name: 'Maybe'
-		      value: 'maybe'
+              field:
+                element: "select"
+                label: "RSVP"
+                options:
+                  - name: "Yes"
+                    value: "yes"
+                  - name: "Maybe"
+                    value: "maybe"
+                  - name: "No"
+                    value: "no"
     _posts/linklogs:
       - name: "layout"
         field:
