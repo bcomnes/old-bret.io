@@ -5,8 +5,7 @@ title: Outbox
 
   {% for page in site.posts limit:5 %}
   {% if page.reply_url %}
-  <p><pre>curl -i -s {{ page.reply_url }} | grep 'rel="http://webmention.org/"'</pre></p>
-  <p><pre>curl -i -d "source=http://{{ site.url }}{{ page.url }}&target={{ page.reply_url }}"</pre></p>
+  <p><pre>curl -i -d "source=http://{{ site.url }}{{ page.url }}&target={{ page.reply_url }}" `curl -i -s {{ page.reply_url }} | grep 'rel="http://webmention.org/"' | sed 's/rel="http:\/\/webmention.org\/"//' | grep -o -E 'https?://[^ ">]+' | sort | uniq`</pre></p>
   {% endif %}
   {% endfor %}
  
