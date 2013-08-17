@@ -22,7 +22,7 @@ layout: nil
       <link type="text/html" rel="alternate" href="http://{{ site.url }}{{ page.url | xml_escape }}"/>
       <title>{{ page.title | xml_escape }}</title>
       {% when 'linklog' %}
-      <link type="text/html" rel="alternate" href="{{ page.external-url | xml_escape }}"/>
+      <link type="text/html" rel="alternate" href="{{ page.external_url | xml_escape }}"/>
       <title>{{ page.title | xml_escape }} {{ site.linklog }}</title>
       {% else %}
       <link type="text/html" rel="alternate" href="http://{{ site.url }}{{ page.url | xml_escape }}"/>

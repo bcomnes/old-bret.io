@@ -4,7 +4,7 @@ title: "Man and Tortoise"
 date: 2012-05-21 01:11
 comments: false
 sidebar: collapse
-external-url: http://www.youtube.com/watch?v=vdqTmBGcg3M
+external_url: http://www.youtube.com/watch?v=vdqTmBGcg3M
 tags: [Video, Nature]
 published: true
 ---

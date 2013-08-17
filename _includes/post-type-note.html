@@ -2,15 +2,13 @@
 <article class="note h-entry row">
 	<header class="span2">
 	<p class="muted">
-		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
-			{{ page.date | date_to_string }}
-		</time> &bull; {% if content %}{% else %}<a rel="bookmark" class="u-url" href="{{ page.url }}">{% endif %}{{ site.permalink_marker }}{% if content %}{% else %}</a>{% endif %}
-	</p>
+		{% if content %}{% else %}<a rel="bookmark" class="u-url" href="{{ page.url }}">{% endif %}<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>{% if content %}{% else %}</a>{% endif %}</p>
 	{% if content %}{% else %}<p>{% include post-aside-webmention.html %}</p>{% endif %}
 	</header>
 <section class="span8">
+{% if page.reply_url %}<p class="muted"><small><i class="icon-share-alt muted"></i> Replied to <a class="u-in-reply-to muted" href="{{ page.reply_url }}">a post on {{ page.reply_title }}</a>:</small></p>{% endif %}
+
 <div class="e-content p-summary p-name">
-{% if page.in-reply-to-url %}<p class="muted"><small><i class="icon-share-alt muted"></i> Replied to <a class="u-in-reply-to muted" href="{{ page.in-reply-to-url }}">a post on {{ page.in-reply-to-title }}</a>:</small></p>{% endif %}
 
 {% include post-logic-content.html %}
 

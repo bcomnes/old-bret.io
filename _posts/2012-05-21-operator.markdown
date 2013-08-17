@@ -4,7 +4,7 @@ title: "Operator?"
 date: 2012-05-21 00:51
 comments: false
 sidebar: collapse
-external-url: http://www.youtube.com/watch?v=6dJbx4pbI4k
+external_url: http://www.youtube.com/watch?v=6dJbx4pbI4k
 tags: [Video]
 published: true
 ---

@@ -3,7 +3,7 @@ layout: linklog
 title: "Fixing Broken RSS Feeds"
 date: 2013-01-25 21:23
 comments: false
-external-url: http://fulltextrssfeed.com/ 
+external_url: http://fulltextrssfeed.com/ 
 tags: [RSS, Web, Tools]
 published: true
 ---

@@ -3,7 +3,7 @@ layout: linklog
 title: "More Reasons to Delete Your Facebook"
 date: 2013-02-26 23:36
 comments: false
-external-url: http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook
+external_url: http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook
 tags: [Facebook, Social Networking, Privacy, Video]
 published: true
 ---

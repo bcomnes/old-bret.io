@@ -4,7 +4,7 @@ title: "Mathematica, Meet Waldo"
 date: 2012-05-20 23:58
 comments: false
 sidebar: collapse
-external-url: 
+external_url: 
 tags: [Math, Programming] 
 ---
 

@@ -4,7 +4,7 @@ title: "DHT Talk"
 date: 2013-04-25 00:26
 comments: false
 sidebar: collapse
-external-url: http://vimeo.com/56044595
+external_url: http://vimeo.com/56044595
 tags: [DHT, Bittorrent, Video]
 published: true
 ---

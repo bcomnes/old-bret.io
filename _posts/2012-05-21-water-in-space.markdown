@@ -4,7 +4,7 @@ title: "Water in Space"
 date: 2012-05-21 01:04
 comments: false
 sidebar: collapse
-external-url: http://www.physicscentral.com/explore/sots/index.cfm
+external_url: http://www.physicscentral.com/explore/sots/index.cfm
 tags: [Video, Physics, Gravity]
 published: true
 ---

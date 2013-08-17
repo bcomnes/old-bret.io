@@ -4,7 +4,7 @@ title: "Image Fulgurator"
 date: 2012-05-29 20:09
 comments: false
 sidebar: collapse
-external-url: http://vimeo.com/10118219
+external_url: http://vimeo.com/10118219
 tags: [Video]
 published: true
 ---
