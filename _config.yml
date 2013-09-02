@@ -82,6 +82,14 @@ prose:
         field:
           element: "hidden"
           value: "note"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date: YYYY-MM-DD HH:MM"
       - name: "tags"
         field:
           element: "multiselect"
