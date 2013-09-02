@@ -82,15 +82,6 @@ prose:
         field:
           element: "hidden"
           value: "note"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date: YYYY-MM-DD HH:MM"
-          value: CURRENT_DATETIME
       - name: "tags"
         field:
           element: "multiselect"
