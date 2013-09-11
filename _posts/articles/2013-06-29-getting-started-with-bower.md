@@ -7,9 +7,9 @@ reply_title:
 tags: [Ruby, Website, Documentation]
 published: true
 ---
-Here are some notes how to set up [Bower](), a package manager for project dependancies.
+Here are some notes how to set up [Bower](http://bower.io/  ), a package manager for project dependancies.
 
-1. Set up [node.js]()/[npm]() on the local system that will be running Bower.
+1. Set up [node.js](http://nodejs.org/)/[npm](https://npmjs.org/) on the local system that will be running Bower.
     - (*Optional*) Set up a `.bowerrc` file in the project directory if you have weird project requirements.  See the bower documentation for a loose idea of what this can do.
 2. Run `bower init` in the root directory of your project.
 3. Fill in that information.
