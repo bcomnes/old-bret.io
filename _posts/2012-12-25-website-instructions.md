@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Website Instruction Manual Pt. 1"
+published: false
 date: 2012-12-25 23:14
 external_url: 
 categories: 
