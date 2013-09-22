@@ -12,8 +12,8 @@
 
 {% include post-logic-content.html %}
 
-{% if page.rsvp %}<data class="p-rsvp" value="{{ page.rsvp }}">I'm RSVPing "{{ page.rsvp }}"</data>{% endif %}
 </div>
+{% if page.rsvp %}<data class="p-rsvp" value="{{ page.rsvp }}">I'm RSVPing "{{ page.rsvp }}"</data>{% endif %}
 {% if content %}{% include post-aside-webmention.html %}{% endif %}
 {% if content %}{% if page.syndicate %}{% include post-aside-syndicate.html %}{% endif %}{% endif %}
 </section>
