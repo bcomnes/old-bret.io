@@ -19,6 +19,6 @@ I demonstrated my [personal blogging platform](https://github.com/bcomnes/bcomne
  
 Aaron Parecki demonstrated [indieauth](https://indieauth.com/), an implementation of [rel=me auth](http://microformats.org/wiki/RelMeAuth), a standard that enables domain names as an identity (rather than email as an identity), by delegating your authentication provider to existing accounts on services that support Oauth (such as twitter, github, flickr, etc).  It also allows for alternate authentication methods such as TOTP (google authenticator) and SMS authentication.    As part of his presentation, Aaron demonstrated passwordless TOTP authentication via indiauth where his [pebble watch provided him with TOTP code](http://aaronparecki.com/articles/2013/07/15/1/password-less-logins-from-your-own-domain-with-a-pebble-watch).
  
-Can we update the two descriptions for histories sake?  It was a great meeting.  I learned a lot!
+Can we update the two descriptions for history's sake?  It was a great meeting.  I learned a lot!
  
 ~ Bret Comnes
