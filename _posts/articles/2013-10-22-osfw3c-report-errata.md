@@ -13,7 +13,7 @@ Hi [Harry](http://www.ibiblio.org/hhalpin/),
 Thanks for putting up the report of the OSFW3C recently:
 [http://www.w3.org/2013/socialweb/report.html](http://www.w3.org/2013/socialweb/report.html)
 
-I wanted to point out some mistakes form the running code section.
+I wanted to point out some mistakes from the running code section.
 
 I demonstrated my [personal blogging platform](https://github.com/bcomnes/bcomnes.github.io) which is built off of [jekyll](http://jekyllrb.com/) and hosted for free on github-pages (under my own domain).  I demonstrated the ability to post comments to my own site, and have the contents of the comment (or rsvp status to an event) automatically syndicated and displayed to other '[indieweb](http://indiewebcamp.com)' enabled websites using a combination of [webmentions](https://webmention.org/) and [microformat-2](http://microformats.org/wiki/microformats-2) symantic data.  The result of this is displayed as a twitter-like conversation thread made up of posts from across different personal websites.  My particular implementation is done using completely static html and post commit hooks, which helps demonstrate the simplicity and viability of these different tools.  The other sites involved in the demo were [aaronparecki.com](http://aaronparecki.com/notes/2013/08/08/2/osfw3c) and [werd.io](http://werd.io/slides/520335d6bed7de2e1a648b51) which are separate implementations of the above standards than my own.
  
