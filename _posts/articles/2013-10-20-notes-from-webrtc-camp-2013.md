@@ -1,13 +1,13 @@
 ---
-layout: note
+layout: article
 published: true
-title: t1
+title: Notes from WebRTC Camp 2013
 date: "2013-10-20 14:24"
 tags: 
   - webRTC
 ---
 
-## Notes from WebRTC Camp 2013
+The following are notes from the QA session with Google's [Ilya Grigorik](http://www.igvita.com/) and Mozilla's [Eric Rescorla](http://rtfm.com/) at [webRTC Camp 2013](http://2013.webrtccamp.com/).  They may or may not be interesting to anyone.
 
 - [Hackpad with notes and schedule](https://hackpad.com/WebRTC-Camp-2013-ViBwUIBkDGh)
 - [#webrtcamp on freenode](irc://chat.us.freenode.net/webrtcamp)
