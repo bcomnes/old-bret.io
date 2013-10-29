@@ -2,7 +2,8 @@
 <p>Syndicated to:</p>
 <ul class="syndicate_box">    
 {% for item in page.syndicate %}
-<li><a rel="syndication" href="{{ item.url }}/{{ site.url }}{{ page.url }}">{{ item.name }}</a></li>
+{% if item.name == 'IndieNews'%}<li><a rel="syndication" href="{{ item.url }}/{{ site.url }}{{ page.url }}">{{ item.name }}</a></li>{% else %}
+<li><a rel="syndication" href="{{ item.url }}">{{ item.name }}</a></li>{% endif %}
 {% endfor %}
 </ul>
 {% endif %}
