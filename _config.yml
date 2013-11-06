@@ -1,5 +1,5 @@
 url: bret.io
-paginate: 5
+paginate: 10
 permalink: pretty
 markdown: rdiscount
 safe: true
@@ -90,7 +90,6 @@ prose:
         field:
           element: "text"
           label: "Date: YYYY-MM-DD HH:MM"
-          value: CURRENT_DATETIME
       - name: "tags"
         field:
           element: "multiselect"

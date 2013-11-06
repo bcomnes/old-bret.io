@@ -34,6 +34,7 @@ items:
   alt: 'This is the comics alt-text'
   src: 'URL-TO-COMIC-SRC'
 ---
+
 {% assign i = 0  %}
 This is a test page...
 
