@@ -1,6 +1,6 @@
 ---
 layout: linklog
-published: false
+published: true
 title: "Taking Over Someone Else's Open-Source Project"
 date: "2013-11-10 18:37"
 external_url: "http://blog.parkermoore.de/2013/11/04/taking-over-someone-elses-open-source-project/"
