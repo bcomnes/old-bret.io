@@ -1,6 +1,5 @@
 _site/
 bre.tc.tmproj
-.tm_properties
 .DS_Store
 components/jquery/.gitignore
 components/jquery/README.md
