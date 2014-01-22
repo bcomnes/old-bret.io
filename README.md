@@ -1,4 +1,4 @@
-Bret Comnes's Website
+Bret Comnes' Website
 ==================
 
 [![Build Status](https://travis-ci.org/bcomnes/bcomnes.github.io.png?branch=master)](https://travis-ci.org/bcomnes/bcomnes.github.io)
