@@ -39,6 +39,6 @@ $ python distribute_setup.py
 $ easy_install Pygments
 {% endhighlight %}
 
-#### I only use it for jekyll development.
+#### These notes are geared towards jekyll development.
 
 This should result in a fully working ruby install in a few minutes time.	
