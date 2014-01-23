@@ -67,7 +67,7 @@ This is a list of personal projects that I have worked on over the past few year
 <img src="http://farm3.staticflickr.com/2828/12097294163_834bddf03c_n.jpg" width="320" height="230" alt="Screenshot of the Resume">
 </figure> 
 
-## Mathematica Notebook
+## Mathematica Notebooks
 Gifs Coming Soon!
 
 * [Ising Model]():
