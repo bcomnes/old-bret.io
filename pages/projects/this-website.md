@@ -1,3 +1,5 @@
 * [Microformats 2]() - Embeds a micro API into each post made to the site allowing other sites to easisly extract useful things such as author information, in-reply-to relationships and link citations enabling high quality conversation views like you would expect on twitter or facebook, except across different independent websites. 
 * [Webmentions]() - Enables a page on one site notify that there is something interesting about itself to another website.  Its essentially a [pingback]() but its easier to implement since it drops the XML-RPC baggage.  This is a static site so receiving webmention relies upon the [webmention.io]() service.  
 *
+
+<a href="http://indiewebcamp.com/"><img src="/assets/ico/indiewebcamp-button.png" alt="IWC logo"/></a>

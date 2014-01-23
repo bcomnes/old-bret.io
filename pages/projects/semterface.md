@@ -1,14 +1,21 @@
 ---
 layout: default
 title: SEMterface
+footer: true
 ---
 
 # SEMterface
 
-This is the description page for the SEMterface project at the [Erik Sanchez Nanodevelopment Lab](http://web.pdx.edu/~esanchez/sanchezTeam.html) at Portland State University.  Technical details and code can be found in the repository README.
+<a href="http://www.flickr.com/photos/bretc/12094290053/" title="Jeol SEM, on Flickr"><img class="img-polaroid" src="http://farm8.staticflickr.com/7374/12094290053_7ec70584dc_q.jpg" width="150" height="150" alt="Jeol SEM"></a>
+<a href="http://www.flickr.com/photos/bretc/12080555383/" title="Bug Eye Zoomed out, on Flickr"><img class="img-polaroid" src="http://farm4.staticflickr.com/3746/12080555383_d7c40f33b3_q.jpg" width="150" height="150" alt="Bug Eye Zoomed out"></a>
+<a href="http://www.flickr.com/photos/bretc/12080244105/" title="Bug Eye Medium, on Flickr"><img class="img-polaroid" src="http://farm8.staticflickr.com/7357/12080244105_1657b43f21_q.jpg" width="150" height="150" alt="Bug Eye Medium"></a>
+<a href="http://www.flickr.com/photos/bretc/12080243605/" title="Bug Eye Zoomed in on Flickr"><img class="img-polaroid" src="http://farm8.staticflickr.com/7314/12080243605_3fe9322343_q.jpg" width="150" height="150" alt="Bug Eye Zoomed in"></a>
+
+This is the description page for the SEMterface project at the [Erik Sanchez Nanodevelopment Lab](http://web.pdx.edu/~esanchez/sanchezTeam.html) at Portland State University.  Technical details and code can be found in the repository [README](https://github.com/bcomnes/SEMterface/blob/master/README.md).
 
 - [SEMterface Github Mirror](https://github.com/bcomnes/SEMterface)
 - [Blog Posts about the Project](/pages/tags/#SEMterface)
+- [Photos From WebRTC Camp 2013](https://drive.google.com/folderview?id=0BwTZIu3XaN90SjM1TGJDNWphQnc&usp=sharing)
 
 ## Project Goals
 
