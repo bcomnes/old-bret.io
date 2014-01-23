@@ -6,30 +6,44 @@ title: Projects
 Projects
 ===========
 
-Here are some projects that might be interesting to others.
+This is a list of personal projects that I have worked on over the past few years.  I am actively writing it over the next day or so.  Expect broken links and draft level grammar and spelling.
 
 ##[SEMterface (2013 - Present)](/pages/projects/semterface) 
-* I'm putting a Scanning Electron Microscope onto the internet using [websockets](http://socket.io), [WebRTC](http://www.webrtc.org) and [node (express)](http://expressjs.com) for great good and a masters degree in applied physics. 
+* I'm putting a Scanning Electron Microscope onto the internet using [websockets](http://socket.io), [WebRTC](http://www.webrtc.org) and [node](http://nodejs.org/) for great good and a masters degree in applied physics. 
+
+<figure>
+  <a href="http://www.flickr.com/photos/bretc/12094290053/" title="Jeol SEM, on Flickr"><img class="img-polaroid" src="http://farm8.staticflickr.com/7374/12094290053_7ec70584dc_q.jpg" width="150" height="150" alt="Jeol SEM"></a>
+  <a href="http://www.flickr.com/photos/bretc/12080555383/" title="Bug Eye Zoomed out, on Flickr"><img class="img-polaroid" src="http://farm4.staticflickr.com/3746/12080555383_d7c40f33b3_q.jpg" width="150" height="150" alt="Bug Eye Zoomed out"></a>
+  <a href="http://www.flickr.com/photos/bretc/12080244105/" title="Bug Eye Medium, on Flickr"><img class="img-polaroid" src="http://farm8.staticflickr.com/7357/12080244105_1657b43f21_q.jpg" width="150" height="150" alt="Bug Eye Medium"></a>
+  <a href="http://www.flickr.com/photos/bretc/12080243605/" title="Bug Eye Zoomed in on Flickr"><img class="img-polaroid" src="http://farm8.staticflickr.com/7314/12080243605_3fe9322343_q.jpg" width="150" height="150" alt="Bug Eye Zoomed in"></a>
+  <figcaption>Pictures from webRTC Camp 2013 in Portland, OR</figcaption>
+</figure>
 
 ##[This website (2012 - Present)]()
-* I decided to dive into some web development a while ago and part of that effort resulted in this hip [jekyll]()/[bootstrap]() website you are looking at.  It also powers my [PSU TA website]().
-* Halfway into the project, I attended [Indiewebcamp Portland 2013]() and began integrating indieweb technologies into this site such as:
-  - [Microformats 2]()
-  - [Webmentions]()
-  - [IndieAuth]()
-* It has been a great way to learn about Web stuffs, but Jekyll does things in ways I am getting tired of, and designing around these restrictions isn't something I want to do right now.
+* This website has turned into somewhat of a project itself.  It's built with jekyll and incorporates some [indieweb]() building blocks.
 
 ##[The next version of this website (2013 - Present)]()
-- While working on SEMTerface, I started playing with [Express]() and decided to try my hand at creating a dynamic version of this site using node.  It will go live when it can do most of what the jekyll site can do.
+- Jekyll was fun, but static sites are a bit too limiting with what I want to achieve.  The next version of this site is being built in node on top of the express web framework.
+
+##[Personal Cloud/VPN]()
+* After relying upon shell accounts living on friends servers for a while, I decided to start running my own for various 'cloud' services.  It is likely also the future home of the revamped website. 
+
+<figure>
+<img src="http://farm8.staticflickr.com/7322/12094906366_e0a21c2b93_q.jpg" width="150" height="150" alt="Screenshot of Terminal Session">
+</figure> 
 
 ##[Webmention.js (2013)]()
-* This small clientside javascript library makes it easy to display webmention data from the [webmention.io]() service.
+* This small client side javascript library makes it easy to display webmention data from the [webmention.io]() service.
 
 ##[Homework Template (2012 - 2013)]()
-* This is the homework template I used when typing up homework in grad school.  It has a collection of useful packages that make typing out solutions to graduate level physics homework a bit easier.  There are some issues, but it works well in most cases.
+* This is the template I use to write up homework in grad school.  It's a collection of packages and templates that I found useful for typing quantum and electricity and magnatism physics problems.
+  - [Example 1]()
+  - [Example 2]()
+  - [Example 3]()
+  - (Some of the solutions are wrong.  You have been warned!)
 
-## [Physics Homework]()
-* I typed up some of my quantum mechanics homework.  It ended up taking a few extra hours per assignment, but the results were much nicer than writing the solutions by hand.  Some of the solutions are incorrect as I didn't have time to make corrections after they were graded.  It was a great way to gain fluency in LaTeX.
+##[LaTeX Font Sizing in TextMate 2]()
+* A small bundle that resizes the section names in LaTeX documents so that they are easier to identify.
 
 ## [Mathematica Notebooks]()
 * [Ising Model]():
