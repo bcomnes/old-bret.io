@@ -9,7 +9,7 @@ Projects
 
 This is a list of personal projects from the past few years.  This page is being actively written it over the next day or so.  Expect broken links and draft level grammar and spelling.
 
-##[SEMterface (2013 - Present)](/pages/projects/semterface) 
+##[SEMterface](/pages/projects/semterface) (2013 - Present)
 * SEMterface aims to put a Scanning Electron Microscope onto the Internet using [websockets](http://socket.io), [WebRTC](http://www.webrtc.org) and [node](http://nodejs.org/) for great good and earn me a masters degree in applied physics. 
 
 <figure>
@@ -19,7 +19,7 @@ This is a list of personal projects from the past few years.  This page is being
   <figcaption>Pictures from webRTC Camp 2013 in Portland, OR</figcaption>
 </figure>
 
-##This website (2012 - Present)
+##[This website](/pages/projects/this-website) (2012 - Present)
 * This website has turned into somewhat of a project itself.  It's built with jekyll and incorporates some [indieweb](http://indiewebcamp.com/) building blocks.  The next version is built with node and is in active development.
 
 <figure>
@@ -27,7 +27,7 @@ This is a list of personal projects from the past few years.  This page is being
     <a href="http://www.flickr.com/photos/bretc/12096435995/" title="The website during its awkward Octopress phase, on Flickr"><img src="http://farm3.staticflickr.com/2816/12096435995_3e1b9814be_q.jpg" width="150" height="150" alt="The website during its awkward Octopress phase"></a>
     <a href="http://www.flickr.com/photos/bretc/12096814904/" title="Website in all current glory, on Flickr"><img src="http://farm8.staticflickr.com/7450/12096814904_9528419bb3_q.jpg" width="150" height="150" alt="Website in all current glory"></a>
 </figure>
-##VPS/Personal Cloud
+##[Personal VPS/Cloud](/pages/projects/vps)
 * Having a computer that is always on and perpetually connected to the Internet opens up a lot of possibilities and turns out to be a lot of fun.  Some services that can run on such a personal server are more useful than others, and these are some notes on my experience with a variety of tools.
 
 <figure>
@@ -68,14 +68,8 @@ This is a list of personal projects from the past few years.  This page is being
 <a href='http://www.flickr.com/photos/bretc/12097294163/'><img src="http://farm3.staticflickr.com/2828/12097294163_834bddf03c_n.jpg" width="320" height="230" alt="Screenshot of the Resume"></a>
 </figure> 
 
-## Mathematica Notebooks
-Gifs Coming Soon!
-
-* [Ising Model]():
-* [Hydrogen Atom Energy Levels](): 
-* [Where's Waldo]():
-* [Tricky E&M Integrals]():
-* [Fun Calculus Problems]():
+## [Mathematica Notebooks](/pages/projects/mathematica)
+Implementing and visualizing different concepts from topics in physics was a great way to learn.  Here some of the more interesting results of doing this.
 
 ## Introductory Physics Labs
 These two labs and LabVIEW design patterns were written for an introductory electronics class at Portland State University.  Some were written in .DOCX format at the request of the instructor.
@@ -89,7 +83,7 @@ These two labs and LabVIEW design patterns were written for an introductory elec
   <a href='http://www.flickr.com/photos/bretc/8512266650/'><img src='http://farm9.staticflickr.com/8508/8512266650_a810fd029c_q.jpg' class="img-polaroid" width="150" height="150" alt="Playing with the Arduino"></a>
 </figure> 
 
-- [FPGA Lab](https://github.com/bcomnes/fpga-lab) - This lab introduces [FPGAs]() using the Diligent Nexys 3 FPGA and the Xilinx ISE IDE.  
+- [FPGA Lab](https://github.com/bcomnes/fpga-lab) - This lab introduces [FPGAs]() using the Digilent Nexys 3 FPGA and the Xilinx ISE IDE.  
   * [FPGA Introduction Lab](/media/FPGA+Lab.pdf) (PDF)
 
 <figure>
@@ -98,11 +92,16 @@ These two labs and LabVIEW design patterns were written for an introductory elec
 
 - [LabVIEW Examples](https://github.com/bcomnes/labview-tutorials) - A collection of common design patterns in LabVIEW that are helpful while teaching others. 
 
-## [Gravity Research](http://www.flickr.com/photos/bretc/sets/72157627758235393/)
-- Interferometer
+## [Gravity Researchh](http://www.flickr.com/photos/bretc/sets/72157627758235393/)
+Of all the fundamental forces, gravity is the weakest.  This makes it difficult to study it behavior in many circumstances.  The [Humboldt State Gravitational Research Lab](http://www.humboldt.edu/physics/gravitational-lab.html) is developing a null experiment that aims to observe the [Weak Equivalence Principle](http://en.wikipedia.org/wiki/Equivalence_principle) between objects separated by distances less than 50 microns.  At a minimum, the experiment will confirm the WEP at previously unexplored distances.  More interestingly, it may lead to insights about Dark Energy or possibly undiscovered fundamental forces if the WEP is observed to break down at these short distance scales.
+
+My contribution to the project focused on precisions motion encoding and positioning, and developing the custom data collection software.
+
 - Capacitive Sensing
+- Interferometric Motion Encoding
 - Instrumentation
-- Data collection Software
+- Software Engineering
+- NCUR 2011
     
   
 ## Senior Labs
