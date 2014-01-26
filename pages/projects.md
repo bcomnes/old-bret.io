@@ -27,6 +27,7 @@ This is a list of personal projects from the past few years.  This page is being
     <a href="http://www.flickr.com/photos/bretc/12096435995/" title="The website during its awkward Octopress phase, on Flickr"><img src="http://farm3.staticflickr.com/2816/12096435995_3e1b9814be_q.jpg" width="150" height="150" alt="The website during its awkward Octopress phase"></a>
     <a href="http://www.flickr.com/photos/bretc/12096814904/" title="Website in all current glory, on Flickr"><img src="http://farm8.staticflickr.com/7450/12096814904_9528419bb3_q.jpg" width="150" height="150" alt="Website in all current glory"></a>
 </figure>
+
 ##[Personal VPS/Cloud](/pages/projects/vps)
 * Having a computer that is always on and perpetually connected to the Internet opens up a lot of possibilities and turns out to be a lot of fun.  Some services that can run on such a personal server are more useful than others, and these are some notes on my experience with a variety of tools.
 
@@ -92,26 +93,22 @@ These two labs and LabVIEW design patterns were written for an introductory elec
 
 - [LabVIEW Examples](https://github.com/bcomnes/labview-tutorials) - A collection of common design patterns in LabVIEW that are helpful while teaching others. 
 
-## [Gravity Researchh](http://www.flickr.com/photos/bretc/sets/72157627758235393/)
-Of all the fundamental forces, gravity is the weakest.  This makes it difficult to study it behavior in many circumstances.  The [Humboldt State Gravitational Research Lab](http://www.humboldt.edu/physics/gravitational-lab.html) is developing a null experiment that aims to observe the [Weak Equivalence Principle](http://en.wikipedia.org/wiki/Equivalence_principle) between objects separated by distances less than 50 microns.  At a minimum, the experiment will confirm the WEP at previously unexplored distances.  More interestingly, it may lead to insights about Dark Energy or possibly undiscovered fundamental forces if the WEP is observed to break down at these short distance scales.
+## [Gravity Research](/pages/projects/gravlab)
+I helped develop an experiment aimed to observe the fundamental nature of Gravity at the Humboldt State University Gravitational Research Lab.
 
-My contribution to the project focused on precisions motion encoding and positioning, and developing the custom data collection software.
-
-- Capacitive Sensing
-- Interferometric Motion Encoding
-- Instrumentation
-- Software Engineering
-- NCUR 2011
-    
-  
 ## Senior Labs
 One week to work on a lab and write it up.  Here are the results.
 
 ## [445nm Lasers](http://www.flickr.com/photos/bretc/sets/72157624743491759/)
+After finding out about the new 445nm laser diodes coming onto the market, it seemed like a good idea to build a small portable version for some reason.  
+
 
 ## [Arduino Microserver](http://www.flickr.com/photos/bretc/sets/72157627731812031/)
+Back when the Arduino Ethernet shield was first released, I spent some time playing around with an early version of the Arduino Micro Server library.  It was a great way to learn about how web servers work and let random people from IRC spam light switches in your house.  
+
 
 ## [Longhaul Trucker](http://www.flickr.com/photos/bretc/sets/72157627731825277/)
+I was gifted a brand new bicycle after graduating college and ended up with a Surly Long Haul Trucker.  I love it!  I was also living a and working in Arcata at the time and went a bit overboard on the [Velo Orange](http://www.velo-orange.com) and [Walnut Studiolo](http://walnutstudiolo.com) website.
 
 ## [Discovering Galaxies at NAIC Arecibo Observatory](http://www.flickr.com/photos/bretc/sets/72157622851001054/)
 AKA The worlds (now former) largest radio telescope.  
