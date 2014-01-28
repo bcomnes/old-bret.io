@@ -84,7 +84,7 @@ These two labs and LabVIEW design patterns were written for an introductory elec
   <a href='http://www.flickr.com/photos/bretc/8512266650/'><img src='http://farm9.staticflickr.com/8508/8512266650_a810fd029c_q.jpg' class="img-polaroid" width="150" height="150" alt="Playing with the Arduino"></a>
 </figure> 
 
-- [FPGA Lab](https://github.com/bcomnes/fpga-lab) - This lab introduces [FPGAs]() using the Digilent Nexys 3 FPGA and the Xilinx ISE IDE.  
+- [FPGA Lab](https://github.com/bcomnes/fpga-lab) - This lab introduces [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array) using the Digilent Nexys 3 FPGA and the Xilinx ISE IDE.  Students use both component level FPGA design and the VHDL hardware description language.
   * [FPGA Introduction Lab](/media/FPGA+Lab.pdf) (PDF)
 
 <figure>
@@ -102,10 +102,18 @@ One week to work on a lab and write it up.  Here are the results.
 ## [445nm Lasers](http://www.flickr.com/photos/bretc/sets/72157624743491759/)
 After finding out about the new 445nm laser diodes coming onto the market, it seemed like a good idea to build a small portable version for some reason.  
 
+<figure>
+  <a href='http://www.flickr.com/photos/bretc/5032187912/'><img src="http://farm5.staticflickr.com/4087/5032187912_c37416dd4d_q.jpg" width="150" height="150" alt="445 nm Laser Pointer"></a>
+  <a href='http://www.flickr.com/photos/bretc/5914156681/'><img src='http://farm7.staticflickr.com/6041/5914156681_e2e7b08b71_q.jpg' class="img-polaroid" width="150" height="150" alt="Lazer van Beethoven"></a>
+</figure> 
 
 ## [Arduino Microserver](http://www.flickr.com/photos/bretc/sets/72157627731812031/)
 Back when the Arduino Ethernet shield was first released, I spent some time playing around with an early version of the Arduino Micro Server library.  It was a great way to learn about how web servers work and let random people from IRC spam light switches in your house.  
 
+<figure>
+  <a href='http://www.flickr.com/photos/bretc/5032187912/'><img src="http://farm5.staticflickr.com/4087/5032187912_c37416dd4d_q.jpg" width="150" height="150" alt="445 nm Laser Pointer"></a>
+  <a href='http://www.flickr.com/photos/bretc/5914156681/'><img src='http://farm7.staticflickr.com/6041/5914156681_e2e7b08b71_q.jpg' class="img-polaroid" width="150" height="150" alt="Lazer van Beethoven"></a>
+</figure>
 
 ## [Longhaul Trucker](http://www.flickr.com/photos/bretc/sets/72157627731825277/)
 I was gifted a brand new bicycle after graduating college and ended up with a Surly Long Haul Trucker.  I love it!  I was also living a and working in Arcata at the time and went a bit overboard on the [Velo Orange](http://www.velo-orange.com) and [Walnut Studiolo](http://walnutstudiolo.com) website.
