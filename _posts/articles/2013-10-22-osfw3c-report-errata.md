@@ -1,6 +1,6 @@
 ---
 layout: article
-published: true
+published: false
 title: OSFw3c Report Errata
 date: "2013-10-22 15:16"
 tags: 
