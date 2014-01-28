@@ -7,10 +7,11 @@ footer: true
 Projects
 ===========
 
-This is a list of personal projects from the past few years.  This page is being actively written it over the next day or so.  Expect broken links and draft level grammar and spelling.
+This is a list of personal projects from the past few years.  I am still putting the page together, so send a PR if you spot an error anywhere!  There are lots of pictures so that its more interesting to browse.  Feel free to let me know if you would like any more info on any of these topics.
 
 ##[SEMterface](/pages/projects/semterface) (2013 - Present)
 * SEMterface aims to put a Scanning Electron Microscope onto the Internet using [websockets](http://socket.io), [WebRTC](http://www.webrtc.org) and [node](http://nodejs.org/) for great good and earn me a masters degree in applied physics. 
+* I presented the project at WebRTC Camp 2013 in Portland. Check out the [slide deck](/2013/10/19/t1).
 
 <figure>
   <a href="http://www.flickr.com/photos/bretc/12094290053/" title="Jeol SEM, on Flickr"><img class="img-polaroid" src="http://farm8.staticflickr.com/7374/12094290053_7ec70584dc_q.jpg" width="150" height="150" alt="Jeol SEM"></a>
@@ -73,7 +74,7 @@ This is a list of personal projects from the past few years.  This page is being
 Implementing and visualizing different concepts from topics in physics was a great way to learn.  Here some of the more interesting results of doing this.
 
 ## Introductory Physics Labs
-These two labs and LabVIEW design patterns were written for an introductory electronics class at Portland State University.  Some were written in .DOCX format at the request of the instructor.
+These two labs and LabVIEW design patterns were written for an introductory electronics class at Portland State University.  Some of the labs were written in .DOCX format at the request of the instructor.  It would be fantastic to turn these into HTML at some point.
 
 - [Microcontroller Lab](https://github.com/bcomnes/315-lab-microcontroller) -  This lab introduces students to microcontrollers by walking them through a variety of activities using the Arduino Microcontroller.  It also includes an additional section on use of the [PID](http://playground.arduino.cc/Code/PIDLibrary) Arduino library.
   * [Arduino Introduction Lab](https://github.com/bcomnes/315-lab-microcontroller/blob/master/mc-lab.pdf?raw=true) (PDF)
@@ -97,13 +98,19 @@ These two labs and LabVIEW design patterns were written for an introductory elec
 I helped develop an experiment aimed to observe the fundamental nature of Gravity at the Humboldt State University Gravitational Research Lab.
 
 ## Senior Labs
-One week to work on a lab and write it up.  Here are the results.
+One week to work on a lab and write it up.  Here are the (raw)results from this process.  Given the time constraints, most reports received only a single draft.  
+
+* [Lab 1: Heat Experiment](/media/seniorLabs/lab1prefinal.pdf) (PDF)
+* [Lab 2: Harmonics Lab](/media/seniorLabs/Lab02Draft1.pdf) (PDF)
+* [Lab 3: Microwave Crystal](/media/seniorLabs/MicrowavesDraft1.pdf) (PDF)
+* [Lab 4: Lock-In Amplifiers](/media/seniorLabs/lockinlab.pdf) (PDF)
+* [Lab 5: Precision Interferometry](/media/seniorLabs/ProjectDraft1.pdf) (PDF)
 
 ## [445nm Lasers](http://www.flickr.com/photos/bretc/sets/72157624743491759/)
-After finding out about the new 445nm laser diodes coming onto the market, it seemed like a good idea to build a small portable version for some reason.  
+After finding out about the new 445nm laser diodes coming onto the market, it seemed like a good idea to build a small portable version for some reason.  Also, [Laser van Beethove!](http://www.flickr.com/photos/bretc/sets/72157627143764172/) 
 
 <figure>
-  <a href='http://www.flickr.com/photos/bretc/5032187912/'><img src="http://farm5.staticflickr.com/4087/5032187912_c37416dd4d_q.jpg" width="150" height="150" alt="445 nm Laser Pointer"></a>
+  <a href='http://www.flickr.com/photos/bretc/5032187912/'><img src="http://farm5.staticflickr.com/4087/5032187912_c37416dd4d_q.jpg" class="img-polaroid" width="150" height="150" alt="445 nm Laser Pointer"></a>
   <a href='http://www.flickr.com/photos/bretc/5914156681/'><img src='http://farm7.staticflickr.com/6041/5914156681_e2e7b08b71_q.jpg' class="img-polaroid" width="150" height="150" alt="Lazer van Beethoven"></a>
 </figure> 
 
@@ -111,15 +118,38 @@ After finding out about the new 445nm laser diodes coming onto the market, it se
 Back when the Arduino Ethernet shield was first released, I spent some time playing around with an early version of the Arduino Micro Server library.  It was a great way to learn about how web servers work and let random people from IRC spam light switches in your house.  
 
 <figure>
-  <a href='http://www.flickr.com/photos/bretc/5032187912/'><img src="http://farm5.staticflickr.com/4087/5032187912_c37416dd4d_q.jpg" width="150" height="150" alt="445 nm Laser Pointer"></a>
-  <a href='http://www.flickr.com/photos/bretc/5914156681/'><img src='http://farm7.staticflickr.com/6041/5914156681_e2e7b08b71_q.jpg' class="img-polaroid" width="150" height="150" alt="Lazer van Beethoven"></a>
+  <a href='http://www.flickr.com/photos/bretc/6228197332/'><img src="http://farm7.staticflickr.com/6057/6228197332_8ee500bf82_q.jpg" class="img-polaroid" width="150" height="150" alt="Arduino Microserver Open"></a>
+  <a href='http://www.flickr.com/photos/bretc/6228194594/'><img src='http://farm7.staticflickr.com/6053/6228194594_25c5bd9c39_q.jpg' class="img-polaroid" width="150" height="150" alt="Arduino Micro Server Open"></a>
 </figure>
 
 ## [Longhaul Trucker](http://www.flickr.com/photos/bretc/sets/72157627731825277/)
-I was gifted a brand new bicycle after graduating college and ended up with a Surly Long Haul Trucker.  I love it!  I was also living a and working in Arcata at the time and went a bit overboard on the [Velo Orange](http://www.velo-orange.com) and [Walnut Studiolo](http://walnutstudiolo.com) website.
+I was gifted a brand new bicycle after graduating college and ended up with a Surly Long Haul Trucker (Thank Mom and Dad!).  I was also living a and working in Arcata at the time and went a bit overboard on the [Velo Orange](http://www.velo-orange.com) and [Walnut Studiolo](http://walnutstudiolo.com) website.
 
-## [Discovering Galaxies at NAIC Arecibo Observatory](http://www.flickr.com/photos/bretc/sets/72157622851001054/)
-AKA The worlds (now former) largest radio telescope.  
+<figure>
+  <a href='http://www.flickr.com/photos/bretc/6733430815/'><img src="http://farm8.staticflickr.com/7009/6733430815_6f90f3c344_q.jpg" class="img-polaroid" width="150" height="150" alt="LHT In Humboldt"></a>
+  <a href='http://www.flickr.com/photos/bretc/5844619434/'><img src='http://farm4.staticflickr.com/3220/5844619434_29af01793f_q.jpg' class="img-polaroid" width="150" height="150" alt="First Day!"></a>
+</figure>
 
-## [Photos](http://flickr.com/photos/bretc/)
-I liked taking pictures, but sadly, my camera fell and broke in 2011, so I'm stuck shooting with a cell phone.  Also, flickr is really starting to be awful.
+## [Discovering Galaxies at NAIC Arecibo Observatory](http://www.flickr.com/photos/bretc/sets/72157640257583256/)
+[The NAIC Arecibo Observatory](http://www.naic.edu/) AKA The worlds (now former) largest radio telescope, was running the [Alfalfa](http://egg.astro.cornell.edu/index.php/) sky survey in 2009 and I managed to help out a bit.  The project is a survey of the sky looking for galaxies containing Hydrogen.  Hydrogen has a small chance of flipping its spin which emits 21cm wavelength radiation.  Interestingly, there are dark galaxies that contain hydrogen but have yet to light up yet, if ever.  Radio telescopes is the only tool to spot these.  Helping collect about 4 nights of data, I am pleased to I helped discover a dozen or so previously unknown galaxies.  I also took a bunch of photos.
+
+## [Photos](http://www.flickr.com/photos/bretc/sets/)
+I liked taking pictures, but sadly, my camera fell and broke in 2011, so I'm stuck shooting with a cell phone.  Also, flickr is really starting to be awful.  The title links to flickr sets, but feel free to [check out the firehose](http://www.flickr.com/photos/bretc/sets/).
+
+<figure>
+  <a href='http://www.flickr.com/photos/bretc/2083990769'><img src="http://farm3.staticflickr.com/2013/2083990769_c548598a0f.jpg" class="img-polaroid" width="500" height="107" alt="Moonstone Beach"></a>
+</figure>
+
+
+## Music Stuff and Radio
+I have some fun musical equipment and ran a College radio show at one point, but its hard to find the time/physical space for it.  My family does better music that I do though:
+
+* [Lucia](http://www.luciacomnes.com/) (My Sister)
+* [Brian](https://soundcloud.com/baghead) (aka Dad)
+* [#music](http://bret.io/pages/tags/#Music)
+
+<figure>
+  <a href='http://www.flickr.com/photos/bretc/3314919605'><img src="http://farm4.staticflickr.com/3493/3314919605_53203089bb_q.jpg" class="img-polaroid" width="150" height="150" alt="Boards of Radiation"></a>
+  <a href='http://www.flickr.com/photos/bretc/8311931871/'><img src='http://farm9.staticflickr.com/8362/8311931871_fef8ee1563_q.jpg' class="img-polaroid" width="150" height="150" alt="Technics 1200s"></a>
+  <a href='http://www.flickr.com/photos/bretc/6239530465'><img src='http://farm7.staticflickr.com/6224/6239530465_218142a17f_q.jpg' class="img-polaroid" width="150" height="150" alt="Audio 8"></a>
+</figure>
