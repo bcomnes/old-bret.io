@@ -7,7 +7,7 @@ footer: true
 Projects
 ===========
 
-This is a list of personal projects from the past few years.  I am still putting the page together, so send a PR if you spot an error anywhere!  There are lots of pictures so that its more interesting to browse.  Feel free to let me know if you would like any more info on any of these topics.
+This is a list of personal projects from the past few years.  I am still putting the page together, so [send a PR](https://github.com/bcomnes/bcomnes.github.io/blob/master/pages/projects.md) if you spot an error anywhere!  There are lots of pictures so that its more interesting to browse.  Feel free to let me know if you would like any more info on any of these topics.
 
 ##[SEMterface](/pages/projects/semterface) (2013 - Present)
 * SEMterface aims to put a Scanning Electron Microscope onto the Internet using [websockets](http://socket.io), [WebRTC](http://www.webrtc.org) and [node](http://nodejs.org/) for great good and earn me a masters degree in applied physics. 
