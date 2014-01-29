@@ -52,7 +52,7 @@ This is a list of personal projects from the past few years.  I am still putting
 
   - [Example 1](/media/hw1.pdf) (PDF)
   - [Example 2](/media/hw2.pdf) (PDF)
-  - (Some of the solutions are wrong.  You have been warned!)
+  - (Some of the solutions are not quite correct.  You have been warned!)
 
 ##[LaTeX Font Sizing in TextMate 2](https://github.com/bcomnes/LaTeX-Section-Font-Sizes.tmbundle)
 * A small bundle that resizes the section names in LaTeX documents so that they are easier and faster to identify.
@@ -100,6 +100,12 @@ I helped develop an experiment aimed to observe the fundamental nature of Gravit
 ## Senior Labs
 One week to work on a lab and write it up.  Here are the (raw)results from this process.  Given the time constraints, most reports received only a single draft.  
 
+<figure>
+  <a href='http://www.flickr.com/photos/bretc/12199067696'><img src="http://farm4.staticflickr.com/3743/12199067696_d16ef598be_q.jpg" width="150" height="150" alt="Lock in Amplifiers"></a>
+  <a href='http://www.flickr.com/photos/bretc/12198859724/'><img src='http://farm6.staticflickr.com/5495/12198859724_4bc1224296_q.jpg' width="150" height="150" alt="Fun with Harmonics"></a>
+  <a href='http://www.flickr.com/photos/bretc/12198721493'><img src='http://farm6.staticflickr.com/5514/12198721493_b4f3e8e476_q.jpg' width="150" height="150" alt="Interferometry"></a>
+</figure> 
+
 * [Lab 1: Heat Experiment](/media/seniorLabs/lab1prefinal.pdf) (PDF)
 * [Lab 2: Harmonics Lab](/media/seniorLabs/Lab02Draft1.pdf) (PDF)
 * [Lab 3: Microwave Crystal](/media/seniorLabs/MicrowavesDraft1.pdf) (PDF)
@@ -131,7 +137,12 @@ I was gifted a brand new bicycle after graduating college and ended up with a Su
 </figure>
 
 ## [Discovering Galaxies at NAIC Arecibo Observatory](http://www.flickr.com/photos/bretc/sets/72157640257583256/)
-[The NAIC Arecibo Observatory](http://www.naic.edu/) AKA The worlds (now former) largest radio telescope, was running the [Alfalfa](http://egg.astro.cornell.edu/index.php/) sky survey in 2009 and I managed to help out a bit.  The project is a survey of the sky looking for galaxies containing Hydrogen.  Hydrogen has a small chance of flipping its spin which emits 21cm wavelength radiation.  Interestingly, there are dark galaxies that contain hydrogen but have yet to light up yet, if ever.  Radio telescopes is the only tool to spot these.  Helping collect about 4 nights of data, I am pleased to I helped discover a dozen or so previously unknown galaxies.  I also took a bunch of photos.
+I helped discover previously uncharted galaxies at the [NAIC Arecibo Observatory](http://www.naic.edu/) through the [Alfalfa](http://egg.astro.cornell.edu/index.php/) sky survey.  We ran five nights of a general sky survey looking at 21cm radiation.  Hydrogen has a small chance of a spin flip which results in an emission in this spectrum.  Galaxies made up of hydrogen give off a fair amount of 21cm radiation allowing detection.  This allowed us to identify 'Dark' galaxies that contain hydrogen, even if they are not emitting any light.
+
+<figure>
+  <a href='http://www.flickr.com/photos/bretc/12196828014'><img src="http://farm3.staticflickr.com/2892/12196828014_f9d27713b7.jpg" class="img-polaroid" width="500" height="169" alt="On the Platform at Arecibo"></a>
+  <a href='http://www.flickr.com/photos/bretc/12196989706'><img src="http://farm4.staticflickr.com/3704/12196989706_b1c32c42e7.jpg" class="img-polaroid" width="500" height="169" alt="From the viewing platform."></a>
+</figure>
 
 ## [Photos](http://www.flickr.com/photos/bretc/sets/)
 I liked taking pictures, but sadly, my camera fell and broke in 2011, so I'm stuck shooting with a cell phone.  Also, flickr is really starting to be awful.  The title links to flickr sets, but feel free to [check out the firehose](http://www.flickr.com/photos/bretc/sets/).
