@@ -1,6 +1,4 @@
 task :default => :build
-require 'coveralls'
-Coveralls.wear!
 
 #
 # Set the values of
