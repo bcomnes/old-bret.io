@@ -35,6 +35,8 @@ items:
   src: 'URL-TO-COMIC-SRC'
 ---
 
+$Id$
+
 {% assign i = 0  %}
 This is a test page...
 
