@@ -1,6 +1,6 @@
 ---
 layout: note
-published: false
+published: true
 title: SEMterface at UofOs OAS
 date: "2014-03-21"
 tags: 
