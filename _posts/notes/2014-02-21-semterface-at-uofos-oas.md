@@ -9,6 +9,6 @@ tags:
 
 Here are my slides for OAS:
 
-http://slid.es/bretcomnes/scanning-electron-microscope-web-rtc--2
+[http://slid.es/bretcomnes/scanning-electron-microscope-web-rtc--2](http://slid.es/bretcomnes/scanning-electron-microscope-web-rtc--2)
 
 See everyone at 6am.
