@@ -5,7 +5,7 @@ date: 2013-06-29 14:26
 reply_url: 
 reply_title: 
 tags: [Ruby, Website, Documentation]
-published: true
+published: false
 ---
 Here are some notes how to set up [Bower](http://bower.io/  ), a package manager for project dependancies.
 
