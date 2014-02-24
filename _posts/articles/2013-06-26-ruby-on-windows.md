@@ -7,7 +7,7 @@ reply_title:
 tags: [Ruby, Website, Documentation]
 published: true
 ---
-Here are my notes to get ruby up and running on windows in no time.  
+Here are my notes to get ruby up and running on windows since I seem to forget a detail every time I go to install it
 
 ### Steps to install ruby on windows.
 
@@ -21,6 +21,8 @@ Here are my notes to get ruby up and running on windows in no time.
 6. Now you can run `gem install bundle` and you are off to the races.
 
 ### installing pygments for code highlighting
+
+Having a working pygments install is useful as well.  
 
 1. Install python 2.x
 	- Python 3 does not work with pygments and jekyll for some reason.
@@ -37,8 +39,4 @@ $ python distribute_setup.py
 
 {% highlight sh %}
 $ easy_install Pygments
-{% endhighlight %}
-
-#### These notes are geared towards jekyll development.
-
-This should result in a fully working ruby install in a few minutes time.	
+{% endhighlight %}	
