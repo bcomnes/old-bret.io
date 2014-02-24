@@ -39,4 +39,6 @@ $ python distribute_setup.py
 
 {% highlight sh %}
 $ easy_install Pygments
-{% endhighlight %}	
+{% endhighlight %}
+
+Note to self: It is probrably better to set up `pip` instaead of `easy_install`
