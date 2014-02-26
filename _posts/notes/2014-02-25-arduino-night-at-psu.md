@@ -11,3 +11,4 @@ Here are my slides for the Physics society meeting tomorrow:
 
 <div class='flex-video'><iframe src="http://slid.es/bretcomnes/arduino-microcontrollers-and-you/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
+[Arduino, Microcontrollers and you](http://slid.es/bretcomnes/arduino-microcontrollers-and-you)
