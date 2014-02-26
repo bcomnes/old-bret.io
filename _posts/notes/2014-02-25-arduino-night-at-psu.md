@@ -5,7 +5,13 @@ title: Arduino Night at PSU
 date: "2014-02-25 21:18"
 tags: 
   - arduino
-syndicate: [{url: 'https://twitter.com/bretolius/status/438736306701475840', name: 'Twitter'},{url: 'http://calagator.org/events/1250465748' name: 'Calagator'}]
+syndicate: 
+  - 
+    name: Twitter
+    url: "https://twitter.com/bretolius/status/438736306701475840"
+  - 
+    name: Calagator
+    url: "http://calagator.org/events/1250465748"
 ---
 
 Here are my slides for the Physics society meeting tomorrow:
