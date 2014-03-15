@@ -28,7 +28,7 @@ Core to to the indieweb community are the principals: [do what you can to]: Own 
 
 These are the ideas that, as far as I can tell, bring people together to actually build the web they want to see, rather than wait for it to happen. As far as I can tell, these are the kinds of principals that are consistent with, if fully aligned with, your work on fargo. With this, I say: Same team!
 
-A healthy community is diverse, and your manifesto is definitely a shared vision of individuals involved with in the IW community (just look at the mixed content feeds of[waterpigs.co.uk](http://waterpigs.co.uk/) or [werd.io](http://werd.io/) !)
+A healthy community is diverse, and your manifesto is definitely a shared vision of individuals involved with in the IW community (just look at the mixed content feeds of [waterpigs.co.uk](http://waterpigs.co.uk/) or [werd.io](http://werd.io/) !)
 
 Communities can be tribes, I know this, but lets not knock each other over the details. As far as I can tell, everyone is moving in the same direction here.
 
