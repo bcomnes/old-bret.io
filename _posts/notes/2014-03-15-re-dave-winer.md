@@ -7,6 +7,10 @@ tags:
   - IndieWeb
 reply_url: "http://scripting.com/2014/03/15/indiewebAndRss.html"
 reply_title: scripting.com
+syndicate: 
+  - 
+    name: Disqus
+    url: "http://scripting.com/2014/03/15/indiewebAndRss.html#comment-1285988383"
 ---
 
 Dave:
