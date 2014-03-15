@@ -1,5 +1,5 @@
 {% if content %}<p> Mentions:</p>{% endif %}
 <ul class="webmentions {% if content %}links{% else %}count{% endif %}{% if content %}{% else %} inline{% endif %}" id="http://{{ site.url }}{{ page.url }}">
     {% if content %}{% else %}<li><i class="icon-comment"></i></li>{% endif %}
-	<li>{% if content %}<a href="http://indiewebcamp.com/comment">Learn how to send a webmention!</a>  No webmentions were found.{% else %}0{% endif %}</li>
+	<li>{% if content %}{% else %}0{% endif %}</li>
 </ul>
