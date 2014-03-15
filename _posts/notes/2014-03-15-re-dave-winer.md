@@ -5,7 +5,7 @@ title: "Re-Dave Winer"
 date: "2014-03-15 11:35"
 tags: 
   - IndieWeb
-reply_url: "http://scripting.com/2014/03/15/indiewebAndRss.htm"
+reply_url: "http://scripting.com/2014/03/15/indiewebAndRss.html"
 reply_title: scripting.com
 ---
 
