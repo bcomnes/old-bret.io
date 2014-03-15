@@ -32,6 +32,6 @@ A healthy community is diverse, and your manifesto is definitely a shared vision
 
 Communities can be tribes, I know this, but lets not knock each other over the details. As far as I can tell, everyone is moving in the same direction here.
 
-The wiki is open to all who own their own independent website and discussion on feeds beyond what everyone already knows them to be is important if we want a an intendant web that can exceed the experience of the silos.  Your perspective is valued and would make a positive contribution to this discussion, but I also understand if you choose to keep it within your own domain.
+The wiki is open to all who own their own independent website.  Discussion on feeds beyond what everyone already knows them to be is important if we want a an intendant web that can exceed the experience of the silos.  Your perspective is valued and would make a positive contribution to this discussion, but I also understand if you choose to keep it within your own domain.
 
 Side note: Microformats2 happen to be the protocol used in the cross-site commenting experiments that some people are working on. If it was a fashion statement however, an alternate JSON representation of a page served by the web server would be the preferred format today, right? (maybe just with hipsterdev) But it would be just as valid as an RSS 'feed' of a single post? Again, the idea in this experiment is to push things forward, and improve feeds beyond a list of different post types.
