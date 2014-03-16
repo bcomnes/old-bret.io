@@ -7,7 +7,7 @@ layout: nil
   <title>{{ site.brand }}</title>
   <link href="http://{{ site.url }}/"/>
   <link type="application/atom+xml" rel="self" href="http://{{ site.url }}/atom.xml"/>
-  <link href="https://push.superfeedr.com" rel="hub"/>
+  <link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://{{ site.url }}/</id>
   <author>
