@@ -12,19 +12,17 @@ A pleasing detail was noticed today.  A while back, Github [updated repository w
 
 ## How to enable PubSubHubbub support on Github Pages as of now:
 
-1. Disable any other webhook events related to PuSH that you used to use for your site.
-3. Make sure you add the appropriate headers to your feed required by PuSH.
-	- `<link href="https://push.superfeedr.com" rel="hub"/>`
+1. Make sure you add the appropriate headers to your feed required by PuSH.
+	- `<link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>`
 	- `<link href="http://{{ site.url }}/atom.xml" rel="self"/>`
-1. Disable any other webhook events that you used to use for your site.
-3. Make sure you add your hub URL into your feed.
-	- IE: `<link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>`
-    - You can check my feed as a reference: [atom.xml](/atom.xml)
-2. Add a new webhook in your repository settings on Github.  
+  - You can check my feed as a reference: [atom.xml](/atom.xml)
+2. Disable any other webhook events related to PuSH that you used to use for your site.
+3. Add a new webhook in your repository settings on Github.  
 	- I used `https://pubsubhubbub.superfeedr.com/publish?hub.mode=publish&hub.url=http://bret.io/atom.xml`
     - Switch out the URL of my atom file for yours.
-    - There is also a google run example hub that is open for general use: `http://pubsubhubbub.appspot.com`
+  - There is also a google run example hub that is open for general use: `http://pubsubhubbub.appspot.com`
 3. Select `Let me select individual events` and only check `Page build - Pages site built.`
+4. Save it!  Thats it.  You now have a realtime Github pages blog feed.
 
 Previously, one had to add a delay between the repository push event and the webhook, as was discovered through the discussion over at [ivanzuzak.info](http://ivanzuzak.info/2011/01/02/enabling-pubsubhubbub-for-github-hosted-blogs.html).
 
