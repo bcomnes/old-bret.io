@@ -1,6 +1,6 @@
 ---
 layout: article
-published: false
+published: true
 title: Ode to Bret Victor
 date: "2014-03-16 15:02"
 tags: 
