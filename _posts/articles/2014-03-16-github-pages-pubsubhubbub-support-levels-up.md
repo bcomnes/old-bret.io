@@ -8,6 +8,8 @@ tags:
   - "gh-pages"
 ---
 
+### This post served as a test for the following instructions.  They are currently not working and I am seeking a fix
+
 A pleasing detail was noticed today.  A while back, Github [updated repository webhooks](https://github.com/blog/1778-webhooks-level-up) with a ton more options, events and granularity.  This update didn't initially include page build events, but now it appears that it does.  This is great news because it means that it is way easier to enable [pubsubhubbub]()(PuSH) on a [Github pages]() built blog.
 
 ## How to enable PubSubHubbub support on Github Pages as of now:
