@@ -6,6 +6,13 @@ date: "2014-03-16 13:30"
 tags: 
   - Jekyll
   - "gh-pages"
+syndicate: 
+  - 
+    name: Twitter
+    url: "https://twitter.com/bretolius/status/445310703457415168"
+  -
+    name: IndieNews
+    url: "http://news.indiewebcamp.com/post"
 ---
 
 A pleasing detail was noticed today.  A while back, Github [updated repository webhooks](https://github.com/blog/1778-webhooks-level-up) with a ton more options, events and granularity.  This update didn't initially include page build events, but now it appears that it does.  This is great news because it means that it is way easier to enable [pubsubhubbub](http://code.google.com/p/pubsubhubbub/) (PuSH) on a [Github pages](https://help.github.com/pages/‎) built blog.
