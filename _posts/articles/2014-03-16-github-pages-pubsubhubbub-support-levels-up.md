@@ -15,6 +15,7 @@ A pleasing detail was noticed today.  A while back, Github [updated repository w
 1. Disable any other webkook events that you used to use for your site.
 3. Make sure you add your hub URL into your feed.
 	- IE: `<link href="https://push.superfeedr.com" rel="hub"/>`
+    - You can check my feed as a reference: [atom.xml](/atom.xml)
 2. Add a new webhook in your repository settings on Github.  
 	- I used `https://push.superfeedr.com/publish?hub.mode=publish&hub.url=http://bret.io/atom.xml`
     - Switch out the URL of my atom file for yours.
