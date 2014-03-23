@@ -5,6 +5,8 @@ title: Small Projects
 date: "2014-03-23 12:19"
 ---
 
+_Just some notes from the past couple days_
+
 Trying to focus on smaller, more immediately useful projects lately.  A few ideas on the table:
 
 - Atom feed for the [IWC IRC](http://indiewebcamp.com/irc/today) Logs
