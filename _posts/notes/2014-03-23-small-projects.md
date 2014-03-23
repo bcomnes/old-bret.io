@@ -1,6 +1,6 @@
 ---
 layout: note
-published: false
+published: true
 title: Small Projects
 date: "2014-03-23 12:19"
 ---
@@ -19,5 +19,6 @@ Been trying to focus on smaller, more immediately useful projects lately.  A few
  
  A few other ideas rattling around:
  
-- [Camlistore](https://camlistore.org) - Should know more after the [meetup](http://calagator.org/events/1250465835).  The [new demo](https://www.youtube.com/watch?v=kBCQq5hfsug) is great.
+- [Camlistore](https://camlistore.org) - Should know more after the [meet up](http://calagator.org/events/1250465835).  The [new demo](https://www.youtube.com/watch?v=kBCQq5hfsug) is great.
 - [Poet](http://jsantell.github.io/poet/) - After [sinking some time](https://github.com/bcomnes/bretzel) into recreating Jekyll in node, poet looks appealing, despite the dependance on Express.  
+
