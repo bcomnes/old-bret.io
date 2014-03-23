@@ -5,7 +5,7 @@ title: Small Projects
 date: "2014-03-23 12:19"
 ---
 
-Been trying to focus on smaller, more immediately useful projects lately.  A few ideas on the table:
+Trying to focus on smaller, more immediately useful projects lately.  A few ideas on the table:
 
 - Atom feed for the [IWC IRC](http://indiewebcamp.com/irc/today) Logs
 	* It would be nice to track these logs through a feed reader.
