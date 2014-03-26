@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/bret
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bret.io
+  * I am bret (https://keybase.io/bret) on keybase.
+  * I have a public key with fingerprint CF24 7B7A ABD0 67AE 3DCC  320A 0BCF 329D 5622 03D9
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "cf247b7aabd067ae3dcc320a0bcf329d562203d9",
+            "host": "keybase.io",
+            "key_id": "0bcf329d562203d9",
+            "uid": "c1fc9d8baaef5fe3d33384bc50b12600",
+            "username": "bret"
+        },
+        "service": {
+            "hostname": "bret.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1395874013,
+    "expire_in": 157680000,
+    "prev": "8b38800608e29ae8527c61b95a29ed016c887a6f7b6988ed92c7bfe5a25ed514",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
+
+yMHdAnicbZFdSBRdHMZ3NV12wyjISLCEyY8+Vp2Pna/VNlysG/sgVjMqWeecOeNO
+1s46M65r20ZG4ssbJRZd+KJ9kAVBFkaIJJaaQWrWlRclfUJQr91YXYRF6xkr6KJz
+czjP/3l+D4f/WEaqzWV/ObkvpyyZyLdPDn9otAWYvS/iBNDkZsIbJ+rR4qWo4Tqk
+R3Q1bBJeAiq0hwe8JAGZ5HgJMTKEDE1KJIAKQ4syy9E0ycgi4SZCmmElMAZIBipS
+NazhR1CVsfoXf+PiAFIKFGUBSBJSWAXzGYYRPACyJKBojiQto4H0sHQYYTfQkUkk
+3ARWoirESnyx9o/pz96Irpka1A5hMWSaEa+VMZsjlqkJgeCveBCoYRl/FweiSDdU
+LUx4KeyEpmrxKEZkBd5DUoybQLGIqqOgajlYnhNIfKwaFMVIATACVjhSQLQoIYGl
+echRQGQlWkQySXFQEHiJU3jAiYKAZJGGPFAQHrNIZikP7jdQQ1jDbAw1pTrMNNS6
+sGQ26ohIjA4fWGKzu2zpaSnWxmwu5/Lfe9zFOpJHpX5nRnbHjH/EcSQ+O1F2dk3u
+SOnq+f7k1661mbdaCmv2F1wpGWp6s7J6g78gFQSqnU6j8/t8qCyvZG4g43J2r1me
+//Q2VSrKlc6u9uMVbRPp/t2hY5HCWnNwx2czr0++ccb2cWYj4qrsdz/5LsXs056s
+k75zO2fHvO0JGLs3ZWvbdtWXuf5t8VyReL22+kGlq2NwT1Xf5h7H/7P/lCeXdb7/
+cr/+4aNVF/2bLkwETvc9y/2hL61KG91qjM8jRwvtY+CKaabHN96KssxXUffrx1uu
+dTckeg/K7duLW/13/h1a1x088eTmf3NjXc8raqKnAueNgZTSd0XfYs1TOQuMRwib
+=hoQ5
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bret
+
+==================================================================
