@@ -15,6 +15,7 @@ layout: nil
     <email>bcomnes.github@bcomnes.github.com</email>
   </author>
   {% for page in site.posts limit:5 %}
+  {% if page.layout == 'deleted' %}{% else %}
     <entry>
       <id>http://{{ site.url }}{{ page.id }}</id>
       {% case page.layout %}
@@ -39,6 +40,7 @@ layout: nil
       {% if page.layout == 'linklog' %}{% capture bookmark %}<a rel="bookmark" href="{{ page.url }}">{% if site.permalink_marker %}{{ site.permalink_marker }}{% else %}&#8734;{% endif %}</a>{% endcapture %}{{ bookmark | xml_escape }}{% endif %}
       </content>
     </entry>
+    {% endif %}
     {% endfor %}
  
 </feed>
