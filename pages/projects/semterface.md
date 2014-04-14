@@ -16,6 +16,7 @@ This is the description page for the SEMterface project at the [Erik Sanchez Nan
 - [SEMterface Github Mirror](https://github.com/bcomnes/SEMterface)
 - [Blog Posts about the Project](/pages/tags/#SEMterface)
 - [Photos From WebRTC Camp 2013](https://drive.google.com/folderview?id=0BwTZIu3XaN90SjM1TGJDNWphQnc&usp=sharing)
+- [Sigma Xi Portland 2014 Poster](/media/Sigma-Xi-Poster-web.pdf)
 
 ## Project Goals
 
