@@ -62,7 +62,7 @@ webMention.listAll = function() {
     
 }
 
-// Bastardization of http://jsfiddle.net/cR9dB/2/ TODO: Unserstand this code :/
+// Bastardization of http://jsfiddle.net/cR9dB/2/
 // I think it came out of or was inspired by jquery
 webMention.hasClass = function (element, selector) {
     var className = ' ' + selector + ' ';
