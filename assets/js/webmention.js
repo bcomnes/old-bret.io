@@ -37,17 +37,48 @@ webMention.postProcess = function(data) {
             }
         }
 
+webMention.generateItem = function(index, apiData, callback) {
+    var listItem = document.createElement('LI'); // Create the list item
+    // Create the text of the post
+    var source = apiData.links[index].source || null;
+    var content = apiData.links[index].data.content || null;
+    var name = apiData.links[index].data.name || content || source ;
+
+    if (apiData.links[index].data.author) {
+        var avatar = apiData.links[index].data.author.photo || null;
+        var authorUrl = apiData.links[index].data.author.url || null;
+        var authorName = apiData.links[index].data.author.name || null;
+    }
+    
+    var hcardImg = document.createElement('IMG');
+    hcardImg.width = 48;
+    hcardImg.src = avatar;
+
+    var linkText = document.createTextNode(name);
+
+    var dateURL = document.createTextNode(apiData.links[index].verified_date);
+    // Create the link element
+    var linkAnchor = document.createElement('A');
+    // Set the href of the linkAnchor
+    linkAnchor.href = apiData.links[index].source;
+    // Put the link text in
+    linkAnchor.appendChild(dateURL);
+    // Put the link into the list item
+    listItem.appendChild(hcardImg);
+    listItem.appendChild(linkText);
+    listItem.appendChild(linkAnchor);
+
+    callback(listItem);
+}
+
 webMention.listLinks = function(parentElement, apiData) {
     for (var j = 0; j < apiData.links.length; j++) {
-                var listItem = document.createElement('LI');
-                var linkText = document.createTextNode(apiData.links[j].source + " on " + apiData.links[j].verified_date );
-                var linkAnchor = document.createElement('A');
-                linkAnchor.href = apiData.links[j].source;
-                linkAnchor.appendChild(linkText);
-                listItem.appendChild(linkAnchor);
-                parentElement.appendChild(listItem);
+                webMention.generateItem(j, apiData, function (listItem) {
+                     parentElement.appendChild(listItem);
+                });
             }
         }
+
 webMention.showCount = function(parentElement, apiData) {
     var listItem = document.createElement('LI');
     var linkText = document.createTextNode(apiData.links.length);
