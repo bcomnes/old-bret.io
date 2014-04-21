@@ -19,5 +19,5 @@ date: 2013-02-10 01:51:00
 </div>
 
 ### Site Status:
-[![Build Status](https://travis-ci.org/bcomnes/bcomnes.github.io.png?branch=master)](https://travis-ci.org/bcomnes/bcomnes.github.io)
+[![Build Status](https://travis-ci.org/bcomnes/bcomnes.github.io.svg?branch=master)](https://travis-ci.org/bcomnes/bcomnes.github.io)
 [![Dependency Status](https://gemnasium.com/bcomnes/bcomnes.github.io.png)](https://gemnasium.com/bcomnes/bcomnes.github.io)
