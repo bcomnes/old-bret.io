@@ -5,13 +5,13 @@ title: Outbox
 
   {% for page in site.posts limit:5 %}
   {% if page.reply_url %}
-  <p><pre>curl -i -d "source=http://{{ site.url }}{{ page.url }}&target={{ page.reply_url }}" `curl -i -s {{ page.reply_url }} | grep 'rel="http://webmention.org/"' | sed 's/rel="http:\/\/webmention.org\/"//' | grep -o -E 'https?://[^ ">]+' | sort | uniq`</pre></p>
+  <p><pre>curl -i -d "source=http://{{ site.url }}{{ page.url }}&target={{ page.reply_url }}" `curl -i -s {{ page.reply_url }} | grep 'rel="webmention"' | sed 's/rel="webmention"//' | grep -o -E 'https?://[^ ">]+' | sort | uniq`</pre></p>
   {% endif %}
   {% if page.external_url %}
-  <p><pre>curl -i -d "source=http://{{ site.url }}{{ page.url }}&target={{ page.external_url }}" `curl -i -s {{ page.external_url }} | grep 'rel="http://webmention.org/"' | sed 's/rel="http:\/\/webmention.org\/"//' | grep -o -E 'https?://[^ ">]+' | sort | uniq`</pre></p>
+  <p><pre>curl -i -d "source=http://{{ site.url }}{{ page.url }}&target={{ page.external_url }}" `curl -i -s {{ page.external_url }} | grep 'rel="webmention"' | sed 's/rel="webmention"//' | grep -o -E 'https?://[^ ">]+' | sort | uniq`</pre></p>
   {% endif %}
   {% endfor %}
   
-  <p><pre>curl -i -d "source=$SOURCE&target=$TARGET" `curl -i -s $TARGET | grep 'rel="http://webmention.org/"' | sed 's/rel="http:\/\/webmention.org\/"//' | grep -o -E 'https?://[^ ">]+' | sort | uniq`</pre></p>
+  <p><pre>curl -i -d "source=$SOURCE&target=$TARGET" `curl -i -s $TARGET | grep 'rel="webmention"' | sed 's/rel="webmention"//' | grep -o -E 'https?://[^ ">]+' | sort | uniq`</pre></p>
  
 
