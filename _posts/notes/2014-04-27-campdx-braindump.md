@@ -21,7 +21,7 @@ Raw list of links and topics from today's [CamPDX event](http://calagator.org/ev
 - Your GPG identity needs to be consistent between the client and server
 - Added #camlistore IRC info to the docs: [https://camlistore-review.googlesource.com/#/c/2696/](https://camlistore-review.googlesource.com/#/c/2696/)
 
-Also, as a bonus, we found out that running the smallest federated wiki is pretty much the [easiest thing ever](http://indiewebcamp.com/irc/2014-04-27/line/1398626962):
+Also, as a bonus, we found out that running the [smallest federated wiki](http://wardcunningham.github.io/) is pretty much the [easiest thing ever](http://indiewebcamp.com/irc/2014-04-27/line/1398626962):
 
 ```sh
 $ npm install -g wiki
