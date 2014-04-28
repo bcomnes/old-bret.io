@@ -19,3 +19,4 @@ Raw list of links and topics from today's [CamPDX event](http://calagator.org/ev
 - Getting a working Go environment takes a while
 - Building camlistore is pretty easy
 - Your GPG identity needs to be consistent between the client and server
+- Added #camlistore IRC info to the docs: [https://camlistore-review.googlesource.com/#/c/2696/](https://camlistore-review.googlesource.com/#/c/2696/)
