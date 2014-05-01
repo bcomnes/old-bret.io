@@ -24,6 +24,11 @@ linklog: "&#8620;"	# This is the little indicator next to link-log posts
 
 recent_posts: 10
 
+gems:
+#- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+
 maruku:
   use_tex:    false
   use_divs:   false
@@ -43,7 +48,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-  
+
   coderay:
     coderay_wrap: div
     coderay_line_numbers: inline
