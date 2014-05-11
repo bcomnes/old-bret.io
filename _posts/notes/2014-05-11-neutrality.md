@@ -9,4 +9,4 @@ tags:
 
 <div class="flex-video youtube"><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/NAxMyTwmu_M?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-A good explianation on why the Comcast/Netflix deal is terrible for everyone.
+A good explanation on why the Comcast/Netflix deal is terrible for everyone.
