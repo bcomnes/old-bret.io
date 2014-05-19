@@ -21,6 +21,7 @@ location: "Portland, OR"
 brand: "bret.io"  # This is displays in the navbar
 permalink_marker: "&#916;"  # This is the permalink marker. 
 linklog: "&#8620;"	# This is the little indicator next to link-log posts
+ownyourgram: "/media/ownyourgram/"
 
 recent_posts: 10
 
