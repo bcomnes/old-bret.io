@@ -4,6 +4,15 @@ body {
     padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
 
+/* audio stuff */
+
+audio {
+	top: 0px;
+	left: 0px;
+    	width: 100%;
+    	height: 100%;
+}
+
 /* Navbar Like Twitter Bootrap Doc
 -------------------------------------------------- */
 .navbar {
@@ -220,13 +229,4 @@ article.linklog-marker {
 
 #map {
     height: 200px;
-}
-
-/* audio stuff */
-
-audio {
-	top: 0px;
-	left: 0px;
-    	width: 100%;
-    	height: 100%;
 }
