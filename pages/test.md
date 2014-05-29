@@ -63,3 +63,5 @@ Boop!
 Just working on gitpub.  Also why did the build fail?
 
 The build didnt fail, but the libgit2 bindings failed pretty damn hard.
+
+Why isnt the page building?
