@@ -15,11 +15,13 @@ Congrats to [cweiske](http://cweiske.de/) for implementing [IndieAuth-openID pro
 
 What struck me was the comparisons at the top of the post however:
 
-<blockquite>
+<blockquite class="blockquote">
+
 - [IndieAuth](http://indiewebcamp.com/IndieAuth) instead of [OpenID](http://openid.net/)
 - Microformats instead of [Libravatar](https://www.libravatar.org/) for avatar images
 - [h-feed](http://indiewebcamp.com/h-feed) instead of [Atom feeds](http://tools.ietf.org/html/rfc4287)
 - [Microformats](http://indiewebcamp.com/link-preview) instead of [oEmbed](http://www.oembed.com/)
+
 </blockquite>
 
 We can rearrange this comparison a bit for a slightly different perspective:
