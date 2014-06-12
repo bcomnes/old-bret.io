@@ -30,7 +30,7 @@ We can rearrange this comparison a bit for a slightly different perspective:
 - [Webmention](http://webmention.org) (HTTP) instead of [Pingback](http://www.hixie.ch/specs/pingback/pingback) (XMLRPC)
 - [MicroPub](http://indiewebcamp.com/micropub) (HTTP + µF Vocab) instead of [AtomPub](http://bitworking.org/projects/atom/rfc5023.html) (XMLRPC + Atom Vocab)
 
-What used to be a disjoint stack of standards all acting with different tools in different locations in different languages and vocab with higher barriers to publishing can can now be handled using a simplifed and single method.  Simply reinvention, or a simplifying iteration?  I'll go with the later.
+What used to be a disjoint stack of standards all acting with different tools in different locations in different languages and vocab with higher barriers to publishing can can now be handled using a simplified and single method.  Simply reinvention, or a simplifying iteration?  I'll go with the later.
 
 <blockquote>
 "you're replacing a square, triangular and pentagonal wheel with a set of round ones"
