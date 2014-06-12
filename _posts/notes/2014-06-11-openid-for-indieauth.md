@@ -34,5 +34,5 @@ What used to be a disjoint stack of standards all acting with different tools in
 
 <blockquote class="pull-right">
 "you're replacing a square, triangular and pentagonal wheel with a set of round ones"
-<footer><cite href="http://indiewebcamp.com/irc/2014-06-11/line/1402530932">Kevin Marks</cite></footer>
+<small><cite href="http://indiewebcamp.com/irc/2014-06-11/line/1402530932">Kevin Marks</cite></small>
 </blockquote>
