@@ -15,6 +15,10 @@ Congrats to [cweiske](http://cweiske.de/) for implementing [IndieAuth-openID pro
 
 What struck me was the comparisons at the top of the post however:
 
+<blockquote>
+The IndieWeb movement is much about "code before talk", and on this way wheels are reinvented: 
+</blockquote>
+
 - [IndieAuth](http://indiewebcamp.com/IndieAuth) instead of [OpenID](http://openid.net/)
 - Microformats instead of [Libravatar](https://www.libravatar.org/) for avatar images
 - [h-feed](http://indiewebcamp.com/h-feed) instead of [Atom feeds](http://tools.ietf.org/html/rfc4287)
