@@ -1,6 +1,6 @@
 ---
 layout: note
-published: false
+published: true
 title: OpenID For IndieAuth
 reply_url: "http://cweiske.de/tagebuch/indieauth-openid.htm"
 reply_title: cweiske.de
@@ -15,14 +15,11 @@ Congrats to [cweiske](http://cweiske.de/) for implementing [IndieAuth-openID pro
 
 What struck me was the comparisons at the top of the post however:
 
-<blockquite class="blockquote">
-
 - [IndieAuth](http://indiewebcamp.com/IndieAuth) instead of [OpenID](http://openid.net/)
 - Microformats instead of [Libravatar](https://www.libravatar.org/) for avatar images
 - [h-feed](http://indiewebcamp.com/h-feed) instead of [Atom feeds](http://tools.ietf.org/html/rfc4287)
 - [Microformats](http://indiewebcamp.com/link-preview) instead of [oEmbed](http://www.oembed.com/)
 
-</blockquite>
 
 We can rearrange this comparison a bit for a slightly different perspective:
 
@@ -30,5 +27,12 @@ We can rearrange this comparison a bit for a slightly different perspective:
 - [Microformats](http://microformats.org/wiki/h-card) (h-card) instead of [Libravatar](https://www.libravatar.org/) (DNS Extensions)
 - [Microformats](http://microformats.org/wiki/h-entry) (h-entry) instead of [Atom feeds](http://tools.ietf.org/html/rfc4287) (or RSS, both relying on alt, DRY violating and hidden XML data)
 - [Microformats](http://microformats.org/wiki/microformats2) instead of [oEmbed](http://www.oembed.com/) (Requires Application level API support)
+- [Webmention](http://webmention.org) (HTTP post request) instead of [Pingback]() (XMLRPC)
+- [MicroPub]() (HTTP Post request + µF Vocab) instead of [AtomPub]() (XMLRPC + Atom Vocab)
 
-What used to be a disjoint stack of standards all acting with different tools in different locations with higher barriers to publishing can now be accounted for with simple HTML class/rel attributes.  Simply reinvention, or a simplifying iteration?  I'll go with the later.
+What used to be a disjoint stack of standards all acting with different tools in different locations with higher barriers to publishing can can now be handled using a simplifed and single method.  Simply reinvention, or a simplifying iteration?  I'll go with the later.
+
+<blockquote>
+"you're replacing a square, triangular and pentagonal wheel with a set of round ones"
+<footer><cite>Kevin Marks</cite></footer>
+</blockquote>
