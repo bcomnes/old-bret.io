@@ -45,7 +45,7 @@ webMention.generateItem = function(index, apiData, callback) {
     var name = apiData.links[index].data.name || content || source ;
 
     if (apiData.links[index].data.author) {
-        var avatar = apiData.links[index].data.author.photo || null;
+        var avatar = apiData.links[index].data.author.photo + apiData.links[index].data.author.url || null;
         var authorUrl = apiData.links[index].data.author.url || null;
         var authorName = apiData.links[index].data.author.name || null;
     }
