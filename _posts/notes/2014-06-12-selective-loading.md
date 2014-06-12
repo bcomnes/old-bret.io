@@ -18,6 +18,6 @@ tags:
 [10:45] and if there are any elements matching the selector, the libraries are loaded, and callback(element, *dependencies) is called for each element
  
 [10:46] it’s a pattern I use everywhere in Taproot and Shrewdness, and got tired of writing it out explicitly :)
-<small>barnabywalters in <a href="http://indiewebcamp.com/irc/2014-06-12#t1402595077"><cite title="IndieWebCamp IRC">IWC:IRC</cite>
+<small>barnabywalters in <a href="http://indiewebcamp.com/irc/2014-06-12#t1402595077"><cite title="IndieWebCamp IRC">IWC:IRC</cite></a></small>
 </blockquote>
 
