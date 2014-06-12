@@ -32,7 +32,7 @@ We can rearrange this comparison a bit for a slightly different perspective:
 
 What used to be a disjoint stack of standards all acting with different tools in different locations in different languages and vocab with higher barriers to publishing can can now be handled using a simplified and single method.  Simply reinvention, or a simplifying iteration?  I'll go with the later.
 
-<blockquote class="pull-right">
+<blockquote>
 "you're replacing a square, triangular and pentagonal wheel with a set of round ones"
 <small><cite href="http://indiewebcamp.com/irc/2014-06-11/line/1402530932">Kevin Marks</cite></small>
 </blockquote>
