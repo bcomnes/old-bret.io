@@ -11,7 +11,7 @@ tags:
 date: "2014-06-11 15:54"
 ---
 
-Congrats to [cweiske](http://cweiske.de/) for implementing [IndieAuth-openID proxy]()!
+Congrats to [cweiske](http://cweiske.de/) for implementing [IndieAuth-openID proxy](http://git.cweiske.de/indieauth-openid.git/)!
 
 What struck me was the comparisons at the top of the post however:
 
