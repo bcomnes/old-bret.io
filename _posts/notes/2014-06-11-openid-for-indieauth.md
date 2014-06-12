@@ -27,12 +27,12 @@ We can rearrange this comparison a bit for a slightly different perspective:
 - [Microformats](http://microformats.org/wiki/h-card) (h-card) instead of [Libravatar](https://www.libravatar.org/) (DNS Extensions)
 - [Microformats](http://microformats.org/wiki/h-entry) (h-entry) instead of [Atom feeds](http://tools.ietf.org/html/rfc4287) (or RSS, both relying on alt, DRY violating and hidden XML data)
 - [Microformats](http://microformats.org/wiki/microformats2) instead of [oEmbed](http://www.oembed.com/) (Requires Application level API support)
-- [Webmention](http://webmention.org) (HTTP post request) instead of [Pingback]() (XMLRPC)
-- [MicroPub]() (HTTP Post request + µF Vocab) instead of [AtomPub]() (XMLRPC + Atom Vocab)
+- [Webmention](http://webmention.org) (HTTP) instead of [Pingback](http://www.hixie.ch/specs/pingback/pingback) (XMLRPC)
+- [MicroPub](http://indiewebcamp.com/micropub) (HTTP + µF Vocab) instead of [AtomPub](http://bitworking.org/projects/atom/rfc5023.html) (XMLRPC + Atom Vocab)
 
 What used to be a disjoint stack of standards all acting with different tools in different locations with higher barriers to publishing can can now be handled using a simplifed and single method.  Simply reinvention, or a simplifying iteration?  I'll go with the later.
 
 <blockquote>
 "you're replacing a square, triangular and pentagonal wheel with a set of round ones"
-<footer><cite>Kevin Marks</cite></footer>
+<footer><cite href="http://indiewebcamp.com/irc/2014-06-11/line/1402530932">Kevin Marks</cite></footer>
 </blockquote>
