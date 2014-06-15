@@ -3,7 +3,7 @@ layout: note
 published: true
 title: Selective loading
 reply_url: "http://waterpigs.co.uk/notes/4WZHhH/"
-reply_title: "http://waterpigs.co.uk"
+reply_title: "waterpigs.co.uk"
 date: "2014-06-12 10:56"
 tags: 
   - js
