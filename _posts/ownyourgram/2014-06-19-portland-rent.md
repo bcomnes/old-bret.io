@@ -15,8 +15,7 @@ items:
   category: 
   published: 2014-06-18T18:54:44-07:00
   place_name: 
-  content: Fuck you Portland
--Rent
+  content: 'Fuck you Portland -Rent'
   syndication: http://instagram.com/p/paG5svRfqV/
 
 syndicate: 
