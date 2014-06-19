@@ -1,7 +1,7 @@
 ---
 layout: note
 published: true
-title: Fuck you Portland
+title: Rent
 date: 2014-06-18T18:54:44-07:00
   - Photo
   - ownyourgram
