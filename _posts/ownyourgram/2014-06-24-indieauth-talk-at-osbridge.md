@@ -1,7 +1,7 @@
 ---
 layout: note
 published: true
-title: "Indieauth talk at #osbridge"
+title: "Indieauth talk at osbridge"
 date: 2014-06-24T14:41:29-07:00
   - Photo
   - ownyourgram
