@@ -10,7 +10,7 @@ future: true
 exclude: [categories.html, Gemfile, Gemfile.lock, README.md, vendor, cache.manifest]
 include: [".well-known"]
 permalink: /:year/:month/:day/:title/
-relative_permalinks: true
+relative_permalinks: false
 
 source:      .
 destination: ./_site
