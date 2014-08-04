@@ -9,6 +9,7 @@ port: 4000
 future: true
 exclude: [categories.html, Gemfile, Gemfile.lock, README.md, vendor, cache.manifest]
 include: [".well-known"]
+permalink: /:year/:month/:day/:title.html
 
 source:      .
 destination: ./_site
