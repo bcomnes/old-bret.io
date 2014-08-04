@@ -10,12 +10,12 @@ client_id: "https://ownyourgram.com"
 client: ownyourgram.com
 scope: post
 files:
-  - filename: igvLAVVG.jpg
+  - filename: igPi8rHx.jpg
     fieldname: photo
     encoding: 7bit
     mimetype: application/octet-stream
-    fsPath: /app/repo/bcomnes.github.io/media/ownyourgram.com/igvLAVVG.jpg
+    fsPath: /app/repo/bcomnes.github.io/media/ownyourgram.com/igPi8rHx.jpg
     workPath: /media/ownyourgram.com
-    src: /media/ownyourgram.com/igvLAVVG.jpg
+    src: /media/ownyourgram.com/igPi8rHx.jpg
 ---
 Giorno Pills
