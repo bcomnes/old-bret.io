@@ -1,6 +1,6 @@
 url: bret.io
 paginate: 10
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title/
 markdown: rdiscount
 safe: true
 lsi: false
@@ -9,7 +9,6 @@ port: 4000
 future: true
 exclude: [categories.html, Gemfile, Gemfile.lock, README.md, vendor, cache.manifest]
 include: [".well-known"]
-permalink: pretty
 
 source:      .
 destination: ./_site
