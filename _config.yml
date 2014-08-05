@@ -15,14 +15,6 @@ source:      .
 destination: ./_site
 plugins:     ./_plugins
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "post"
-    values:
-      permalink: /:year/:month/:day/:title/
-
 author: "Bret Comnes"
 description: "A Personal Website and Blog"
 location: "Portland, OR"
