@@ -9,13 +9,19 @@ port: 4000
 future: true
 exclude: [categories.html, Gemfile, Gemfile.lock, README.md, vendor, cache.manifest]
 include: [".well-known"]
-permalink: /:year/:month/:day/:title/
-relative_permalinks: false
+permalink: pretty
 
 source:      .
 destination: ./_site
 plugins:     ./_plugins
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "post"
+    values:
+      permalink: /:year/:month/:day/:title/
 
 author: "Bret Comnes"
 description: "A Personal Website and Blog"
