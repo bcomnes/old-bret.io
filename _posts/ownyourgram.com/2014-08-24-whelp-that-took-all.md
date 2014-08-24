@@ -1,6 +1,6 @@
 ---
 h: entry
-published: false
+published: true
 category: null
 location: "geo:45.530418299,-122.683025301"
 place-name: null
