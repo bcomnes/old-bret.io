@@ -5,7 +5,7 @@ title: Running Trinity RNA-SEQ with Slurm
 date: "2014-08-25 11:39"
 ---
 
-At [ PSU-ARC ](http://www.pdx.edu/arc/academic-and-research-computing) we were having some issues running [ Trinity RNA-SEQ ](http://trinityrnaseq.sourceforge.net/#Computing_Grid) on our [ Hydra Cluster ](http://arc-docs.readthedocs.org/en/latest/linux-clusters.html#hydra-cluster) running the [Rocks Cluster Distributionn](http://central6.rocksclusters.org/roll-documentation/base/6.1.1/) with the [Slurm Workload Manager](http://slurm.schedmd.com) roll.  Trinity works in two phases, first it does a lot of memory intensive computation on a single node (server), then begins queuing many smaller Slrum jobs that can be distributed across multiple nodes.  
+At [PSU-ARC](http://www.pdx.edu/arc/academic-and-research-computing) we were having some issues running [Trinity RNA-SEQ](http://trinityrnaseq.sourceforge.net/#Computing_Grid) on our [Hydra Cluster](http://arc-docs.readthedocs.org/en/latest/linux-clusters.html#hydra-cluster) running the [Rocks Cluster Distributionn](http://central6.rocksclusters.org/roll-documentation/base/6.1.1/) with the [Slurm Workload Manager](http://slurm.schedmd.com) roll.  Trinity works in two phases, first it does a lot of memory intensive computation on a single node (server), then begins queuing many smaller Slrum jobs that can be distributed across multiple nodes.  
 
 In order to allow Trinity to launch new and separate Slurm jobs, one must ensure that the compute node the primary Trinity job is launched on is allowed to launch new jobs.
 
