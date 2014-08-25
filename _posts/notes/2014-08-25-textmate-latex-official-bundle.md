@@ -2,7 +2,7 @@
 layout: note
 published: true
 title: LaTeX Font Setting Now An Official TextMate 2 Bundle
-date: "2014-08-09 12:32"
+date: "2014-08-25 12:32"
 syndicate:
   -
     name: Twitter
