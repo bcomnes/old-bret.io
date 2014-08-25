@@ -9,7 +9,7 @@ At [PSU-ARC](http://www.pdx.edu/arc/academic-and-research-computing) we were hav
 
 In order to allow Trinity to launch new and separate Slurm jobs, one must ensure that the compute node the primary Trinity job is launched on is allowed to launch new jobs.
 
-The parameter that determines if nodes can launch new jobs is the node list specified in `AllocNodes` ( http://slurm.schedmd.com/scontrol.html ) for a given Slurm partition.  You can check this setting with the following command:
+The parameter that determines if nodes can launch new jobs is the node list specified in [`AllocNodes`]( http://slurm.schedmd.com/scontrol.html ) for a given Slurm partition.  You can check this setting with the following command:
 
 ```sh
 sconrol show partition
