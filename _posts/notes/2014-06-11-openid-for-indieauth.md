@@ -27,12 +27,12 @@ What struck me was the comparisons at the top of the post however:
 
 We can rearrange this comparison a bit for a slightly different perspective:
 
-- [Microformats](http://microformats.org/wiki/RelMeAuth) (rel=me auth) instead of [OpenID](http://openid.net/)
+- [Microformats](http://microformats.org/wiki/RelMeAuth) (rel=me auth + oAuth) instead of [OpenID](http://openid.net/)
 - [Microformats](http://microformats.org/wiki/h-card) (h-card) instead of [Libravatar](https://www.libravatar.org/) (DNS Extensions)
 - [Microformats](http://microformats.org/wiki/h-entry) (h-entry) instead of [Atom feeds](http://tools.ietf.org/html/rfc4287) (or RSS, both relying on alt, DRY violating and hidden XML data)
 - [Microformats](http://microformats.org/wiki/microformats2) instead of [oEmbed](http://www.oembed.com/) (Requires Application level API support)
 - [Webmention](http://webmention.org) (HTTP) instead of [Pingback](http://www.hixie.ch/specs/pingback/pingback) (XMLRPC)
-- [MicroPub](http://indiewebcamp.com/micropub) (HTTP + µF Vocab) instead of [AtomPub](http://bitworking.org/projects/atom/rfc5023.html) (XMLRPC + Atom Vocab)
+- [MicroPub](http://indiewebcamp.com/micropub) (HTTP + µF Vocab + oAuth) instead of [AtomPub](http://bitworking.org/projects/atom/rfc5023.html) (XMLRPC + Atom Vocab)
 
 What used to be a disjoint stack of standards all acting with different tools in different locations in different languages and vocab with higher barriers to publishing can can now be handled using a simplified and singular set of standards based around HTML and HTTP.  Simply reinvention, or a simplifying iteration?  I'll go with the later.
 
