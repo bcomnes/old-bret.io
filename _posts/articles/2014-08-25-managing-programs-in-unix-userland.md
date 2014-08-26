@@ -101,7 +101,7 @@ you should consider cleaning up the install as the install did not follow standa
 
 Running this `stow` command with the `-S` flag (for save/stow?) symlinks the contents of `~/stow/program-1.0.0` into the directory above the `~/stow` folder.  In this case this is your home folder `~/`.  `bash` is configured to use the default Unix directories in the home folder by default, so now binaries from `program-1.0.0` should be in your `$PATH`.
 
-Lets say we want to un-`stow` a program to remove it from our environment or to stow a new version.  We cam simply run:
+Lets say we want to un-`stow` a program to remove it from our environment or to stow a new version.  We can simply run:
 
 ```sh
 > cd ~/stow
