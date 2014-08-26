@@ -3,6 +3,10 @@ layout: article
 published: true
 title: Managing Programs in Unix Userland
 date: "2014-08-25 18:16"
+syndicate:
+  -
+    name: Twitter
+    url: https://twitter.com/bretolius/status/504111952105574400
 ---
 
 This article, written for [arc-docs](http://arc-docs.readthedocs.org/en/latest/getting-started.html#setting-up-programs-in-your-home-directory), is what I wished I had read when first learning to use Unix/Linux systems.
