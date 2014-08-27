@@ -4,7 +4,7 @@ permalink: /:year/:month/:day/:title/
 markdown: rdiscount
 safe: true
 lsi: false
-pygments: true
+highlighter: rouge
 port: 4000
 future: true
 exclude: [categories.html, Gemfile, Gemfile.lock, README.md, vendor, cache.manifest]
@@ -18,7 +18,7 @@ author: "Bret Comnes"
 description: "A Personal Website and Blog"
 location: "Portland, OR"
 brand: "bret.io"  # This is displays in the navbar
-permalink_marker: "&#916;"  # This is the permalink marker. 
+permalink_marker: "&#916;"  # This is the permalink marker.
 linklog: "&#8620;"	# This is the little indicator next to link-log posts
 ownyourgram: "/media/ownyourgram/"
 
