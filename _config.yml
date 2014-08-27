@@ -4,7 +4,7 @@ permalink: /:year/:month/:day/:title/
 markdown: rdiscount
 safe: true
 lsi: false
-highlighter: rouge
+highlighter: pygments
 port: 4000
 future: true
 exclude: [categories.html, Gemfile, Gemfile.lock, README.md, vendor, cache.manifest]
