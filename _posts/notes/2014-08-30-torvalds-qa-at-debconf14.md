@@ -6,7 +6,7 @@ date: "2014-08-30 13:54"
 syndicate:
   -
     name: Twitter
-    url:
+    url: https://twitter.com/bretolius/status/505821827671674880
 ---
 
 The video of the QA session with Linus Torvalds at [DebConf14](http://debconf14.debconf.org) is live already!
