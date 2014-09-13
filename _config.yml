@@ -1,6 +1,6 @@
 url: bret.io
 paginate: 10
-permalink: /:year/:month/:day/:title/
+permalink: pretty
 markdown: rdiscount
 safe: true
 lsi: false
