@@ -24,4 +24,6 @@ date: 2013-02-10 01:51:00
 
 ### Github-Pages Metadata:
 
-{{ site.github }}
+{% for version in site.github.versions }
+- {{ version }}
+{% endfor %}
