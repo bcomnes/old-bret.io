@@ -22,6 +22,6 @@ files:
 published: true
 syndicate:
   - name: Instagram
-  - url: "http://instagram.com/p/s80DrsRfjP"
+    url: "http://instagram.com/p/s80DrsRfjP"
 ---
 Had a magical time watching #xoxo13 for #xoxofest this year ;)
