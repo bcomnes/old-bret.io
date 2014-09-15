@@ -18,6 +18,8 @@ files:
     workPath: /media/ownyourgram.com
     src: /media/ownyourgram.com/igQCGEJ5.jpg
 published: true
-syndicate: null
+syndicate: 
+  - url: "http://instagram.com/p/s-YGeDxfrq/"
+    name: Instagram
 ---
 Zombie baby and hand
