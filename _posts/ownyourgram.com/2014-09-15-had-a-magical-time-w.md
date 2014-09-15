@@ -1,7 +1,9 @@
 ---
 h: entry
 date: "2014-09-15T02:57:41+00:00"
-tags: "xoxofest,xoxo13"
+tags:
+  - xoxofest
+  - xoxo13
 location: "geo:45.530646667,-122.682983333"
 place-name: null
 in-reply-to: null
