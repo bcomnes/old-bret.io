@@ -20,6 +20,8 @@ files:
     workPath: /media/ownyourgram.com
     src: /media/ownyourgram.com/igpmWdM2.jpg
 published: true
-syndicate: null
+syndicate:
+  - name: Instagram
+  - url: "http://instagram.com/p/s80DrsRfjP"
 ---
 Had a magical time watching #xoxo13 for #xoxofest this year ;)
