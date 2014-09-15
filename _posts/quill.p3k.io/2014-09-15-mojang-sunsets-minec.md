@@ -15,7 +15,7 @@ syndicate:
   - url: "https://twitter.com/bretolius/status/511619030457663488"
     name: Twitter
 ---
-Mojang sunsets Minecraft today!  
+Congratulations @notch, @microsoft and @mojang on sunsetting Minecraft today!
 
 Why not sell to a company that can actually develop games, like VALVe?
 
