@@ -11,7 +11,9 @@ client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
+syndicate:
+  - url: "https://twitter.com/bretolius/status/511619030457663488"
+    name: Twitter
 ---
 Mojang sunsets Minecraft today!  
 
