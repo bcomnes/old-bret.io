@@ -1,0 +1,34 @@
+<!--Begin note "{{ page.title }}"-->
+<article class="note h-entry row">
+	<header class="span2">
+	<p class="muted">
+		{% if content %}{% else %}<a rel="bookmark" class="u-url" href="{{ page.url }}">{% endif %}<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>{% if content %}{% else %}</a>{% endif %}</p>
+	{% if content %}{% else %}<p>{% include post-aside-webmention.html %}</p>{% endif %}
+	</header>
+<section class="span8">
+{% if page.reply_url %}<p class="muted"><small><i class="icon-share-alt muted"></i> Replied to <a class="u-in-reply-to muted" href="{{ page.reply_url }}">a post on {{ page.reply_title }}</a>:</small></p>{% endif %}
+
+<div class="e-content p-summary p-name">
+
+{% for file in page.files %}
+<img class="img-polaroid" src="{{file.src}}" width="{{ 640 }}" height="{{ 640 }}">
+{% endfor %}
+
+{% include post-logic-content.html %}
+
+</div>
+{% if page.rsvp %}<data class="p-rsvp" value="{{ page.rsvp }}">I'm RSVPing "{{ page.rsvp }}"</data>{% endif %}
+{% if content %}{% include post-aside-webmention.html %}{% endif %}
+{% if content %}{% if page.syndicate %}{% include post-aside-syndicate.html %}{% endif %}{% endif %}
+</section>
+    {% if content %}
+<footer class="span2">
+	<div class="h-card p-author">
+	<p><img width="64" height="64" src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=512" class="img-circle u-photo" alt="A picture of me!"></p>
+	<p><a class="p-name fn muted" href="http://{{ site.url }}">{{ site.author }}</a></p>
+	<p><a class="u-url url muted" href="http://{{ site.url }}">{{ site.url }}<!-- This is here to force the hand of your MF2 parser --></a></p>
+	</div>
+</footer>
+	{% endif %}
+</article>
+<!--End Post "{{ page.title }}"-->

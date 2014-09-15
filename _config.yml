@@ -24,6 +24,13 @@ ownyourgram: "/media/ownyourgram/"
 
 recent_posts: 10
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # or pages
+    values:
+      layout: "entry"
 gems:
 #- jekyll-mentions
 - jemoji

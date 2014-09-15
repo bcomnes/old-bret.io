@@ -1,6 +1,6 @@
 ---
 h: entry
-published: false
+published: true
 category: null
 location: "geo:45.530418299,-122.683025301"
 place-name: null
@@ -17,5 +17,8 @@ files:
     fsPath: /app/repo/bcomnes.github.io/media/ownyourgram.com/igMI2AFh.jpg
     workPath: /media/ownyourgram.com
     src: /media/ownyourgram.com/igMI2AFh.jpg
+syndicate:
+  - name: Instagram
+    url: "http://instagram.com/p/sD5BLPxfgc/"
 ---
 Whelp, that took all afternoon
