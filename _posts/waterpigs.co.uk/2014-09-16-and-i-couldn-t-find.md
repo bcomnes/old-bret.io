@@ -15,4 +15,4 @@ files: null
 published: true
 syndicate: null
 ---
-And I couldn't find a ATOM feed, so I was able to just use your [waterpigs.co.uk/services/microformats-to-atom/](https://waterpigs.co.uk/services/microformats-to-atom/ service) :)
+And I couldn't find a ATOM feed, so I was able to just use your [waterpigs.co.uk/services/microformats-to-atom/](https://waterpigs.co.uk/services/microformats-to-atom/) service :)
