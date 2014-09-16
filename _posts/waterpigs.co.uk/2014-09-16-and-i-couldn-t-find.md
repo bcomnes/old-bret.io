@@ -5,6 +5,8 @@ tags: atom
 location: null
 place-name: null
 in-reply-to: "https://waterpigs.co.uk/notes/4Y9F2R/"
+reply_url: "https://waterpigs.co.uk/notes/4Y9F2R/"
+reply_title: waterpigs.co.uk
 syndicate-to: null
 client_id: "https://waterpigs.co.uk/
 client: waterpigs.co.uk
