@@ -65,3 +65,13 @@ Just working on gitpub.  Also why did the build fail?
 The build didnt fail, but the libgit2 bindings failed pretty damn hard.
 
 How does it work with a password in the remote address?
+
+# For loop
+
+{% for bloop in site.github %}
+
+- {{ bloop }}
+
+# Raw
+
+{{ site.github }}
