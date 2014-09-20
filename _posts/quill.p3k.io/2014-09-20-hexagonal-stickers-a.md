@@ -11,6 +11,10 @@ client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
+syndicate:
+  - name: Twitter
+    url: https://twitter.com/bretolius/status/513150506185666560
 ---
 Hexagonal stickers are the future!  Thanks for the hookup @maxogden :)
+
+[![Lappy with Hexagonal Stickers](https://farm4.staticflickr.com/3902/15293238275_05ff42c293_c.jpg)](https://www.flickr.com/photos/bretc/15293238275/)
