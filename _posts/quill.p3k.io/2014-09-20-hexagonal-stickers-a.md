@@ -17,4 +17,4 @@ syndicate:
 ---
 Hexagonal stickers are the future!  Thanks for the hookup @maxogden :)
 
-[![Lappy with Hexagonal Stickers](https://farm4.staticflickr.com/3902/15293238275_05ff42c293_c.jpg)](https://www.flickr.com/photos/bretc/15293238275/)
+[![Lappy with Hexagonal Stickers](https://farm4.staticflickr.com/3902/15293238275_b31fa19759_b.jpg)](https://www.flickr.com/photos/bretc/15293238275/)
