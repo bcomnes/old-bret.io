@@ -19,7 +19,6 @@ Javascript can be confusing
 function splitter (obj, field) {
   return function(cb) {
     obj[field] = obj[field].split(',');
-    console.log(obj)
     cb();
   }
 }
