@@ -18,6 +18,8 @@ files:
     workPath: /media/ownyourgram.com
     src: /media/ownyourgram.com/igeuVveU.jpg
 published: true
-syndicate: null
+syndicate:
+  - url: "http://instagram.com/p/tMZLwMRfka"
+    name: Instagram
 ---
 Scully about to skull the Fiji mermaid.  Also, TV is working 😱
