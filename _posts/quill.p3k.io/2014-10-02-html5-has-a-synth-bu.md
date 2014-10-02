@@ -5,6 +5,8 @@ tags: null
 location: null
 place-name: null
 in-reply-to: "http://andysylvester.com/2014/09/30/tsw-web-audio-primer-part-2/"
+reply_url: "http://andysylvester.com/2014/09/30/tsw-web-audio-primer-part-2/"
+reply_title: "andysylvester.com"
 syndicate-to: null
 client_id: "https://quill.p3k.io"
 client: quill.p3k.io
