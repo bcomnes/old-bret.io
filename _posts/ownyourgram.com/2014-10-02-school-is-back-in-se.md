@@ -19,7 +19,7 @@ files:
     src: /media/ownyourgram.com/ig1gVwTB.jpg
 published: true
 syndicate:
-  - url: "Instagram"
-    name: "http://instagram.com/p/toorXxxfoq/"
+  - name: "Instagram"
+    url: "http://instagram.com/p/toorXxxfoq/"
 ---
 School is back in session #pdxstix
