@@ -18,6 +18,8 @@ files:
     workPath: /media/ownyourgram.com
     src: /media/ownyourgram.com/ig1gVwTB.jpg
 published: true
-syndicate: null
+syndicate:
+  - url: Instagram
+    name: "http://instagram.com/p/toorXxxfoq/"
 ---
 School is back in session #pdxstix
