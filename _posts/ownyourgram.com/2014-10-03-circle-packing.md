@@ -21,5 +21,7 @@ published: true
 syndicate:
   - name: Instagram
     url: http://instagram.com/p/toorXxxfoq/
+  - name: Twitter
+    url: "https://twitter.com/bretolius/status/517695827620679680"
 ---
 Circle packing
