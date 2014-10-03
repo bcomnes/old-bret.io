@@ -20,7 +20,7 @@ files:
 published: true
 syndicate:
   - name: Instagram
-    url: http://instagram.com/p/toorXxxfoq/
+    url: http://instagram.com/p/tq4WtUxftO/
   - name: Twitter
     url: "https://twitter.com/bretolius/status/517695827620679680"
 ---
