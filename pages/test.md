@@ -37,6 +37,18 @@ items:
 
 $Id$
 
+### Site Status:
+[![Build Status](https://travis-ci.org/bcomnes/bcomnes.github.io.svg?branch=master)](https://travis-ci.org/bcomnes/bcomnes.github.io)
+[![Dependency Status](https://gemnasium.com/bcomnes/bcomnes.github.io.png)](https://gemnasium.com/bcomnes/bcomnes.github.io)
+
+### Github-Pages Metadata:
+
+{% for version in site.github.versions %}
+- {{ version }}
+{% endfor %}
+
+## Random Tests
+
 {% assign i = 0  %}
 This is a test page...
 

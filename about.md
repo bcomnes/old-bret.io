@@ -4,26 +4,26 @@ title: About
 asides: true
 date: 2013-02-10 01:51:00
 ---
-<div>
-<h1>Bret Comnes</h1>
-<p>I graduated in 2011 with a B.S. in <a href="http://www.humboldt.edu/physics/">Physics</a> from <span><a href="http://www.humboldt.edu/" >Humboldt State University</a></span> where I helped study <a href="http://www.humboldt.edu/physics/gravitational-lab.html">gravity</a>.  I currently live in <span><a href="https://maps.google.com/maps?q=Portland+OR">Portland, OR</a></span> where I am working on my PhD in Physics at <span><a href="http://pdx.edu">Portland State University</a></span>.</p>
+
+# Bret Comnes
+
+DevOps, Software Engineering, Free/Open Source + Open Web advocate and Physics Graduate Student and Lab Instructor at PSU, in various orders throughout the year.
+
+I graduated with a B.S. in [Physics](http://www.humboldt.edu/physics/) from [Humboldt State University](http://www.humboldt.edu) where I helped study [gravity](http://www.humboldt.edu/physics/gravitational-lab.html) and find [undiscovered galaxies](http://egg.astro.cornell.edu/index.php/).
+
+After, I moved to Portland, OR to attend [PSU](http://pdx.edu)'s Applied Physics PhD Program and continue my training as a Physicist.
+
+In Portland, I discovered my heart and true personal interests were actually in software engineering, system operations, distributed networks and Computer Science, subjects that I have been fascinated with throughout my life.
+
+This realization led me to a job at [PSU:OIT - Academic Research Computing](http://www.pdx.edu/arc/academic-and-research-computing) department where I professionally develop various software projects and administer the schools research servers and Linux clusters.
+
+I am working towards completing my Masters in December, 2014 by finishing the [Remotely Operable Scanning Electron Microscope](/pages/projects/semterface/) project in the [Sanchez Nano Development Lab](http://web.pdx.edu/~esanchez/sanchezTeam.html).
 
 <ul>
-<li><a href="/assets/resume/Bret_Comnes_CV_Public.pdf">Resume</a> <a href="/assets/resume/Bret-Comnes-Public.txt">(.txt)</a></li>
+<li><a href="/media/Bret_Comnes_CV.pdf">Resume</a></li>
 <li><i class="icon-envelope"></i> <script type="text/javascript" src="/assets/js/email.js"> </script> me</li>
-</ul>
+</ul> 
 
 <a href="http://www.flickr.com/photos/bretc/">
 <img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=200" class="img-polaroid" alt="A picture of me!">
 </a>
-</div>
-
-### Site Status:
-[![Build Status](https://travis-ci.org/bcomnes/bcomnes.github.io.svg?branch=master)](https://travis-ci.org/bcomnes/bcomnes.github.io)
-[![Dependency Status](https://gemnasium.com/bcomnes/bcomnes.github.io.png)](https://gemnasium.com/bcomnes/bcomnes.github.io)
-
-### Github-Pages Metadata:
-
-{% for version in site.github.versions %}
-- {{ version }}
-{% endfor %}
