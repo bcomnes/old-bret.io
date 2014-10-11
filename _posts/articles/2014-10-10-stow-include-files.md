@@ -82,7 +82,7 @@ stow > stow -D program-x.x.x
 - [regjex.com - For testing new regexs](http://regjex.com)
 - [Stack Overflow: Regular expression to match string not containing a word?](http://stackoverflow.com/questions/406230/regular-expression-to-match-string-not-containing-a-word)
 - [GNU Stow Docs - Ignore-Lists](http://www.gnu.org/software/stow/manual/stow.html#Ignore-Lists) (Pro Tip:  Cross your eyes before reading)
-- [ARC-Docs](http://arc-docs.readthedocs.org/en/latest/linux-clusters.html) - This afternoon project developed for PSU:OIT's Academic Research Computing
+- [ARC-Docs](http://arc-docs.readthedocs.org/en/latest/linux-clusters.html) - An afternoon project developed for PSU:OIT's Academic Research Computing
 - Related: [A simple stow strategy for your ~/](http://bret.io/2014/08/25/managing-programs-in-unix-userland/)
 
 #### Thanks For the Help
