@@ -26,7 +26,7 @@ It isn't uncommon to come across unix software that **does not** conform to the 
 
 When you are using a system like [stow](http://www.gnu.org/software/stow/), this non-conformity can be a real pain in the neck since it tends to result in a royal mess in `/usr/local` or `~/` or wherever you are stowing.
 
-### Turn that Stow Ignore File into an Include File
+## Turn that Stow Ignore File into an Include File
 
 `stow` allows you to throw a `.stow-local-ignore` into (program | dotfiles | config | whatever) folders inside your stow folder.  These ignore files use perl regular expressions, one per line, that cause `stow` to ignore files and folders than at least one regex selects, with no way to more specifically negate a less specific regular expression (like you can in `.gitignore` files).
 
@@ -47,7 +47,7 @@ This can be super handy for throwing into a messy binary distribution of a progr
 
 This can also be used in a `~/.stow-global-ignore` file, but it might be too aggressive in some situations.  Take it case by case.
 
-### Test your ignore/include file
+## Test your ignore/include file
 
 You can test the ignore file using a dry run in verbose mode:
 
@@ -57,13 +57,13 @@ stow > stow -S -v -n program-x.x.x
 # Stow will print a list of files that it will stow without the -n flag
 {% endhighlight %}
 
-### How does this work?
+## How does this work?
 
 Negating regular expressions is somewhat non-trivial, but we can use a clever trick called "negative look-arounds".  It works by using a regular expression that selects everything that does not contain the substring we select in the `(?!string)` selector.  You can read more about this trick on this excellent stack overflow answer:
 
 - [Stack Overflow: Regular expression to match string not containing a word?](http://stackoverflow.com/a/406408/1287889)
 
-### Why use ignore/include files?
+## Why use ignore/include files?
 
 Stow includes a number of options for customizing the stow process, but they must be specified at the time of stowing, which makes stow more difficult and finicky to use because a stow process that specifies additional options can't be trivially reproduced at a later time unless careful documentation is kept.  Its better to specify how you want the program stowed each and every time so that the stow process is always idempotent:
 
@@ -76,16 +76,16 @@ stow > stow -D program-x.x.x
 # The stow process should never be different than this
 {% endhighlight %}
 
-### Useful links:
+## Useful links:
 
 - [perldoc.perl.org on Perl Regex](http://perldoc.perl.org/perlretut.html#Grouping-things-and-hierarchical-matching)
 - [regjex.com - For testing new regexs](http://regjex.com)
 - [Stack Overflow: Regular expression to match string not containing a word?](http://stackoverflow.com/questions/406230/regular-expression-to-match-string-not-containing-a-word)
 - [GNU Stow Docs - Ignore-Lists](http://www.gnu.org/software/stow/manual/stow.html#Ignore-Lists) (Pro Tip:  Cross your eyes before reading)
 - [ARC-Docs](http://arc-docs.readthedocs.org/en/latest/linux-clusters.html) - An afternoon project developed for PSU:OIT's Academic Research Computing
-- Related: [A simple stow strategy for your ~/](http://bret.io/2014/08/25/managing-programs-in-unix-userland/)
+- Related: [A simple stow strategy for your ~/](/2014/08/25/managing-programs-in-unix-userland/)
 
-#### Thanks For the Help
+### Thanks For the Help
 
 - [Travis Hathaway](http://travishathaway.com)
 - [Matt Johnson](http://satchamo.com)
