@@ -2,7 +2,7 @@
 layout: article
 published: true
 title: GNU Stow Include Files
-date: "2014-10-10 17:3"
+date: "2014-10-10 17:32"
 tags:
   - unix
   - stow
