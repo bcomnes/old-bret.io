@@ -20,7 +20,7 @@ Trying to follow the narrative at the W3C [Social Web Working Group](https://www
 
 - **[pump.io](https://pump.io)**,[Status.net/Identica](http://status.net/) - [Evan Prodromou](https://e14n.com/evan):
 
-  Co-chair of the WG.  Figure out the role of AS1.0 in pump today.
+  Co-chair of the WG.  Figure out the role of AS1.0 in pump.  API docs here: [github.com/e14n/pump.io/blob/master/API.md](https://github.com/e14n/pump.io/blob/master/API.md)
 
 - **[activitystreams-unnoficial](https://github.com/snarfed/activitystreams-unofficial)** - [Ryan Barrett](https://snarfed.org/):
 
