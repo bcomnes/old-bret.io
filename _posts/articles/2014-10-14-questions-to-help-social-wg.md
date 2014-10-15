@@ -44,7 +44,7 @@ Trying to follow the narrative at the W3C [Social Web Working Group](https://www
   > - 16:55 snarfed> bret: i don't have a strong opinion. if 2.0 is that backward incompatible, and if i implemented it, i'd probably support both 1.0 and 2.0 and let users choose
   > - 16:55 bret> rgr
   >
-  > <small><cite><a href="http://indiewebcamp.com/irc/2014-10-14#t1413329922922">#indiewebcamp IRC</a> Freenode</cite></small>
+  > <small><cite>[#indiewebcamp IRC](http://indiewebcamp.com/irc/2014-10-14#t1413329922922) Freenode</cite></small>
 
 - Need to research more...
 
