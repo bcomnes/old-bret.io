@@ -22,11 +22,31 @@ Trying to follow the narrative at the W3C [Social Web Working Group](https://www
 
   Co-chair of the WG.  Figure out the role of AS1.0 in pump today.
 
-- **[activitystreams-unnoficial]()** - [Ryan Barrett](https://snarfed.org/):
+- **[activitystreams-unnoficial](https://github.com/snarfed/activitystreams-unofficial)** - [Ryan Barrett](https://snarfed.org/):
 
-  Not involved in the WG but may be available for comment.
+  Not involved in the WG but develops a popular silo to AS conversion tool called AS-Unnoficial which powers [brid.gy](http://brid.gy).
 
-- Need to research...
+  > - 16:38 snarfed> bret: i haven't followed 2.0, but probably not much. i like having AS as a common format, but i generally don't care about the details of the schema
+  > - 16:39 snarfed> bret: …having said that, i am using some of the new 2.0 features, e.g. allowing images in attachments to be lists. https://github.com/snarfed/activitystreams-unofficial/commit/da99bf304322ea382fdd03e67ae01f4a867abf56
+  > - 16:39 bret> snarfed: would you likely track A-U to use AS2.0 given the fairly significant changes?
+  > - 16:40 snarfed> bret: i don't know. maybe?
+  > - 16:40 bret> like check out https://jasnell.github.io/w3c-socialwg-activitystreams/activitystreams2.html#h3_example-2
+  > - 16:40 snarfed> no a-u users have asked about 2.0, so i'm not seeing demand yet
+  > - 16:41 snarfed> bret: that fragment doesn't seem to work
+  > - 16:42 bret> what is going on is there are a lot of participants asking for json-ld users, but they are not currently using AS themselves, so just trying to probe different people who are actually consuming/generating it on their  throught
+  > - 16:42 bret> s
+  > - 16:42 bret> thoughts*
+  > - 16:43 bret> gah autocorrect kills me
+  > - 16:44 snarfed> bret: ok. i doubt i can help much, but fwiw, most a-u users like it because it normalizes the different silos' data to a common format. they don't care as much what that format is, AS 1.0 or 2.0 or whatever
+  > - 16:45 bret> that was my impression
+  > - 16:53 bret> snarfed: do you have any opinion on calls to change that common AS vocab in fairly significant ways?  (in this case to satisfy the LD crowd needs)  It seems like this might be disruptive to the primary use case of A-U   users, which seems to be consistent/common vocab.
+  > - 16:54 bret> (just in general)
+  > - 16:55 snarfed> bret: i don't have a strong opinion. if 2.0 is that backward incompatible, and if i implemented it, i'd probably support both 1.0 and 2.0 and let users choose
+  > - 16:55 bret> rgr
+  >
+  > <small><cite><a href="http://indiewebcamp.com/irc/2014-10-14#t1413329922922">#indiewebcamp IRC</a> Freenode</cite></small>
+
+- Need to research more...
 
 ## What was the general scope of AS1.0 and what other specs did it rely on?
 
