@@ -81,6 +81,7 @@ The SocialWG is working on publishing two drafts of AS2.0 complete with examples
 
 - [Activity Streams 2.0 Draft](http://jasnell.github.io/w3c-socialwg-activitystreams/activitystreams2.html)
 - [Activity Vocabulary Draft](http://jasnell.github.io/w3c-socialwg-activitystreams/activitystreams2-vocabulary.html)
+- [Activity Actions Draft](https://jasnell.github.io/w3c-socialwg-activitystreams/activitystreams2-actions.html)
 
 ## Examples from people arguing for JSON-LD/Actions/URIs/URNs:
 
