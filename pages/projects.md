@@ -58,13 +58,13 @@ This is a list of personal projects from the past few years.  I am still putting
 * A small bundle that resizes the section names in LaTeX documents so that they are easier and faster to identify.
 
 <figure>
-<a href='http://www.flickr.com/photos/bretc/12096855965/'><img src="http://farm4.staticflickr.com/3687/12096855965_047ed22475_n.jpg" width="258" height="320" alt="Screenshot of large fonts while editing LaTeX"></a>
+<a href='https://cdn.rawgit.com/bcomnes/LaTeX-Font-Settings.tmbundle/master/screenshot.png'><img src="https://cdn.rawgit.com/bcomnes/LaTeX-Font-Settings.tmbundle/master/screenshot.png" width="258" height="320" alt="Screenshot of Bundlel"></a>
 </figure>
 
-## [Resume](/assets/resume/Bret_Comnes_CV_Public.pdf)
+## [Resume](/media/Bret_Comnes_CV.pdf)
 * My resume typeset in LaTeX and tracked on [github](https://github.com/bcomnes/Resume).
 * Check out the comments in the [.tex](https://github.com/bcomnes/Resume/blob/public/resume.tex) file for more details.
-* LaTeX is great when it comes to printing Resumes but an HTML version is looking more and more attractive lately.
+* LaTeX is great when it comes to printing Resumes but I woudl prefer an HTML version at this point.  Maybe its time for pandoc.
 
 <figure>
 <a href='http://www.flickr.com/photos/bretc/12097294163/'><img src="http://farm3.staticflickr.com/2828/12097294163_834bddf03c_n.jpg" width="320" height="230" alt="Screenshot of the Resume"></a>
