@@ -5,7 +5,7 @@ title: LaTeX Font Settings Hits 1.0
 date: "2014-10-17 10:09"
 ---
 
-Finally, the LaTeX-Font-Settings.tmbundle has been updated to include all seven section scopes, so 1.0 it is.
+Finally, the [LaTeX-Font-Settings.tmbundle](LaTeX-Font-Settings.tmbundle/) has been updated to include all seven section scopes, so 1.0 it is.
 
 ![screenshot](https://cdn.rawgit.com/bcomnes/LaTeX-Font-Settings.tmbundle/master/screenshot.png)
 
