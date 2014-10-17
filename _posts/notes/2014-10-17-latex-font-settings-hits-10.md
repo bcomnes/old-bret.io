@@ -11,7 +11,7 @@ Finally, the [LaTeX-Font-Settings.tmbundle](LaTeX-Font-Settings.tmbundle/) has b
 
 Some things to come in the future:
 
-- Keep increasing the scope slectors
+- Keep increasing the number of scope slectors.
 - Default resizing for `\begin{}` tags.
 - Blank selectors on other items people might want but innapropriate for default modificaiton.
 - Documentation on how to identify existing selectors or create your own selectors.
