@@ -13,9 +13,8 @@ files: null
 published: true
 syndicate:
   - name: "Twitter"
-    url: ""
+    url: "https://twitter.com/bretolius/status/523890447588921344"
 ---
-Please enjoy responsibly :)
 
 {% highlight sh %}
 $ pip install youtube-dl
