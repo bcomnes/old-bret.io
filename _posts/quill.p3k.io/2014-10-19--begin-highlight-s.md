@@ -11,10 +11,12 @@ client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
+syndicate:
+  - name: "Twitter"
+    url: ""
 ---
 Please enjoy responsibly :)
 
-{% begin highlight sh %}
+{% highlight sh %}
 $ pip install youtube-dl
 {% endhighlight %}
