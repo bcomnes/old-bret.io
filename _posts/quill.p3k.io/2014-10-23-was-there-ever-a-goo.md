@@ -5,6 +5,8 @@ tags: null
 location: "geo:45.54782,-122.72882;u=9941"
 place-name: null
 in-reply-to: "https://snarfed.org/2013-01-16_atom_feeds_for_facebook_and_twitter"
+reply_url: "https://snarfed.org/2013-01-16_atom_feeds_for_facebook_and_twitter"
+reply_title: "snarfed.org"
 syndicate-to: null
 client_id: "https://quill.p3k.io"
 client: quill.p3k.io
