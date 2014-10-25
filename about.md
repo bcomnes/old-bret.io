@@ -25,5 +25,5 @@ I am working towards completing my Masters in December, 2014 by finishing the [R
 </ul>
 
 <a href="http://www.flickr.com/photos/bretc/">
-<img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=200" class="img-polaroid" alt="A picture of me!">
+<img height="200" width="200" src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=500" class="img-polaroid" alt="A picture of me!">
 </a>
