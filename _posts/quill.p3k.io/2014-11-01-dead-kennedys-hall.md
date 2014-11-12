@@ -13,6 +13,6 @@ files: null
 published: true
 syndicate: null
 ---
-Dead Kennedys - Halloween (1982)
+Dead Kennedys - Halloween (1982) [NSFW]
 
 <div class="flex-video"><iframe width="420" height="315" src="//www.youtube.com/embed/kiySknl9zs0" frameborder="0" allowfullscreen></iframe></div>
