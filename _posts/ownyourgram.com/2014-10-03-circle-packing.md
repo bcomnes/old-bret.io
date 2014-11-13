@@ -18,7 +18,7 @@ files:
     workPath: /media/ownyourgram.com
     src: /media/ownyourgram.com/igljSlhv.jpg
 published: true
-syndicate:
+syndicate-to:
   - name: Instagram
     url: http://instagram.com/p/tq4WtUxftO/
   - name: Twitter
