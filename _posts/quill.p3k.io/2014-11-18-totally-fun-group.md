@@ -5,6 +5,8 @@ tags: null
 location: null
 place-name: null
 in-reply-to: "http://notenoughneon.com/2014/11/16/1"
+reply_url: http://notenoughneon.com/2014/11/16/1
+reply_title: notenoughneon.com
 syndicate-to: null
 client_id: "https://quill.p3k.io"
 client: quill.p3k.io
