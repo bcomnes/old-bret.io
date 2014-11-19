@@ -5,6 +5,8 @@ tags: null
 location: null
 place-name: null
 in-reply-to: "http://aaron-gustafson.com/notebook/2014/enabling-webmentions-in-jekyll/"
+reply_url: http://aaron-gustafson.com/notebook/2014/enabling-webmentions-in-jekyll/
+reply_title: aaron-gustafson.com
 syndicate-to: null
 client_id: "https://quill.p3k.io"
 client: quill.p3k.io
