@@ -5,13 +5,14 @@ tags: null
 location: null
 place-name: null
 in-reply-to: null
-syndicate-to: null
+syndicate: 
+  - name: Twitter
+    url: https://snowdrift.tilt.com/launch-snowdrift-coop
 client_id: "https://quill.p3k.io"
 client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
 ---
 I just donated to help launch [snowdrift.coop](https://snowdrift.coop), a a sustainable funding platform for the arts/libre software and alternative to VC funded stink!  
 
