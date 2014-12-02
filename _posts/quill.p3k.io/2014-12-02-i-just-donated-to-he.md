@@ -13,7 +13,7 @@ files: null
 published: true
 syndicate: null
 ---
-I just donated to help launch snowdrift.coop, a a sustainable funding platform for the arts/libre software and alternative to VC funded stink!  
+I just donated to help launch [snowdrift.coop](https://snowdrift.coop), a a sustainable funding platform for the arts/libre software and alternative to VC funded stink!  
 
-[Donate/Watch Here](https://snowdrift.tilt.com/launch-snowdrift-coop)
-[snowdrift.coop](https://snowdrift.coop)
+- [Donate/Watch Here](https://snowdrift.tilt.com/launch-snowdrift-coop)
+- [snowdrift.coop](https://snowdrift.coop)
