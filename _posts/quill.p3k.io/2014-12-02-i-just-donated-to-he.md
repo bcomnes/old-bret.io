@@ -7,7 +7,7 @@ place-name: null
 in-reply-to: null
 syndicate: 
   - name: Twitter
-    url: https://snowdrift.tilt.com/launch-snowdrift-coop
+    url: https://twitter.com/bretolius/status/539853903253098496
 client_id: "https://quill.p3k.io"
 client: quill.p3k.io
 scope: post
