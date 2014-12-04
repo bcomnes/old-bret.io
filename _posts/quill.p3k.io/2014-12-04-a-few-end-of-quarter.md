@@ -13,7 +13,8 @@ files: null
 published: true
 syndicate: null
 ---
-A few end of quarter projects:
+
+** few end of quarter projects:**
 
 A quick brain dump of project progress recently.  Please forgive the grammar and spelling errors.
 
