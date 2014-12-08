@@ -4,7 +4,7 @@ published: true
 title: Recommendation Engines
 date: "2014-12-08 15:37"
 syndicate:
-  - url:
+  - url: https://twitter.com/bretolius/status/542102431778103296
     name: Twitter
 ---
 
