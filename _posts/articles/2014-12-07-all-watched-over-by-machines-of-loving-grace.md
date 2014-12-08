@@ -6,6 +6,9 @@ date: "2014-12-07 16:40"
 updated: "2014-12-08 08:17"
 tags:
   - video
+syndicate:
+  - url: https://twitter.com/bretolius/status/542016240265338880
+    name: twitter
 ---
 
 [All Watched Over by Machines of Loving Grace](https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace_(TV_series)) (2011)
