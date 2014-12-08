@@ -12,7 +12,7 @@ tags:
 
 Someone uploaded this a while back and it's definately worth a watch.  All of [Adam Curtis](https://en.wikipedia.org/wiki/Adam_Curtis)'s films are pretty amazing and worth checking out.
 
-*EDIT:* Just noticing the video preview pics.  Don't worry, its not about Ayn Rand in the way you would expect an online video to be about Ayn Rand ;)g
+*EDIT:* Just noticing the video preview pics.  Don't worry, its not about Ayn Rand in the way you would expect an online video to be about Ayn Rand ;)
 
 <div class="flex-video"><iframe src="//player.vimeo.com/video/38724174?byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div> <p><a href="http://vimeo.com/38724174">All Watched Over by Machines of Loving Grace 1</a> from <a href="http://vimeo.com/user10902936">SACPOP</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
