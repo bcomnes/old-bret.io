@@ -32,7 +32,7 @@ Catching up on a bunch of stuff by [`substack`](http://substack.net) and [`ogd`]
 
 ## Streams and Promises
 
-[![](https://farm8.staticflickr.com/7526/15363324924_35e7ec5490_z.jpg)](https://www.flickr.com/photos/bretc/15363324924/sizes/l)
+[![](https://farm8.staticflickr.com/7526/15363324924_35e7ec5490_z.jpg)](https://github.com/substack/stream-handbook)
 
 - [Streams Handbook](https://github.com/substack/stream-handbook)
 
