@@ -2,7 +2,6 @@
 layout: note
 published: true
 title: Autotools needs to die
-reply_title: "waterpigs.co.uk"
 date: "2014-12-05 16:22"
 syndicate:
   - url: https://twitter.com/bretolius/status/541025255033032705
