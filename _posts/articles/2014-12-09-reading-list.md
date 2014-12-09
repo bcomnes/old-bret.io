@@ -5,7 +5,7 @@ title: December Reading List
 date: 2014-12-09 12:34
 ---
 
-Catching up on a bunch of stuff by [`substack`](http://substack.net) and [`odg`](http://maxogden.com/node-packaged-modules.html) and learning some things when developing [tempy](https://tempy.herokuapp.com), plus a few other tangents.
+Catching up on a bunch of stuff by [`substack`](http://substack.net) and [`ogd`](http://maxogden.com/node-packaged-modules.html) and learning some things when developing [tempy](https://tempy.herokuapp.com), plus a few other tangents.
 
 ## Browserify all the things!
 
