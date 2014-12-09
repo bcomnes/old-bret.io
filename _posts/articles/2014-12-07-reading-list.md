@@ -1,7 +1,7 @@
 ---
 layout: article
 published: true
-title: December Reading List 2014
+title: December Reading List
 date: "2014-12-09 12:34"
 ---
 
