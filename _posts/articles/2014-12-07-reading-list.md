@@ -2,7 +2,7 @@
 layout: article
 published: true
 title: December Reading List
-date: "2014-12-09 12:34"
+date: 2014-12-09 12:34
 ---
 
 Catching up on a bunch of stuff by [`substack`](http://substack.net) and [`odg`](http://maxogden.com/node-packaged-modules.html) and learning some things when developing [tempy](https://tempy.herokuapp.com), plus a few other tangents.
