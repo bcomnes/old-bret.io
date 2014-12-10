@@ -3,6 +3,7 @@ layout: article
 published: true
 title: December Reading List
 date: 2014-12-09 12:34
+updated: date: 2014-12-09 14:50
 ---
 
 Catching up on a bunch of stuff by [`substack`](http://substack.net) and [`ogd`](http://maxogden.com/node-packaged-modules.html) and learning some things when developing [tempy](https://tempy.herokuapp.com), plus a few other tangents.
@@ -133,5 +134,31 @@ Node.js is forked.  Here is all that you need to know.
 - [![](http://ecx.images-amazon.com/images/I/51twwFigyiL.jpg)](http://www.manning.com/cantelon/)
 
   [Node in Action](http://www.manning.com/cantelon/)
+
+  A few links from the book:
+
+  - [Video: Node.js by Ryan Dahl](http://jsconf.eu/2009/video_nodejs_by_ryan_dahl.html)
+
+    "Node.js might be the most exciting single piece of software in the current JavaScript universe. Ryan received standing ovations for his talk and he really deserved it!"
+
+    The video is actually dead at this link, but its been archived to youtube.
+
+    <div class="flex-video"><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/ztspvPYybIY" frameborder="0" allowfullscreen></iframe></div>
+
+    [Slides](http://nodejs.org/jsconf.pdf)
+
+  - [Javascript: Your New Overlord](http://www.youtube.com/watch?v=Trurfqh_6fQ)
+
+    <div class="flex-video"><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/Trurfqh_6fQ" frameborder="0" allowfullscreen></iframe></div>
+
+  - [Chrome Experiments](http://www.chromeexperiments.com)
+  - [jslinux](http://bellard.org/jslinux/) - Linux runnuing in your browser
+  - [Event Loops](https://en.wikipedia.org/wiki/Event_loop)
+  - [Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
+  - [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
+  - [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
+  - [NGINX vs Apache](http://blog.webfaction.com/2008/12/a-little-holiday-present-10000-reqssec-with-nginx-2/)
+  - [The C10K problem](http://www.kegel.com/c10k.html)
+  - [Node.js about](http://nodejs.org/about/)
 
 
