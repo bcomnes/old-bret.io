@@ -150,6 +150,8 @@ Node.js is forked.  Here is all that you need to know.
 
     <div class="flex-video"><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/GhFrlX0LdFA" frameborder="0" allowfullscreen></iframe></div>
 
+    [Slides](http://tinyclouds.org/nodeconf2012.pdf)
+
   - [Javascript: Your New Overlord](http://www.youtube.com/watch?v=Trurfqh_6fQ)
 
     <div class="flex-video"><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/Trurfqh_6fQ" frameborder="0" allowfullscreen></iframe></div>
