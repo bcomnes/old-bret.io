@@ -5,7 +5,7 @@ date: 2013-02-26 23:36
 comments: false
 external_url: http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook
 tags: [Facebook, Social Networking, Privacy, Video]
-published: true
+published: false
 ---
 
 I never got around to writing about the reasons I deleted (not just deactivated) my Facebook account more than a year ago.  Sure, it was helpful for keeping in contact with people who have fallen out daily contact with, but it began to act as the anti-social network for those close and active in my life.  Initiating social engagements increasingly relied on this corporate network, and it provided the illusion of communication, when really it only acted as a black hole for our thoughts and experiences.  I might still get around to writing about why, but for now, this article nails a lot of wonderful, more recent ways Facebook totally sucks and why it isn't such a bad way to get off of it if you can afford to.
