@@ -11,7 +11,9 @@ client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
+syndicate: 
+  - name: flickr
+    url: https://www.flickr.com/photos/bretc/16223953271/
 ---
 Keeping an eye on the research servers
 
