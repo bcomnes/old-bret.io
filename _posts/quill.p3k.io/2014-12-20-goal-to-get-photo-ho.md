@@ -13,6 +13,6 @@ files: null
 published: true
 syndicate: null
 ---
-Goal to get photo hosting to S3 via micropub working by this years end.  
+Goal to get photo hosting to S3 via micropub working by the end of this year.
 
 More to come.
