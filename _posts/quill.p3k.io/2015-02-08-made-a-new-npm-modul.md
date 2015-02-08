@@ -11,13 +11,15 @@ client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
+syndicate: 
+ - name: twitter
+   url: https://twitter.com/bretolius/status/564274455086505984
 ---
 Made a new npm module: 256colors
 
 ![](https://cdn.rawgit.com/bcomnes/256colors/master/screenshot.png)
 
-Handy for confirming 256 color is enabled in your terminal, and is written in js instead of perl.
+Handy for confirming 256 color is enabled in your terminal.  Written in js instead of perl.
 
 - [256colors - npm](https://www.npmjs.com/package/256colors)
 - [bcomnes/256colors - github](https://github.com/bcomnes/256colors)
