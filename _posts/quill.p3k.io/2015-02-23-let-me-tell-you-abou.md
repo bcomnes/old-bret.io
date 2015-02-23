@@ -11,7 +11,9 @@ client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
+syndicate:
+  - name: twitter
+    url: https://twitter.com/bretolius/status/570007022080368640
 ---
 Let me tell you about the federal tax credit I get for not owning a car and riding my bike everywhere...
 
