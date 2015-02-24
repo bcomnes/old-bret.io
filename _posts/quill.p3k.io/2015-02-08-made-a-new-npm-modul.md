@@ -21,5 +21,9 @@ Made a new npm module: 256colors
 
 Handy for confirming 256 color is enabled in your terminal.  Written in js instead of perl.
 
+{% highlight sh %}
+$ npm install -g 256colors
+{% endhighlight %}
+
 - [256colors - npm](https://www.npmjs.com/package/256colors)
 - [bcomnes/256colors - github](https://github.com/bcomnes/256colors)
