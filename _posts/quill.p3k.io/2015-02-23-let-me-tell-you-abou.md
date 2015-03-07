@@ -1,5 +1,5 @@
 ---
-layout: deleted
+hidden: true
 h: entry
 date: "2015-02-23T23:46:23+00:00"
 tags: null
