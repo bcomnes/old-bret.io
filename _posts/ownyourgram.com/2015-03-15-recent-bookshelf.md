@@ -18,6 +18,8 @@ files:
     workPath: /media/ownyourgram.com
     src: /media/ownyourgram.com/igb3k2On.jpg
 published: true
-syndicate: null
+syndicate:
+  - name: instagram
+    url: "https://instagram.com/p/0Ooe_JRfj_"
 ---
 Recent bookshelf
