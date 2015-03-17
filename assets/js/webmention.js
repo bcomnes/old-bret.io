@@ -2,7 +2,7 @@
 var webMention = {}
 webMention.get = function () {
   webMention.elements = document.getElementsByClassName('webmentions')
-  if ( webMention.elements) {
+  if (webMention.elements) {
     webMention.preProcess()
   }
 }
@@ -17,7 +17,7 @@ webMention.preProcess = function () {
 
 webMention.insertScript = function (i) {
   var jsonpName = 'webMention.elements[' + i + '].postProcess'
-  var apiUrl = 'http://pingback.me/api/links?target=' + webMention.elements[i].slug + '&jsonp=' + jsonpName
+  var apiUrl = 'http://webmention.io/api/links?target=' + webMention.elements[i].slug + '&jsonp=' + jsonpName
   var container = document.createElement('SCRIPT')
   container.src = apiUrl
   document.head.appendChild(container)
@@ -25,12 +25,12 @@ webMention.insertScript = function (i) {
 
 webMention.postProcess = function (data) {
   this.parent = document.getElementById(this.slug)
-  if ( webMention.hasClass(this.parent, 'count')) {
+  if (webMention.hasClass(this.parent, 'count')) {
     this.placeHolder = this.parent.firstElementChild.nextElementSibling
     this.parent.removeChild(this.placeHolder)
     webMention.showCount(this.parent, data)
   }
-  if ( webMention.hasClass(this.parent, 'links')) {
+  if (webMention.hasClass(this.parent, 'links')) {
     this.placeHolder = this.parent.firstElementChild
     this.parent.removeChild(this.placeHolder)
     webMention.listLinks(this.parent, data)
@@ -38,14 +38,14 @@ webMention.postProcess = function (data) {
 }
 
 webMention.generateItem = function (index, apiData, callback) {
-  var listItem = document.createElement('LI'); // Create the list item
+  var listItem = document.createElement('LI') // Create the list item
   // Create the text of the post
   var source = apiData.links[index].source || null
   var content = apiData.links[index].data.content || null
-  var name = apiData.links[index].data.name || content || source 
+  var name = apiData.links[index].data.name || content || source
 
   if (apiData.links[index].data.author) {
-    var avatar =  apiData.links[index].data.author.url + apiData.links[index].data.author.photo || null
+    var avatar = apiData.links[index].data.author.photo || null
     var authorUrl = apiData.links[index].data.author.url || null
     var authorName = apiData.links[index].data.author.name || null
   }
@@ -53,19 +53,27 @@ webMention.generateItem = function (index, apiData, callback) {
   var hcardImg = document.createElement('IMG')
   hcardImg.width = 48
   hcardImg.src = avatar
+  hcardImg.className = 'img-circle'
 
-  var linkText = document.createTextNode(name)
+  var authorLink = document.createElement('A')
+  authorLink.innerText = authorName
+  authorLink.href = authorUrl
+  var linkText = document.createTextNode(' ' + name)
+
+  var linkContainer = document.createElement('DIV')
 
   var dateURL = document.createTextNode(apiData.links[index].verified_date)
   // Create the link element
   var linkAnchor = document.createElement('A')
   // Set the href of the linkAnchor
-  linkAnchor.href = apiData.links[index].source
+  linkAnchor.href = apiData.links[index].data.url
+  linkContainer.appendChild(authorLink)
+  linkContainer.appendChild(linkText)
   // Put the link text in
   linkAnchor.appendChild(dateURL)
   // Put the link into the list item
   listItem.appendChild(hcardImg)
-  listItem.appendChild(linkText)
+  listItem.appendChild(linkContainer)
   listItem.appendChild(linkAnchor)
 
   callback(listItem)

@@ -89,12 +89,12 @@ article header h3 {
     margin-top: 10px;
 }
 
-/* Linklog Specifics 
+/* Linklog Specifics
 -------------------------------------------------- */
 /* Resize of the linklog Title */
 article.linklog header h1 {
     font-size: 1.9em;
-    
+
 }
 
 article.linklog header h2 small {
@@ -108,7 +108,7 @@ article.linklog-marker {
 	color: rgb(153, 153, 153);
 }
 
-/* Note Specifics 
+/* Note Specifics
 -------------------------------------------------- */
 
 
@@ -150,7 +150,7 @@ article.linklog-marker {
     TODO Figure out a better way to do this
 */
 .pin-title {
-    display: block;   
+    display: block;
 }
 
 .pin-description{
@@ -183,10 +183,10 @@ article.linklog-marker {
   margin-bottom: 16px;
   overflow: hidden;
 }
- 
+
 .flex-video.widescreen { padding-bottom: 57.25%; }
 .flex-video.vimeo { padding-top: 0; }
- 
+
 .flex-video iframe,
 .flex-video object,
 .flex-video embed {
@@ -229,4 +229,14 @@ article.linklog-marker {
 
 #map {
     height: 200px;
+}
+
+/* Webmentions */
+
+.webmentions {
+  list-style-type: none;
+}
+
+.webmentions li {
+  padding-bottom: 10;
 }
