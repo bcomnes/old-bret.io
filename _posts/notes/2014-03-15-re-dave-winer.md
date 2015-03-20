@@ -1,6 +1,7 @@
 ---
 layout: note
 published: true
+hidden: true
 title: "Re-Dave Winer"
 date: "2014-03-15 11:35"
 tags: 
