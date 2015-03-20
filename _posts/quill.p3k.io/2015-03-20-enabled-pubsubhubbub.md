@@ -13,4 +13,4 @@ files: null
 published: true
 syndicate: null
 ---
-Enabled Pubsubhubbub on my html index.  Living in the future!  Woop!
+Enabled Pubsubhubbub on my html index.  Living in the future!
