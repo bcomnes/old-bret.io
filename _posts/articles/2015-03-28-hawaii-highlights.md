@@ -5,7 +5,7 @@ title: Highlights from Hawaii
 date: 2015-03-29 1:53
 ---
 
-Just going through some of the [Hawaii Photos]() that were posted a few weeks ago.  Here are some of the better panoramas and highlight shots.
+Just going through some of the [Hawaii Photos](https://www.flickr.com/photos/bretc/sets/72157651403677102/) that were posted a few weeks ago.  Here are some of the better panoramas and highlight shots.
 
 <a href="https://www.flickr.com/photos/bretc/16667691780" title="DSCF6361 by Bret Comnes, on Flickr"><img class="img-polaroid" src="https://farm9.staticflickr.com/8697/16667691780_95d7ab8f99_h.jpg" width="1600" height="360" alt="DSCF6361"></a>
 
