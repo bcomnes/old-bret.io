@@ -11,7 +11,9 @@ client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
+syndicate: 
+  - url: https://twitter.com/bretolius/status/581918124146065410
+    name: twitter
 ---
 173 of unreleased Aphex Twin Tracks
 [soundcloud.com/user48736353001/tracks](https://soundcloud.com/user48736353001/tracks)
