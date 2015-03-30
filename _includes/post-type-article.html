@@ -3,7 +3,7 @@
 <header class="row">
 <hgroup class="span10">
 <h1 class="p-name">
-{% if content %}{% else %}<a href="{{ page.url }}" rel="bookmark">{% endif %}{{ page.title }}{% if content %}{% else %}</a>{% endif %}
+{% if content %}{% else %}<a href="{{ page.url }}" class="u-url" rel="bookmark">{% endif %}{{ page.title }}{% if content %}{% else %}</a>{% endif %}
 </h1>
 <h2><small>
 <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
