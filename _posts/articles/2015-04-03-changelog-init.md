@@ -3,6 +3,9 @@ layout: article
 published: true
 title: "New Module: changelog-init"
 date: 2015-04-03 08:58
+syndicate:
+  - url: https://twitter.com/bretolius/status/584069756925317120
+    name: twitter
 ---
 
 Released a new module to `npm` the other day while at the [civic studyhall](http://www.meetup.com/CodeForPortland/events/221479408/):
