@@ -3,6 +3,9 @@ layout: article
 published: true
 title: "New Sublime Package: Standard Format"
 date: 2015-04-03 09:17
+syndicate:
+  - url: https://twitter.com/bretolius/status/584070977765511168
+    name: twitter
 ---
 
 Managed to kick out a new Sublime Text 3 package yesterday.... but we are still waiting on getting it into the [Package Control channel](https://github.com/bcomnes/sublime-standard-format/issues/3) :(

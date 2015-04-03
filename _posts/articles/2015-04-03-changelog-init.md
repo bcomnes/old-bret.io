@@ -4,7 +4,7 @@ published: true
 title: "New Module: changelog-init"
 date: 2015-04-03 08:58
 syndicate:
-  - url: https://twitter.com/bretolius/status/584069756925317120
+  - url: https://twitter.com/bretolius/status/584071264932732929
     name: twitter
 ---
 
