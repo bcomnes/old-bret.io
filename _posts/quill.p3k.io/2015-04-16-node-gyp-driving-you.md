@@ -11,7 +11,9 @@ client: quill.p3k.io
 scope: post
 files: null
 published: true
-syndicate: null
+syndicate: 
+  - name: twitter
+    url: https://twitter.com/bretolius/status/588754065804296192
 ---
 node-gyp driving you to drink?
 
