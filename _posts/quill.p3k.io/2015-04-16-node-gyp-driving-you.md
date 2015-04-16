@@ -14,6 +14,8 @@ published: true
 syndicate: 
   - name: twitter
     url: https://twitter.com/bretolius/status/588754065804296192
+  - name: github
+    url: https://github.com/aredridel/homebrew-iojs/pull/16#issuecomment-93787484
 ---
 node-gyp driving you to drink?
 
