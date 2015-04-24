@@ -8,7 +8,7 @@ syndicate:
     name: twitter
 ---
 
-Managed to kick out a new Sublime Text 3 package yesterday.... but we are still waiting on getting it into the [Package Control channel](https://github.com/bcomnes/sublime-standard-format/issues/3) :(
+Managed to kick out a new Sublime Text 3 package yesterday.... ~~but we are still waiting on getting it into the [Package Control channel](https://github.com/bcomnes/sublime-standard-format/issues/3) :(~~  Its out! [packagecontrol.io/packages/StandardFormat](https://packagecontrol.io/packages/StandardFormat)
 
 - [`sublime-standard-format`](https://github.com/bcomnes/sublime-standard-format) (repo)
 
