@@ -7,7 +7,7 @@ tags:
   - go
 ---
 
-This post visits some of the more unique aspects of the `go` programming language, mainly as a personal reference.  It will likely grow over time.
+This post visits some of the more unique aspects of the `go` programming language, mainly as a personal reference.  Expect this post to see updates over time.
 
 Other than specific citations most of the following is simmered down from the following sources:
 
@@ -87,7 +87,7 @@ package main
 
 import "fmt"
 
-func nomain() {
+func notmain() {
   fmt.Println("I don't run!")
 }
 
@@ -121,6 +121,81 @@ Download and build dependencies with `go get`:
 {% highlight sh %}
 $ go get github.com/ipfs/go-ipfs/cmd/ipfs
 {% endhighlight %}
+
+## Common Types
+
+Go is a typed language.  You can specify to the compiler the datatype of the variable.  If you try to assign type a to a variable of type b, the compiler throws an error.
+
+### Numbers
+
+- `uint8` (`u` means unsigned e.g. no `+/-`)
+- `uint16`
+- `uint32`
+- `uint64`
+- `int8`
+- `int16`
+- `int32`
+- `int64`
+- `float32`
+- `float64`
+- `complex64`
+- `complex128`
+
+### Stings
+
+Double quotes (`"string"`) requires escaped whitespace:
+
+{% highlight go %}
+x := "String \n with \n newlines and \t tabs"
+{% endhighlight %}
+
+Backticks (``string``) can contain whitespace
+
+{% highlight go %}
+x := `String
+with
+whitespaces`
+{% endhighlight %}
+
+Simple concatination of strings can be done with the `+` operator:
+
+{% highlight go %}
+x := "string1 "
+y := "string2"
+z := x + y // "string1 string2"
+{% endhighlight %}
+
+### Booleans
+
+Same as JS:
+
+- `&&` and
+- `||` or
+- `!` not
+
+## Variables
+
+Generally try to create varibles by inferring their type using the `:=` operator:
+
+{% highlight go %}
+x := "This results in x being a string"
+{% endhighlight %}
+
+Here is an example `go` program:
+
+{% highlight go %}
+package main
+
+import "fmt"
+
+func main() {
+  var x string
+  x = "Hi I'm a string"
+  fmt.Println(x) // "Hi I'm a string"
+}
+{% endhighlight %}
+
+Variables are created using the `var` keyword, followed by the variable name (`x`) followed by the variable type.
 
 
 [how-url]: https://golang.org/doc/code.html
