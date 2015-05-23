@@ -18,6 +18,8 @@ files:
     workPath: /media/ownyourgram.com
     src: /media/ownyourgram.com/igiRHQt1.jpg
 published: true
-syndicate: null
+syndicate: 
+  - name: instagram
+    url: https://instagram.com/p/3Aem2VRfrS/
 ---
 Thousand isolation dressing
