@@ -2,7 +2,7 @@
 layout: note
 published: true
 title: Sidewalks and Skeletons - White Light
-date: "2015-06-03 18:35"
+date: "2015-05-03 18:35"
 ---
 
 [Sidewalks and Skeletons - White Light](http://sidewalksandskeletons.bandcamp.com/album/white-light) ††††††‡▲▲ Name your own price
