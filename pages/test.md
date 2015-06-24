@@ -88,6 +88,6 @@ How does it work with a password in the remote address?
 
 # Raw
 
-{{ site.github }}
+{ site.github }
 
 Toggle buiild >:[
