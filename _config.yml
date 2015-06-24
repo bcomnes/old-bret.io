@@ -1,7 +1,7 @@
 url: bret.io
 paginate: 10
 permalink: pretty
-markdown: kramdown
+markdown: rdiscount
 safe: true
 lsi: false
 highlighter: pygments
