@@ -80,11 +80,11 @@ How does it work with a password in the remote address?
 
 # For loop
 
-{% for bloop in site.github %}
+{ for bloop in site.github }
 
-- {{ bloop }}
+- { bloop }
 
-{% endfor %}
+{ endfor }
 
 # Raw
 
