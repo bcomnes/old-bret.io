@@ -15,4 +15,6 @@ syndicate: null
 ---
 Funny gif time
 
-![http://pi.bret.io:8080/ipfs/QmdY53gvcuKQgyRQbg1n9LJMBJvcdvpjdGHuMP53LTu3kF]
+![](http://pi.bret.io:8080/ipfs/QmdY53gvcuKQgyRQbg1n9LJMBJvcdvpjdGHuMP53LTu3kF)
+
+Also a demo of [ipfs.io](http://ipfs.io)
