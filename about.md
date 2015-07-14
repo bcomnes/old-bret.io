@@ -20,7 +20,7 @@ This realization led me to a job at the [PSU:OIT - Academic Research Computing](
 I am working towards completing my Masters in December, 2014 by finishing the [Remotely Operable Scanning Electron Microscope](/pages/projects/semterface/) project in the [Sanchez Nano Development Lab](http://web.pdx.edu/~esanchez/sanchezTeam.html).
 
 <ul>
-<li><a href="/media/Bret_Comnes_CV.pdf">Resume</a></li>
+<li><a href="https://github.com/bcomnes/Resume/blob/public/Bret_Comnes_CV_Public.pdf">Resume</a></li>
 <li><i class="icon-envelope"></i> <script type="text/javascript" src="/assets/js/email.js"> </script> me</li>
 </ul>
 
