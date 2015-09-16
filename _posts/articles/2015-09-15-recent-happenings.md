@@ -68,7 +68,7 @@ Twitter introduced some sweet native video capabilities a while back, but it was
 
 This module utilizes asynchronously assigned writable streams using [duplexify](https://github.com/mafintosh/duplexify) and [through2](https://github.com/rvagg/through2) (which not surprisingly is now using [streams v3](https://nodejs.org/api/stream.html) :rolleyes:), providing an interesting way to accommodate tricky stream connection details quite easily.
 
-Respek to [@jbulva](https://twitter.com/jbulava) and [@thoward37](https://twitter.com/thoward37/) for listening to me complain about the API *ahem* I mean for being receptive with feedback ;)
+Respek to [@jbulva](https://twitter.com/jbulava) and [@thoward37](https://twitter.com/thoward37/) for listening to me complain about the API *ahem* I mean for being super receptive with feedback ;)
 
 This module also pairs [cliclopts](https://github.com/finnp/cliclopts) and [minimist](https://www.npmjs.com/package/minimist) together which results in an amazingly great CLI parsing and documentation API.  Highly recommended.
 
