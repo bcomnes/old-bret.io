@@ -62,15 +62,13 @@ On a similar note, [`bcomnes/changelog-init`](https://github.com/bcomnes/changel
 
 ## [twitter-video](https://github.com/bcomnes/twitter-video)
 
-[![]()](https://github.com/bcomnes/twitter-video)
+[![](https://farm6.staticflickr.com/5656/21269345749_f9943f16a6_o.png)](https://twitter.com/bretolius/status/636763594219130880)
 
 Twitter introduced some sweet native video capabilities a while back, but it was only accessible via the API.  The API requires some pretty tricky multi-part requests, and nobody seemed to have had implemented it a few months ago.
 
 This module utilizes asynchronously assigned writable streams using [duplexify](https://github.com/mafintosh/duplexify) and [through2](https://github.com/rvagg/through2) (which not surprisingly is now using [streams v3](https://nodejs.org/api/stream.html)), providing an interesting way to accommodate tricky stream connection details quite easily.
 
 Respek to [@jbulva](https://twitter.com/jbulava) and [@thoward37](https://twitter.com/thoward37/) for listening to me complain about the API *ahem* I mean for being receptive with feedback ;)
-
-[![](https://farm6.staticflickr.com/5656/21269345749_f9943f16a6_o.png)](https://twitter.com/bretolius/status/636763594219130880)
 
 This module also pairs [cliclopts](https://github.com/finnp/cliclopts) and [minimist](https://www.npmjs.com/package/minimist) together which results in an amazingly great CLI parsing and documentation API.  Highly recommended.
 
