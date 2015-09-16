@@ -3,6 +3,9 @@ layout: article
 published: true
 title: "September Projects Update"
 date: 2015-09-15 19:35
+syndicate:
+  - name: twitter
+    url: https://twitter.com/bretolius/status/644005231018164224
 ---
 
 It's been a while since an update so here are some recent happenings:
