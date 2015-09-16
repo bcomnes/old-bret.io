@@ -34,7 +34,7 @@ Writing large [GHF markdown](https://help.github.com/articles/github-flavored-ma
 
 [![](https://farm1.staticflickr.com/769/21445284342_2b6419d557_o.png)](http://standardjs.com/)
 
-The standard linter and its family of tools has been growing rapidly.  My focus has been on improving [`maxogden/standard-format`](https://github.com/maxogden/standard-format) with as little time as I have for it.  Big thanks to [@feross](http://feross.org/) for growing this so rapidly.
+The standard linter and its family of tools has been growing rapidly.  My focus has been on improving [`maxogden/standard-format`](https://github.com/maxogden/standard-format) with as little time as I have for it.  Big thanks to [@feross](http://feross.org/) for sailing that ship.
 
 [Sublime-StandardFormat](https://packagecontrol.io/packages/StandardFormat) has been chugging along and been working quite well in its day to day use.  There are some cool updates that will make it integrate even better with [project level `package.json` integration](https://github.com/bcomnes/sublime-standard-format/issues/30).
 
