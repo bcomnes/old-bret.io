@@ -14,7 +14,7 @@ It's been a while since an update so here are some recent happenings:
 
 [![](https://farm1.staticflickr.com/568/20833555994_7da961145b_o.png)](https://github.com/bcomnes/node-learnbook)
 
-There are a million resources available to learn JS and JS is still such a varied community in terms of how things are done.  Node flavored JS is an excellent subset of JS, HTML and CSS to learn and is a joy to work with, but it isn't clear what the best slice of material to focus on when you are wading your way through all of them.
+There are a million resources available to learn JS.  JS as a language is still such used in so many different ways.  Node flavored JS is an excellent subset of JS, HTML and CSS to learn and is a joy to work with, but it isn't clear what the best slice of material to focus on when you are wading your way through all of them, especially if JS is your very first language.
 
 [node-learnbook](https://github.com/bcomnes/node-learnbook) is my attempt to capture and promote my favorite resources for materials that teach and discuss how to write node flavored JS.
 
