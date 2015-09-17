@@ -5,7 +5,7 @@ title: "September Projects Update"
 date: 2015-09-15 19:35
 syndicate:
   - name: twitter
-    url: https://twitter.com/bretolius/status/644005231018164224
+    url: https://twitter.com/bretolius/status/644005231018164224m
 ---
 
 It's been a while since an update so here are some recent happenings:
@@ -80,7 +80,7 @@ This module also pairs [cliclopts](https://github.com/finnp/cliclopts) and [mini
 
 [![](https://farm1.staticflickr.com/675/21430268116_51268ef9d0_o.png)](https://github.com/Homebrew/homebrew/pull/36369)
 
-My [attempt to get a working-by-default](https://github.com/Homebrew/homebrew/pull/36369) formula for iojs never happened.  Thats okay because iojs + node 0.12 is now [node 4.0.0](https://medium.com/node-js-javascript/4-0-is-the-new-1-0-386597a3436d) and we had great alternatives the entire time everyone has been waiting (either through the tap, force linking cellar only iojs, both paired with [pangyp](https://www.npmjs.com/package/pangyp) or of course nvm).
+The [attempt to get a working-by-default](https://github.com/Homebrew/homebrew/pull/36369) formula for iojs never happened.  Thats okay because iojs + node 0.12 is now [node 4.0.0](https://medium.com/node-js-javascript/4-0-is-the-new-1-0-386597a3436d) and we had great alternatives the entire time everyone has been waiting (either through the tap, force linking cellar only iojs, both paired with [pangyp](https://www.npmjs.com/package/pangyp) or of course nvm).
 
 There are a few floating patches open till next week, so until we can [land the update into the main formula](https://github.com/Homebrew/homebrew/pull/43973), use [aredridel/homebrew-iojs](https://github.com/aredridel/homebrew-iojs) which has a `node-alt` formula now.
 
