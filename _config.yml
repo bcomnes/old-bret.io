@@ -7,7 +7,7 @@ lsi: false
 highlighter: pygments
 port: 4000
 future: true
-exclude: [categories.html, Gemfile, Gemfile.lock, README.md, vendor, cache.manifest]
+exclude: [categories.html, Gemfile, Gemfile.lock, README.md, vendor, cache.manifest, node_modules, package.json, css, js]
 include: [".well-known"]
 
 source:      .

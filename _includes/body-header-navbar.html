@@ -1,28 +1,13 @@
 <!-- ================================================================ -->
 <!-- Navbar -->
-<!--
-    TODO Fix HTML5 Schematics here
--->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="/">{{ site.brand }}</a>
-            <a class="brand" href="/pages/inbox/">•</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    {% if page.url == "/index.html" %}<li class="active"><a href="#">Blog</a></li>{% else %}<li class=""><a href="/">Blog</a></li>{% endif %}
-                    <li class={% if page.url == "/about/" %}"active"{% else %}""{% endif %}><a href="/about/">About</a></li>
-                    {% if page.url == "/pages/projects/" %}<li class="active"><a href="#">Projects</a></li>{% else %}<li class=""><a href="/pages/projects/">Projects</a></li>{% endif %}
-                    {% if page.url == "/pages/tags/" %}<li class="active"><a href="#">Tags</a></li>{% else %}<li class=""><a href="/pages/tags/">Tags</a></li>{% endif %}
-                    {% if page.url == "/pages/archive/" %}<li class="active"><a href="#">Archive</a></li>{% else %}<li class=""><a href="/pages/archive/">Archive</a></li>{% endif %}
-                    {% if page.url == "/pages/" %}<li class="active"><a href="#">Pages</a></li>{% else %}<li class=""><a href="/pages/">Pages</a></li>{% endif %}
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </div>
+<h1 id="title"><a href="/">bret.io</a></h1>
+<nav>
+  <ul>
+     <li><a href="/">Blog</a></li>
+     <li><a href="/about/">About</a></li>
+     <li><a href="/projects/">Projects</a></li>
+     <li><a href="/tags/">Tags</a></li>
+     <li><a href="/archive/">Archive</a></li>
+     <li><a href="/pages/">Pages</a></li>
+  </ul>
 </nav>

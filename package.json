@@ -1,0 +1,40 @@
+{
+  "name": "bret.io",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server _site",
+    "update": "bundle update",
+    "build:site": "bundle exec jekyll build",
+    "build:css": "postcss --use autoprefixer css/main.css -o static/styles.css",
+    "build:js": "browserify js/main.js -o static/bundle.js",
+    "watch:css": "postcss --use autoprefixer css/main.css -o _site/static/styles.css -w",
+    "watch:js": "watchify js/main.js -o _site/static/bundle.js",
+    "watch:site": "bundle exec jekyll serve",
+    "prewatch": "npm run build:js & npm run build:css",
+    "watch": "parallelshell 'npm run watch:site' 'npm run watch:js' 'npm run watch:css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcomnes/bcomnes.github.io.git"
+  },
+  "author": "Bret Comnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcomnes/bcomnes.github.io/issues"
+  },
+  "homepage": "https://github.com/bcomnes/bcomnes.github.io#readme",
+  "dependencies": {
+    "http-server": "^0.8.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "browserify": "^11.2.0",
+    "jekyll": "^3.0.0-beta1",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.1.0",
+    "watchify": "^3.4.0"
+  }
+}

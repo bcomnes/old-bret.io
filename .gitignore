@@ -1,6 +1,6 @@
 _site/
-bre.tc.tmproj
 .DS_Store
+node_modules
 components/jquery/.gitignore
 components/jquery/README.md
 components/jquery/package.json
