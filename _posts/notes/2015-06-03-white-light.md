@@ -1,6 +1,7 @@
 ---
 layout: note
 published: true
+hidden: true
 title: Sidewalks and Skeletons - White Light
 date: "2015-05-03 18:35"
 ---
