@@ -1,5 +1,5 @@
-Bret Comnes' Website
-==================
+bcomnes.github.io
+=================
 
 [![Build Status](https://travis-ci.org/bcomnes/bcomnes.github.io.svg?branch=master)](https://travis-ci.org/bcomnes/bcomnes.github.io)
 [![Dependency Status](https://gemnasium.com/bcomnes/bcomnes.github.io.png)](https://gemnasium.com/bcomnes/bcomnes.github.io)
