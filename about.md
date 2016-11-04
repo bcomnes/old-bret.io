@@ -7,17 +7,7 @@ date: 2013-02-10 01:51:00
 
 # Bret Comnes
 
-DevOps, Software Engineering, Free/Open Source + Open Web advocate and Physics Graduate Student and Lab Instructor at PSU, in various orders throughout the year.
-
-I graduated with a B.S. in [Physics](http://www.humboldt.edu/physics/) from [Humboldt State University](http://www.humboldt.edu) where I helped study [gravity](http://www.humboldt.edu/physics/gravitational-lab.html) and locate [undiscovered galaxies](http://egg.astro.cornell.edu/index.php/).
-
-After, I moved to Portland, OR to attend [PSU](http://pdx.edu)'s Applied Physics PhD Program and continue my training as a Physicist.
-
-In Portland, I discovered my heart and true personal interests were actually in software engineering, system operations, distributed networks and Computer Science, subjects that I have been fascinated with throughout my life.
-
-This realization led me to a job at the [PSU:OIT - Academic Research Computing](http://www.pdx.edu/arc/academic-and-research-computing) department where I professionally develop various software projects and administer the schools research servers and Linux clusters.
-
-I am working towards completing my Masters in December, 2014 by finishing the [Remotely Operable Scanning Electron Microscope](/pages/projects/semterface/) project in the [Sanchez Nano Development Lab](http://web.pdx.edu/~esanchez/sanchezTeam.html).
+This website is really out of date!  Please check back this weekend for an update.
 
 <ul>
 <li><a href="https://github.com/bcomnes/Resume/blob/public/Bret_Comnes_CV_Public.pdf">Resume</a></li>
